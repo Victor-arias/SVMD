@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" type="template" client="site">
+	<name>va_isvimed</name>
+	<creationDate>14/08/2012</creationDate>
+	<author>Victor Arias - Telemedellín</author>
+	<authorEmail>victor.arias@telemedellin.tv</authorEmail>
+	<authorUrl>http://www.telemedellin.tv</authorUrl>
+	<copyright>CC</copyright>
+	<license>CC</license>
+	<version>2.5.0</version>
+	<description></description>
+	<files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>fonts</folder>
+		<folder>language</folder>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>favicon.ico</filename>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+	</files>
+	<positions>
+		<position>top</position>
+		<position>header</position>
+		<position>menu</position>
+		<position>breadcrumbs</position>
+		<position>banner</position>
+		<position>middle</position>
+		<position>bottom</position>
+		<position>footer</position>
+		<position>debug</position>
+	</positions>
+	<languages folder="language">
+		<language tag="es-ES">es-ES/es-ES.tpl_va_isvimed.ini</language>
+		<language tag="es-ES">es-ES/es-ES.tpl_va_isvimed.sys.ini</language>
+	</languages>
+</extension>
