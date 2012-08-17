@@ -244,7 +244,19 @@ section#content
 	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.3, rgb(255,255,255)), color-stop(1, rgb(204,204,204)));
 	clear: both;
 }
-
+section#content .breadcrumbs
+{
+	background: #dff0f0;
+	padding: 10px;
+}
+section#content .breadcrumbs a
+{
+	color: #000;
+}
+section#content .breadcrumbs span
+{
+	color: #609e98;
+}
 .f_left
 {
 	float: left;
