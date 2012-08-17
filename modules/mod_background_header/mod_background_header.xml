@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+    <name>Background Header</name>
+    <creationDate>Agosto 2012</creationDate>
+    <author>Victor Arias</author>
+    <authorEmail>victor.arias@telemedellin.tv</authorEmail>
+    <authorUrl>http://www.telemedellin.tv</authorUrl>
+    <copyright>Copyright (C) Telemedellín. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <version>1.0</version>
+    <description></description>
+    <files>
+        <folder>tmpl</folder>
+        <filename>index.html</filename>
+        <filename module="mod_background_header">mod_background_header.php</filename>
+        <filename>mod_background_header.xml</filename>
+    </files>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.mod_background_header.ini</language>
+        <language tag="en-GB">en-GB/en-GB.mod_background_header.sys.ini</language>
+        <language tag="es-ES">es-ES/es-ES.mod_background_header.ini</language>
+        <language tag="es-ES">es-ES/es-ES.mod_background_header.sys.ini</language>
+    </languages>
+    <params>
+        <param name="slide_path" type="text" size="60"
+            label="MOD_BACKGROUNDHEADER_FIELD_SLIDE_PATH_LABEL"
+            description="MOD_BACKGROUNDHEADER_FIELD_SLIDE_PATH_DESC"
+        />
+        <param name="load_jquery" type="radio" default="0"
+            label="MOD_BACKGROUNDHEADER_FIELD_LOAD_JQUERY_LABEL"
+            description="MOD_BACKGROUNDHEADER_FIELD_LOAD_JQUERY_DESC"
+        >
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="autoplay" type="radio" default="1"
+            label="MOD_BACKGROUNDHEADER_FIELD_AUTOPLAY_LABEL"
+            description="MOD_BACKGROUNDHEADER_FIELD_AUTOPLAY_DESC"
+        >
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="height" type="text" default="0"
+            label="MOD_BACKGROUNDHEADER_FIELD_MIN_HEIGHT_LABEL"
+            description="MOD_BACKGROUNDHEADER_FIELD_MIN_HEIGHT_DESC"
+        />
+        <param name="width" type="text" default="0"
+            label="MOD_BACKGROUNDHEADER_FIELD_MIN_WIDTH_LABEL"
+            description="MOD_BACKGROUNDHEADER_FIELD_MIN_WIDTH_DESC"
+        />
+        <param name="random" type="radio" default="0"
+            label="MOD_BACKGROUNDHEADER_FIELD_RANDOM_LABEL"
+            description="MOD_BACKGROUNDHEADER_FIELD_RANDOM_DESC"
+        >
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="slideshow" type="radio" default="1"
+            label="MOD_BACKGROUNDHEADER_FIELD_SLIDESHOW_LABEL"
+            description="MOD_BACKGROUNDHEADER_FIELD_SLIDESHOW_DESC"
+        >
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="slide_interval" type="text" default="5000"
+            label="MOD_BACKGROUNDHEADER_FIELD_SLIDE_INTERVAL_LABEL"
+            description="MOD_BACKGROUNDHEADER_FIELD_SLIDE_INTERVAL_DESC"
+        />
+        <param name="start_slide" type="text" default="1"
+            label="MOD_BACKGROUNDHEADER_FIELD_START_SLIDE_LABEL"
+            description="MOD_BACKGROUNDHEADER_FIELD_START_SLIDE_DESC"
+        />
+        <param name="stop_loop" type="radio" default="0"
+            label="MOD_BACKGROUNDHEADER_FIELD_STOP_LOOP_LABEL"
+            description="MOD_BACKGROUNDHEADER_FIELD_STOP_LOOP_DESC"
+        >
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>        
+        <param name="transition" type="list" default="1"
+            label="MOD_BACKGROUNDHEADER_FIELD_TRANSITION_LABEL"
+            description="MOD_BACKGROUNDHEADER_FIELD_TRANSITION_DESC"
+        >
+            <option value="0">MOD_BACKGROUNDHEADER_TRANSITION_OPTION_0</option>
+            <option value="1">MOD_BACKGROUNDHEADER_TRANSITION_OPTION_1</option>
+            <option value="2">MOD_BACKGROUNDHEADER_TRANSITION_OPTION_2</option>
+            <option value="3">MOD_BACKGROUNDHEADER_TRANSITION_OPTION_3</option>
+            <option value="4">MOD_BACKGROUNDHEADER_TRANSITION_OPTION_4</option>
+            <option value="5">MOD_BACKGROUNDHEADER_TRANSITION_OPTION_5</option>
+            <option value="6">MOD_BACKGROUNDHEADER_TRANSITION_OPTION_6</option>
+            <option value="7">MOD_BACKGROUNDHEADER_TRANSITION_OPTION_7</option>
+        </param>
+        <param name="transition_speed" type="text" default="750"
+            label="MOD_BACKGROUNDHEADER_FIELD_TRANSITION_SPEED_LABEL"
+            description="MOD_BACKGROUNDHEADER_FIELD_TRANSITION_SPEED_DESC"
+        />
+        <param name="arrow_navigation" type="radio" default="1"
+            label="MOD_BACKGROUNDHEADER_FIELD_ARROW_NAVIGATION_LABEL"
+            description="MOD_BACKGROUNDHEADER_FIELD_ARROW_NAVIGATION_DESC"
+        >
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="progress_bar" type="radio" default="1"
+            label="MOD_BACKGROUNDHEADER_FIELD_PROGRESS_BAR_LABEL"
+            description="MOD_BACKGROUNDHEADER_FIELD_PROGRESS_BAR_DESC"
+        >
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="slide_counter" type="radio" default="1"
+            label="MOD_BACKGROUNDHEADER_FIELD_SLIDE_COUNTER_LABEL"
+            description="MOD_BACKGROUNDHEADER_FIELD_SLIDE_COUNTER_DESC"
+        >
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="slide_caption" type="radio" default="1"
+            label="MOD_BACKGROUNDHEADER_FIELD_SLIDE_CAPTION_LABEL"
+            description="MOD_BACKGROUNDHEADER_FIELD_SLIDE_CAPTION_DESC"
+        >
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+    </params>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="slide_path" type="text" size="60"
+                    label="MOD_BACKGROUNDHEADER_FIELD_SLIDE_PATH_LABEL"
+                    description="MOD_BACKGROUNDHEADER_FIELD_SLIDE_PATH_DESC"
+                />
+                <field name="load_jquery" type="radio" default="0"
+                    label="MOD_BACKGROUNDHEADER_FIELD_LOAD_JQUERY_LABEL"
+                    description="MOD_BACKGROUNDHEADER_FIELD_LOAD_JQUERY_DESC"
+                >
+                    <option value="1">JYES</option>    
+                    <option value="0">JNO</option>
+                </field>
+                <field name="autoplay" type="radio" default="1"
+                    label="MOD_BACKGROUNDHEADER_FIELD_AUTOPLAY_LABEL"
+                    description="MOD_BACKGROUNDHEADER_FIELD_AUTOPLAY_DESC"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="height" type="text" default="0"
+                    label="MOD_BACKGROUNDHEADER_FIELD_MIN_HEIGHT_LABEL"
+                    description="MOD_BACKGROUNDHEADER_FIELD_MIN_HEIGHT_DESC"
+                />
+                <field name="width" type="text" default="0"
+                    label="MOD_BACKGROUNDHEADER_FIELD_MIN_WIDTH_LABEL"
+                    description="MOD_BACKGROUNDHEADER_FIELD_MIN_WIDTH_DESC"
+                />
+                <field name="random" type="radio" default="0"
+                    label="MOD_BACKGROUNDHEADER_FIELD_RANDOM_LABEL"
+                    description="MOD_BACKGROUNDHEADER_FIELD_RANDOM_DESC"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="slideshow" type="radio" default="1"
+                    label="MOD_BACKGROUNDHEADER_FIELD_SLIDESHOW_LABEL"
+                    description="MOD_BACKGROUNDHEADER_FIELD_SLIDESHOW_DESC"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="slide_interval" type="text" default="5000"
+                    label="MOD_BACKGROUNDHEADER_FIELD_SLIDE_INTERVAL_LABEL"
+                    description="MOD_BACKGROUNDHEADER_FIELD_SLIDE_INTERVAL_DESC"
+                />
+                <field name="start_slide" type="text" default="1"
+                    label="MOD_BACKGROUNDHEADER_FIELD_START_SLIDE_LABEL"
+                    description="MOD_BACKGROUNDHEADER_FIELD_START_SLIDE_DESC"
+                />
+                <field name="stop_loop" type="radio" default="0"
+                    label="MOD_BACKGROUNDHEADER_FIELD_STOP_LOOP_LABEL"
+                    description="MOD_BACKGROUNDHEADER_FIELD_STOP_LOOP_DESC"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="transition" type="list" default="1"
+                    label="MOD_BACKGROUNDHEADER_FIELD_TRANSITION_LABEL"
+                    description="MOD_BACKGROUNDHEADER_FIELD_TRANSITION_DESC"
+                >
+                    <option value="0">MOD_BACKGROUNDHEADER_TRANSITION_OPTION_0</option>
+                    <option value="1">MOD_BACKGROUNDHEADER_TRANSITION_OPTION_1</option>
+                    <option value="2">MOD_BACKGROUNDHEADER_TRANSITION_OPTION_2</option>
+                    <option value="3">MOD_BACKGROUNDHEADER_TRANSITION_OPTION_3</option>
+                    <option value="4">MOD_BACKGROUNDHEADER_TRANSITION_OPTION_4</option>
+                    <option value="5">MOD_BACKGROUNDHEADER_TRANSITION_OPTION_5</option>
+                    <option value="6">MOD_BACKGROUNDHEADER_TRANSITION_OPTION_6</option>
+                    <option value="7">MOD_BACKGROUNDHEADER_TRANSITION_OPTION_7</option>
+                </field>
+                <field name="transition_speed" type="text" default="750"
+                    label="MOD_BACKGROUNDHEADER_FIELD_TRANSITION_SPEED_LABEL"
+                    description="MOD_BACKGROUNDHEADER_FIELD_TRANSITION_SPEED_DESC"
+                />
+                <field name="arrow_navigation" type="radio" default="1"
+                    label="MOD_BACKGROUNDHEADER_FIELD_ARROW_NAVIGATION_LABEL"
+                    description="MOD_BACKGROUNDHEADER_FIELD_ARROW_NAVIGATION_DESC"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="slide_counter" type="radio" default="1"
+                    label="MOD_BACKGROUNDHEADER_FIELD_SLIDE_COUNTER_LABEL"
+                    description="MOD_BACKGROUNDHEADER_FIELD_SLIDE_COUNTER_DESC"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="slide_caption" type="radio" default="1"
+                    label="MOD_BACKGROUNDHEADER_FIELD_SLIDE_CAPTION_LABEL"
+                    description="MOD_BACKGROUNDHEADER_FIELD_SLIDE_CAPTION_DESC"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</install>

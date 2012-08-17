@@ -34,7 +34,9 @@
 		<position>banner</position>
 		<position>middle</position>
 		<position>bottom</position>
-		<position>footer</position>
+		<position>footer-left</position>
+		<position>footer-right</position>
+		<position>copyright</position>
 		<position>debug</position>
 	</positions>
 	<languages folder="language">
