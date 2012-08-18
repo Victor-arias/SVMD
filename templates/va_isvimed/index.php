@@ -117,7 +117,7 @@ $urls = substr(trim($urls), 0, -1);
 			<nav>
 				<jdoc:include type="modules" name="menu" style="none" />
 			</nav>
-			<section id="content">
+			<section id="content" <?php if($home) echo"class='home'" ?> ?>>
 			<?php if($home): ?>
 				<div id="banner">
 					<jdoc:include type="modules" name="banner" style="none" />

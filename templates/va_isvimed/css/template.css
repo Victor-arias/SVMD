@@ -236,17 +236,24 @@ nav ul.menu ul
 }
 section#content
 {
+	background: #FFF;
+	clear: both;
+	padding: 12px;
+
+}
+section#content.home
+{
 	background-image: linear-gradient(bottom, rgb(255,255,255) 30%, rgb(204,204,204) 100%);
 	background-image: -o-linear-gradient(bottom, rgb(255,255,255) 30%, rgb(204,204,204) 100%);
 	background-image: -moz-linear-gradient(bottom, rgb(255,255,255) 30%, rgb(204,204,204) 100%);
 	background-image: -webkit-linear-gradient(bottom, rgb(255,255,255) 30%, rgb(204,204,204) 100%);
 	background-image: -ms-linear-gradient(bottom, rgb(255,255,255) 30%, rgb(204,204,204) 100%);
 	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.3, rgb(255,255,255)), color-stop(1, rgb(204,204,204)));
-	clear: both;
 }
 section#content .breadcrumbs
 {
 	background: #dff0f0;
+	margin-bottom: 20px;
 	padding: 10px;
 }
 section#content .breadcrumbs a
