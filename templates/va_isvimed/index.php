@@ -63,6 +63,7 @@ $urls = substr(trim($urls), 0, -1);
 		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/bootstrap.min.css">
 		<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/bootstrap-responsive.min.css">
+		<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/jquery.megamenu.css">
 		<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/template.css">
 		<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/system.css" type="text/css" />
 		<!--[if lte IE 6]>
@@ -73,8 +74,11 @@ $urls = substr(trim($urls), 0, -1);
 		<![endif]-->	
 		<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/libs/bootstrap/bootstrap.min.js"></script>
 		<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
+		<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/libs/jquery.megamenu.js"></script>
 		<script>
 		$(document).ready(function() {
+			$('#main_menu').megamenu();
+
 			$('body').append('<div id="header_image"><div id="header_image_image"></div><div id="header_image_controls"></div></div>');
 			var imgArr = new Array( // relative paths of images
 				<?php echo $urls; ?>

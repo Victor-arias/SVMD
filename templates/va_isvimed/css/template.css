@@ -1,6 +1,6 @@
 body
 {
-	background: #2f9492;
+	background: #2f9492 url(../images/background.jpg);
 }
 footer
 {
@@ -144,22 +144,23 @@ nav
 }
 nav ul.menu
 {
+	display: block;
 	list-style: none;
 	margin: 0;
-	position: relative;
+	/*position: relative;*/
 }
-nav ul.menu li
+nav ul.menu > li
 {
 	border-right: thin solid #821028;
 	float:left;
-	position: relative;
+	/*position: relative;*/
 	text-align: center;
 }
-nav ul.menu li:last-child
+nav ul.menu > li:last-child
 {
 	border: none;
 }
-nav ul.menu li a
+nav ul.menu > li a
 {
 	background-image: linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
 	background-image: -o-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
@@ -176,7 +177,7 @@ nav ul.menu li a
 	vertical-align: middle;
 	width: 100px;
 }
-nav ul.menu li a:hover
+nav ul.menu > li a:hover
 {
 	background-image: linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
 	background-image: -o-linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
@@ -228,7 +229,7 @@ nav ul.menu li a.institucional
 }
 nav ul.menu ul
 {
-	display: none;
+	margin: 0;
 	list-style: none;
 }
 section#content
