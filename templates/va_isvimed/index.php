@@ -98,7 +98,12 @@ $urls = substr(trim($urls), 0, -1);
 				}).animate({opacity: 1}, 1000);
 			}
 			$('#header_image_controls a').click(function(e){
-				console.log('a');
+				var img = $(this).text();
+				if(img != currImg){
+					currImg = img;
+					changeImg();
+				}
+				//console.log($(this).text());
 				e.preventDefault();
 			});
 		});
@@ -106,18 +111,18 @@ $urls = substr(trim($urls), 0, -1);
 	</head>
 	<body>
 		<div id="main">
+			<div id="top">
+					<jdoc:include type="modules" name="top" style="xhtml" />
+				</div>
 			<header>
 				<div id="logos">
 					<jdoc:include type="modules" name="header" style="none" />
-				</div>
-				<div id="top">
-					<jdoc:include type="modules" name="top" style="xhtml" />
 				</div>
 			</header>
 			<nav>
 				<jdoc:include type="modules" name="menu" style="none" />
 			</nav>
-			<section id="content" <?php if($home) echo"class='home'" ?> ?>>
+			<section id="content" <?php if($home) echo"class='home'" ?>>
 			<?php if($home): ?>
 				<div id="banner">
 					<jdoc:include type="modules" name="banner" style="none" />

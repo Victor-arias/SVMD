@@ -33,17 +33,14 @@ footer .logos li
 header
 {
 	clear: both;
-	height: 330px;
-	overflow: hidden;
-	position: relative;
+	height: 120px;
+	margin-top: 210px;
 }
 header #logos
 {
 	background: rgba(255, 255, 255, 0.4);
 	height: 100px;
 	padding: 10px 2%;
-	position: absolute;
-	top: 210px;
 	width: 96%;
 }
 header #logos .logo_isvimed
@@ -73,40 +70,40 @@ header #logos .logos_gobierno li a
 	display: block;
 	height: 100px;
 }
-header #top
+#top
 {
 	position: absolute;
 	top: 20px;
-	width: 100%;
+	width: 960px;
 }
-header #top div.moduletable
+#top div.moduletable
 {
 	
 }
-header #top > .search
+#top > .search
 {
 	background: rgba(0, 0, 0, 0.2);
 	float: right;
 	height: 29px;
 	padding: 1px 1px 0;
 }
-header #top > .search div.search
+#top > .search div.search
 {
 	background: rgba(255, 255, 255, 0.4);
 	height: 28px;
 }
-header #top > .search label
+#top > .search label
 {
 	display: none;
 }
-header #top > .search .inputbox 
+#top > .search .inputbox 
 {
 	background: none;
 	border: none;
 	border-radius: 0;
 	height: 20px;
 }
-header #top > .search .button
+#top > .search .button
 {
 	/*background: ; temp*/
 	border: none;
@@ -117,24 +114,24 @@ header #top > .search .button
 	vertical-align: top;
 	width: 30px;
 }
-header #top .top_menu
+#top .top_menu
 {
 	background: rgba(255, 255, 255, 0.4);
 	float: left;
 	height: 30px;
 }
-header #top .top_menu ul
+#top .top_menu ul
 {
 	list-style: none;
 	margin: 0;
 	overflow: hidden;
 }
-header #top .top_menu li
+#top .top_menu li
 {
 	border-right: thin solid #999; /*temp*/
 	float:left;
 }
-header #top .top_menu li a
+#top .top_menu li a
 {
 	color: #000;
 	display: block;
@@ -303,12 +300,11 @@ section#content .breadcrumbs span
 }
 #header_image_controls
 {
-	bottom: 125px;
+	top: 185px;
 	height: 20px;
 	left: 50%;
 	margin-left: -480px;
 	position: absolute;
-	text-align: right;
 	width: 960px;
 	z-index: 500;
 }
