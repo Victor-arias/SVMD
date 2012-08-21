@@ -105,9 +105,8 @@ header #logos .logos_gobierno li a
 }
 #top > .search .button
 {
-	/*background: ; temp*/
+	background: url(../images/lupa-icono.png) no-repeat 5px 2px;
 	border: none;
-	background: none;
 	text-indent: -9999px;
 	margin-right: 5px;
 	height: 30px;
@@ -236,8 +235,6 @@ section#content
 {
 	background: #FFF;
 	clear: both;
-	padding: 12px;
-
 }
 section#content.home
 {
@@ -261,6 +258,10 @@ section#content .breadcrumbs a
 section#content .breadcrumbs span
 {
 	color: #609e98;
+}
+section#content #banner
+{
+	padding: 0 12px 0;
 }
 .f_left
 {
