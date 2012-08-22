@@ -11,13 +11,6 @@ defined('_JEXEC') or die;
 
 $app = JFactory::getApplication();
 $templateparams = $app->getTemplate(true)->params;
-
-if (!$templateparams->get('html5', 0))
-{
-	require JPATH_BASE.'/components/com_content/views/archive/tmpl/default.php';
-	//evtl. ersetzen durch JPATH_COMPONENT.'/views/...'
-} else {
-JHtml::addIncludePath(JPATH_COMPONENT . '/helpers');
 ?><div class="archive<?php echo $this->pageclass_sfx;?>">
 <?php if ($this->params->get('show_page_heading', 1)) : ?>
 <h1>
@@ -46,4 +39,3 @@ JHtml::addIncludePath(JPATH_COMPONENT . '/helpers');
 	<?php echo $this->loadTemplate('items'); ?>
 </form>
 </div>
-<?php } ?>

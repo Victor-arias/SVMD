@@ -31,6 +31,7 @@
 		<position>header</position>
 		<position>menu</position>
 		<position>breadcrumbs</position>
+		<position>lateral</position>
 		<position>banner</position>
 		<position>middle</position>
 		<position>bottom</position>

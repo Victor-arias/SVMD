@@ -12,9 +12,8 @@ defined('_JEXEC') or die;
 // Create a shortcut for params.
 $params = &$this->item->params;
 $images = json_decode($this->item->images);
-$canEdit	= $this->item->params->get('access-edit');
+$canEdit= $this->item->params->get('access-edit');
 ?>
-
 <?php if ($this->item->state == 0) : ?>
 <div class="system-unpublished">
 <?php endif; ?>

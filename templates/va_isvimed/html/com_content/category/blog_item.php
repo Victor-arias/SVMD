@@ -1,27 +1,23 @@
 <?php
 /**
  * @package		Joomla.Site
- * @subpackage	Templates.beez5
- * @copyright	Copyright (C) 2005 - 2009 Open Source Matters, Inc. All rights reserved.
+ * @subpackage	com_content
+ * @copyright	Copyright (C) 2005 - 2012 Open Source Matters, Inc. All rights reserved.
  * @license		GNU General Public License version 2 or later; see LICENSE.txt
  */
 
 // no direct access
 defined('_JEXEC') or die;
-$params =& $this->item->params;
+
+// Create a shortcut for params.
+$params = &$this->item->params;
 $images = json_decode($this->item->images);
-$app = JFactory::getApplication();
-$templateparams =$app->getTemplate(true)->params;
 $canEdit	= $this->item->params->get('access-edit');
+JHtml::addIncludePath(JPATH_COMPONENT.'/helpers/html');
+JHtml::_('behavior.tooltip');
+JHtml::core();
 
-if ($templateparams->get('html5')!=1)
-{
-	require JPATH_BASE.'/components/com_content/views/category/tmpl/blog_item.php';
-	//evtl. ersetzen durch JPATH_COMPONENT.'/views/...'
-} else {
-JHtml::addIncludePath(JPATH_COMPONENT . '/helpers');
 ?>
-
 
 <?php if ($this->item->state == 0) : ?>
 <div class="system-unpublished">
@@ -129,7 +125,7 @@ JHtml::addIncludePath(JPATH_COMPONENT . '/helpers');
 <?php endif; ?>
 <?php  if (isset($images->image_intro) and !empty($images->image_intro)) : ?>
 	<?php $imgfloat = (empty($images->float_intro)) ? $params->get('float_intro') : $images->float_intro; ?>
-	<div class="img-intro-"<?php echo htmlspecialchars($imgfloat); ?>">
+	<div class="img-intro-<?php echo htmlspecialchars($imgfloat); ?>">
 	<img
 		<?php if ($images->image_intro_caption):
 			echo 'class="caption"'.' title="' .htmlspecialchars($images->image_intro_caption) .'"';
@@ -147,7 +143,7 @@ JHtml::addIncludePath(JPATH_COMPONENT . '/helpers');
 		$active = $menu->getActive();
 		$itemId = $active->id;
 		$link1 = JRoute::_('index.php?option=com_users&view=login&Itemid=' . $itemId);
-		$returnURL = JRoute::_(ContentHelperRoute::getArticleRoute($this->item->slug));
+		$returnURL = JRoute::_(ContentHelperRoute::getArticleRoute($this->item->slug, $this->item->catid));
 		$link = new JURI($link1);
 		$link->setVar('return', base64_encode($returnURL));
 	endif;
@@ -176,5 +172,3 @@ JHtml::addIncludePath(JPATH_COMPONENT . '/helpers');
 
 <div class="item-separator"></div>
 <?php echo $this->item->event->afterDisplayContent; ?>
-
-<?php } ?>

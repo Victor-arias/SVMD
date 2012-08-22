@@ -131,15 +131,20 @@ $urls = substr(trim($urls), 0, -1);
 				<div id="banner">
 					<jdoc:include type="modules" name="banner" style="none" />
 				</div>
-				<div>
+				<div id="middle">
 					<jdoc:include type="modules" name="middle" style="none" />
 				</div>
-				<div>
+				<div id="bottom">
 					<jdoc:include type="modules" name="bottom" style="none" />
 				</div>
 			<?php else: ?>
 				<jdoc:include type="modules" name="breadcrumbs" style="none" />
-				<jdoc:include type="component" />
+				<div id="lateral">
+					<jdoc:include type="modules" name="lateral" style="xhtml" />
+				</div>
+				<div id="main_content">
+					<jdoc:include type="component" />
+				</div>
 			<?php endif; ?>
 			</section>
 			<footer>
