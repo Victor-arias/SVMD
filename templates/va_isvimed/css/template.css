@@ -151,11 +151,11 @@ nav ul.menu li a.evolucion, nav ul > li:nth-child(8)
 {
 	width: 105px;
 }
-nav ul.menu li a.prensa, nav ul > li:nth-child(9) 
+nav ul.menu li a.prensa, nav ul > li:nth-child(10) 
 {
 	width: 75px;
 }
-nav ul.menu li a.institucional, nav ul > li:nth-child(10)
+nav ul.menu li a.institucional, nav ul > li:nth-child(9)
 {
 	width: 105px;
 }
@@ -352,6 +352,7 @@ section#content #middle > div
 #lateral ul > li a:hover,
 #lateral ul > li.active a
 {
+	background: #49ada8;
 	border-bottom: thin solid #a7d4cc;
 	color: #FFF;
 	
@@ -381,6 +382,13 @@ section#content #middle > div
 #main_content h2 a
 {
 	color: #49ada8;
+}
+#main_content h3.mooaccordion
+{
+	background: #dff0f0 url(../images/arrows-up_down.png) no-repeat right top;
+	cursor: pointer;
+	margin-bottom: 10px;
+	padding: 9px 12px;
 }
 #top
 {
