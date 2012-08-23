@@ -80,13 +80,11 @@ nav ul.menu
 	display: block;
 	list-style: none;
 	margin: 0;
-	/*position: relative;*/
 }
 nav ul.menu > li
 {
 	border-right: thin solid #821028;
 	float:left;
-	/*position: relative;*/
 	text-align: center;
 }
 nav ul.menu > li:last-child
@@ -121,43 +119,43 @@ nav ul.menu > li.active a
 	background-image: -webkit-gradient(linear, left bottom,	left top, color-stop(0.2, rgb(4,99,99)), color-stop(0.54, rgb(80,171,173)));
 	text-decoration: none;
 }
-nav ul.menu li a.abc
+nav ul.menu li a.abc, nav ul > li:nth-child(1) 
 {
 	width: 85px;
 }
-nav ul.menu li a.vivienda
+nav ul.menu li a.vivienda, nav ul > li:nth-child(2) 
 {
 	width: 78px;
 }
-nav ul.menu li a.soluciones
+nav ul.menu li a.soluciones, nav ul > li:nth-child(3) 
 {
 	width: 88px;
 }
-nav ul.menu li a.mejoramiento
+nav ul.menu li a.mejoramiento, nav ul > li:nth-child(4) 
 {
 	width: 100px;
 }
-nav ul.menu li a.plan
+nav ul.menu li a.plan, nav ul > li:nth-child(5) 
 {
 	width: 65px;
 }
-nav ul.menu li a.vecinos
+nav ul.menu li a.vecinos, nav ul > li:nth-child(6) 
 {
 	width: 90px;
 }
-nav ul.menu li a.pehmed
+nav ul.menu li a.pehmed, nav ul > li:nth-child(7) 
 {
 	width: 80px;
 }
-nav ul.menu li a.evolucion
+nav ul.menu li a.evolucion, nav ul > li:nth-child(8)
 {
 	width: 105px;
 }
-nav ul.menu li a.prensa
+nav ul.menu li a.prensa, nav ul > li:nth-child(9) 
 {
 	width: 75px;
 }
-nav ul.menu li a.institucional
+nav ul.menu li a.institucional, nav ul > li:nth-child(10)
 {
 	width: 105px;
 }
