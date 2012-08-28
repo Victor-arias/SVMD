@@ -135,7 +135,7 @@ $urls = substr(trim($urls), 0, -1);
 					<jdoc:include type="modules" name="middle" style="none" />
 				</div>
 				<div id="bottom">
-					<jdoc:include type="modules" name="bottom" style="none" />
+					<jdoc:include type="modules" name="bottom" style="xhtml" />
 				</div>
 			<?php else: ?>
 				<jdoc:include type="modules" name="breadcrumbs" style="none" />

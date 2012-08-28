@@ -53,7 +53,7 @@ div.icemegamenu {
 			padding: 0 4px;
 			text-align: center;
 			vertical-align: middle;
-			width: 100px;
+			width: 105px;
 			/**/
 			text-decoration:none;
 			/*display:block;*/
@@ -173,12 +173,12 @@ div.icemegamenu {
 
 /* All submenu OLs and ULs */
 	#icemegamenu ul.icesubMenu {
+		background: #00ada5;
 		margin: 20px 0 0 0;
-		padding:0 0 10px;
 		opacity: 0;
 		visibility: hidden;
 		position: absolute;
-		top:34px;
+		/*top:34px;*/
 		left: 0;
 		z-index: 9999;
 		/*background: #222;
@@ -229,22 +229,23 @@ div.icemegamenu {
 			div.icemegamenu #icemegamenu ul.icesubMenu li a.iceMenuTitle,
 			div.icemegamenu #icemegamenu ul.icesubMenu li span.separator {
 				display:block;
-				padding:5px 0 8px 16px;
-				color:#ccc;
+				/*padding:5px 0 8px 16px;*/
+				color:#FFF;
 				text-shadow:1px 1px 1px #000;
-				margin:0 15px;
+				background: none;
+				/*margin:0 15px;
 				background:url(../images/point.png) no-repeat 0% 45%;			
-				border-bottom:1px dotted #555;}
+				border-bottom:1px dotted #555;*/}
 				
 				/*ie7 hack */
-				*+html div.icemegamenu #icemegamenu ul.icesubMenu li a.iceMenuTitle,
+				/**+html div.icemegamenu #icemegamenu ul.icesubMenu li a.iceMenuTitle,
 				*+html div.icemegamenu #icemegamenu ul.icesubMenu li span.separator {
-					width:235px;}
+					width:235px;}*/
 					
 				
-				div.icemegamenu #icemegamenu ul.icesubMenu li a.iceMenuTitle:hover,
+				/*div.icemegamenu #icemegamenu ul.icesubMenu li a.iceMenuTitle:hover,
 				div.icemegamenu #icemegamenu ul.icesubMenu li span.separator:hover {
-					background-image:url(../images/point_hover.png);}		
+					background-image:url(../images/point_hover.png);}		*/
 					
 					
 			div.icemegamenu #icemegamenu ul.icesubMenu li a.iceMenuTitle span.icemega_desc {
@@ -314,7 +315,7 @@ div.icemegamenu #icemegamenu ul.icesubMenu li.active a span {
 	.icesubMenu .icemega_cover_module .icemega_modulewrap { 
 		position:relative;
 		color:#fff;
-		color:rgba(255,255,255,.7);}
+		/*color:rgba(255,255,255,.7);*/}
 		
 		/* ie7 hack */
 		*+html .icesubMenu .icemega_cover_module .icemega_modulewrap {
@@ -332,6 +333,6 @@ div.icemegamenu #icemegamenu ul.icesubMenu li.active a span {
 		margin-bottom:.25em}
 		
 	.icesubMenu .icemega_cover_module .icemega_modulewrap a { 
-		color:#F0C237;}		
+		color:#FFF;}		
 
 

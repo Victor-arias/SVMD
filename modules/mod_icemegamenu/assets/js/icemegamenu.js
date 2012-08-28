@@ -144,7 +144,7 @@ var MenuMatic = new Class({
         hideDelay: 1000,//in milliseconds, how long you have after moving your mouse off of the submenus before they dissapear
         
         //layout
-        stretchMainMenu:false,//stretch main menu btn widths to fit within the width {set in the css} of the parent UL or OL
+        stretchMainMenu:true,//stretch main menu btn widths to fit within the width {set in the css} of the parent UL or OL
         matchWidthMode:false,//initial submenus match their parent button's width
         orientation: 'horizontal',//horizontal or vertical
         direction:{    x: 'right',    y: 'down' },//for submenus ( relative to the parent button )left or right, up or down

@@ -75,23 +75,17 @@ nav
 	height: 54px;
 	width: 100%;
 }
-nav ul.menu
-{
-	display: block;
-	list-style: none;
-	margin: 0;
-}
-nav ul.menu > li
+nav ul#icemegamenu > li
 {
 	border-right: thin solid #821028;
 	float:left;
 	text-align: center;
 }
-nav ul.menu > li:last-child
+nav ul#icemegamenu > li:last-child
 {
 	border: none;
 }
-nav ul.menu > li a
+nav ul#icemegamenu > li > a
 {
 	background-image: linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
 	background-image: -o-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
@@ -103,66 +97,108 @@ nav ul.menu > li a
 	display: table-cell;
 	height: 54px;
 	line-height: 1.2;
-	padding: 0 4px;
+	padding: 0 6px;
 	text-align: center;
 	vertical-align: middle;
-	width: 100px;
+	width: 100%;
 }
-nav ul.menu > li a:hover,
-nav ul.menu > li.active a
+nav ul#icemegamenu > li > a:hover,
+nav ul#icemegamenu > li.active > a
 {
 	background-image: linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
 	background-image: -o-linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
 	background-image: -moz-linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
 	background-image: -webkit-linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
-	background-image: -ms-linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
+	background-image: -ms-linear-gradie	nt(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
 	background-image: -webkit-gradient(linear, left bottom,	left top, color-stop(0.2, rgb(4,99,99)), color-stop(0.54, rgb(80,171,173)));
 	text-decoration: none;
 }
-nav ul.menu li a.abc, nav ul > li:nth-child(1) 
-{
-	width: 85px;
-}
-nav ul.menu li a.vivienda, nav ul > li:nth-child(2) 
-{
-	width: 78px;
-}
-nav ul.menu li a.soluciones, nav ul > li:nth-child(3) 
-{
-	width: 88px;
-}
-nav ul.menu li a.mejoramiento, nav ul > li:nth-child(4) 
-{
-	width: 100px;
-}
-nav ul.menu li a.plan, nav ul > li:nth-child(5) 
-{
-	width: 65px;
-}
-nav ul.menu li a.vecinos, nav ul > li:nth-child(6) 
+nav ul#icemegamenu > li a.abc, nav ul#icemegamenu > li:nth-child(1) 
 {
 	width: 90px;
 }
-nav ul.menu li a.pehmed, nav ul > li:nth-child(7) 
+nav ul#icemegamenu > li a.vivienda, nav ul#icemegamenu > li:nth-child(2) 
+{
+	width: 90px;
+}
+nav ul#icemegamenu > li a.soluciones, nav ul#icemegamenu > li:nth-child(3) 
+{
+	width: 95px;
+}
+nav ul#icemegamenu > li a.mejoramiento, nav ul#icemegamenu > li:nth-child(4) 
+{
+	width: 105px;
+}
+nav ul#icemegamenu > li a.plan, nav ul#icemegamenu > li:nth-child(5) 
 {
 	width: 80px;
 }
-nav ul.menu li a.evolucion, nav ul > li:nth-child(8)
+nav ul#icemegamenu > li a.vecinos, nav ul#icemegamenu > li:nth-child(6) 
 {
-	width: 105px;
+	width: 95px;
 }
-nav ul.menu li a.prensa, nav ul > li:nth-child(10) 
+nav ul#icemegamenu > li a.pehmed, nav ul#icemegamenu > li:nth-child(7) 
 {
-	width: 75px;
+	width: 90px;
 }
-nav ul.menu li a.institucional, nav ul > li:nth-child(9)
+nav ul#icemegamenu > li a.evolucion, nav ul#icemegamenu > li:nth-child(8)
 {
-	width: 105px;
+	width: 110px;
 }
-nav ul.menu ul
+nav ul#icemegamenu > li a.prensa, nav ul#icemegamenu > li:nth-child(9) 
+{
+	width: 85px;
+}
+nav ul#icemegamenu > li a.institucional, nav ul#icemegamenu > li:nth-child(10)
+{
+	width: 110px;
+}
+nav ul#icemegamenu ul
 {
 	margin: 0;
 	list-style: none;
+}
+nav ul#icemegamenu ul.icesubMenu li.iceMenuLiLevel_2 
+{
+	border-right: 3px ridge #00b8ae;
+	border-bottom: 3px ridge #00b8ae;
+	
+}
+nav ul#icemegamenu ul.icesubMenu li.iceMenuLiLevel_2 > a.iceMenuTitle
+{
+	border: none;
+	height: 22px;
+	padding-top: 8px;
+	width: auto;
+}
+nav ul#icemegamenu ul.icesubMenu li.iceMenuLiLevel_2 > a.iceMenuTitle:hover
+{
+	background: #006161;
+}
+nav ul#icemegamenu ul.icesubMenu li.iceMenuLiLevel_2 > a.iceMenuTitle span
+{
+	color: #FFF; font-size: 1.2em;
+}
+nav ul#icemegamenu ul.icesubMenu li.iceMenuLiLevel_2 .icemega_cover_module
+{
+	min-height: 110px;
+}
+nav ul#icemegamenu ul.icesubMenu li.iceMenuLiLevel_2 .icemega_cover_module:hover
+{
+	background: #006161;
+}
+nav ul#icemegamenu ul.icesubMenu li.iceMenuLiLevel_2 .icemega_modulewrap
+{
+	font-size: 1em;
+	text-align: left;
+}
+nav ul#icemegamenu ul.icesubMenu li.iceMenuLiLevel_2 .icemega_modulewrap a
+{
+	font-size: 1.2em;
+}
+nav ul#icemegamenu ul.icesubMenu li.iceMenuLiLevel_2 .icemega_modulewrap img
+{
+	margin-right: 10px;
 }
 section#content
 {
@@ -255,6 +291,7 @@ section#content #banner
 }
 section#content #middle
 {
+	overflow: hidden;
 	padding: 20px;
 }
 section#content #middle > div
