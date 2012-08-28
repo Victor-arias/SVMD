@@ -34,7 +34,8 @@
 		<position>lateral</position>
 		<position>banner</position>
 		<position>middle</position>
-		<position>bottom</position>
+		<position>bottom-left</position>
+		<position>bottom-right</position>
 		<position>footer-left</position>
 		<position>footer-right</position>
 		<position>copyright</position>

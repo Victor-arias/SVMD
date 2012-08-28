@@ -158,16 +158,25 @@ nav ul#icemegamenu ul
 	margin: 0;
 	list-style: none;
 }
+nav ul#icemegamenu #iceMenu_117 ul.icesubMenu
+{
+	left: -514px;
+}
+nav ul#icemegamenu #iceMenu_118 ul.icesubMenu
+{
+	left: -209px;
+}
 nav ul#icemegamenu ul.icesubMenu li.iceMenuLiLevel_2 
 {
+	background: #00ada5;
 	border-right: 3px ridge #00b8ae;
 	border-bottom: 3px ridge #00b8ae;
-	
 }
 nav ul#icemegamenu ul.icesubMenu li.iceMenuLiLevel_2 > a.iceMenuTitle
 {
 	border: none;
-	height: 22px;
+	height: auto;
+	min-height: 22px;
 	padding-top: 8px;
 	width: auto;
 }
@@ -181,7 +190,7 @@ nav ul#icemegamenu ul.icesubMenu li.iceMenuLiLevel_2 > a.iceMenuTitle span
 }
 nav ul#icemegamenu ul.icesubMenu li.iceMenuLiLevel_2 .icemega_cover_module
 {
-	min-height: 110px;
+	min-height: 100px;
 }
 nav ul#icemegamenu ul.icesubMenu li.iceMenuLiLevel_2 .icemega_cover_module:hover
 {
@@ -191,6 +200,10 @@ nav ul#icemegamenu ul.icesubMenu li.iceMenuLiLevel_2 .icemega_modulewrap
 {
 	font-size: 1em;
 	text-align: left;
+}
+nav ul#icemegamenu ul.icesubMenu li.iceMenuLiLevel_2 .icemega_modulewrap .custom
+{
+	overflow: hidden;
 }
 nav ul#icemegamenu ul.icesubMenu li.iceMenuLiLevel_2 .icemega_modulewrap a
 {
@@ -297,6 +310,68 @@ section#content #middle
 section#content #middle > div
 {
 	float: left;
+}
+section#content #bottom > div
+{
+	overflow: hidden;
+	padding: 20px;
+	width: 48%;
+}
+section#content .noticias
+{
+	background-image: linear-gradient(bottom, rgb(232,232,232) 0%, rgb(255,255,255) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(232,232,232) 0%, rgb(255,255,255) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(232,232,232) 0%, rgb(255,255,255) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(232,232,232) 0%, rgb(255,255,255) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(232,232,232) 0%, rgb(255,255,255) 100%);
+	background-image: -webkit-gradient(linear,left bottom,left top,	color-stop(0, rgb(232,232,232)),color-stop(1, rgb(255,255,255)));
+}
+section#content .noticias h3
+{
+	background-image: linear-gradient(bottom, rgb(0,97,97) 30%, rgb(70,171,166) 70%, rgb(63,171,157) 85%);
+	background-image: -o-linear-gradient(bottom, rgb(0,97,97) 30%, rgb(70,171,166) 70%, rgb(63,171,157) 85%);
+	background-image: -moz-linear-gradient(bottom, rgb(0,97,97) 30%, rgb(70,171,166) 70%, rgb(63,171,157) 85%);
+	background-image: -webkit-linear-gradient(bottom, rgb(0,97,97) 30%, rgb(70,171,166) 70%, rgb(63,171,157) 85%);
+	background-image: -ms-linear-gradient(bottom, rgb(0,97,97) 30%, rgb(70,171,166) 70%, rgb(63,171,157) 85%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.3, rgb(0,97,97)), color-stop(0.7, rgb(70,171,166)), color-stop(0.85, rgb(63,171,157)));
+	color: #FFF;
+	font-size: 2.1em;
+	padding: 15px 20px;
+}
+section#content .noticias .nspMain
+{
+	padding: 15px 4%;
+}
+section#content .noticias .nspMain h4
+{
+	margin-bottom: 5px;
+}
+section#content .noticias .nspMain .nspArt
+{
+	border-bottom: 3px ridge #E0E0E0;
+}
+section#content .noticias .nspMain h4.nspHeader a
+{
+	color: #45a197;
+	font-size: 1.5em;
+}
+section#content .noticias .nspMain h4.nspHeader a:hover
+{
+	color: #903;
+}
+section#content .noticias .nspMain .nspInfo
+{
+	color: #000;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+section#content .noticias .nspMain a.readon
+{
+	color: #45a197;
+}
+section#content .noticias .nspMain a.readon:hover
+{
+	color: #903;
 }
 .article-info
 {
@@ -465,14 +540,19 @@ section#content #middle > div
 	background: url(../images/lupa-icono.png) no-repeat 5px 2px;
 	border: none;
 	text-indent: -9999px;
-	margin-right: 5px;
+	/*margin-right: 5px;*/
 	height: 30px;
 	vertical-align: top;
 	width: 30px;
 }
+#top > .search .inputbox:focus,
+#top > .search .inputbox:hover,
+#top > .search .button:hover
+{
+	background-color: rgba(255, 255, 255, 0.8);
+}
 #top .top_menu
 {
-	background: rgba(255, 255, 255, 0.4);
 	float: left;
 	height: 30px;
 }
@@ -489,7 +569,12 @@ section#content #middle > div
 }
 #top .top_menu li a
 {
+	background: rgba(255, 255, 255, 0.4);
 	color: #000;
 	display: block;
 	padding: 6px 10px;
+}
+#top .top_menu li a:hover
+{
+	background: rgba(255, 255, 255, 0.8);
 }

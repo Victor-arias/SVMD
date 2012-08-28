@@ -173,13 +173,12 @@ div.icemegamenu {
 
 /* All submenu OLs and ULs */
 	#icemegamenu ul.icesubMenu {
-		background: #00ada5;
 		margin: 20px 0 0 0;
 		opacity: 0;
 		visibility: hidden;
 		position: absolute;
-		/*top:34px;*/
-		left: 0;
+		/*top:34px;
+		left: 0;*/
 		z-index: 9999;
 		/*background: #222;
 		background: -moz-linear-gradient(#444, #111);
@@ -306,7 +305,7 @@ div.icemegamenu #icemegamenu ul.icesubMenu li.active a span {
 	position:relative; 
 	overflow:hidden; 
 	width:auto!important;
-	padding:10px 15px}
+	padding:10px 10px}
 	div#subMenusContainer .icemega_cover_module {
 		padding-left:0;
 		padding-right:0}
