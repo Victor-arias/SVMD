@@ -314,8 +314,16 @@ section#content #middle > div
 section#content #bottom > div
 {
 	overflow: hidden;
-	padding: 20px;
-	width: 48%;
+	padding: 2%;
+	width: 47%;
+}
+section#content #bottom > div:nth-child(1)
+{
+	padding-right: 1%;
+}
+section#content #bottom > div:nth-child(2)
+{
+	padding-left: 1%;
 }
 section#content .noticias
 {
@@ -372,6 +380,69 @@ section#content .noticias .nspMain a.readon
 section#content .noticias .nspMain a.readon:hover
 {
 	color: #903;
+}
+section#content .tabs_sociales .gkTabsNav li
+{
+	background-image: linear-gradient(bottom, rgb(0,97,97) 30%, rgb(70,171,166) 70%, rgb(63,171,157) 85%);
+	background-image: -o-linear-gradient(bottom, rgb(0,97,97) 30%, rgb(70,171,166) 70%, rgb(63,171,157) 85%);
+	background-image: -moz-linear-gradient(bottom, rgb(0,97,97) 30%, rgb(70,171,166) 70%, rgb(63,171,157) 85%);
+	background-image: -webkit-linear-gradient(bottom, rgb(0,97,97) 30%, rgb(70,171,166) 70%, rgb(63,171,157) 85%);
+	background-image: -ms-linear-gradient(bottom, rgb(0,97,97) 30%, rgb(70,171,166) 70%, rgb(63,171,157) 85%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.3, rgb(0,97,97)), color-stop(0.7, rgb(70,171,166)), color-stop(0.85, rgb(63,171,157)));
+	color: #FFF;
+	font-size: 1.1em;
+	margin-right: 4px !important;
+	padding: 0 !important;
+	text-shadow: none;
+}
+section#content .tabs_sociales .gkTabsNav li:last-child
+{
+	margin-right: 0;
+}
+section#content .tabs_sociales .gkTabsNav li:hover, 
+section#content .tabs_sociales .gkTabsNav li.active
+{
+	background: #ebebeb;
+	color: #000;
+}
+section#content .tabs_sociales .gkTabsNav li span
+{
+	background: url('../images/social_icons_tabs.png') no-repeat;
+	display: block;
+	margin: 6px 0 0 10px;
+	opacity: 0.8;
+	padding: 4px 10px 10px 35px;
+}
+section#content .tabs_sociales .gkTabsNav li#facebook span
+{
+	background-position: 0 -1px ;
+}
+section#content .tabs_sociales .gkTabsNav li#twitter span
+{
+	background-position: 0 -51px ;
+}
+section#content .tabs_sociales .gkTabsNav li#flickr span
+{
+	background-position: 0 -101px ;
+}
+section#content .tabs_sociales .gkTabsNav li#youtube span
+{
+	background-position: 0 -151px ;
+}
+section#content .tabs_sociales .gkTabsNav li:hover span, 
+section#content .tabs_sociales .gkTabsNav li.active span
+{
+	opacity: 1;
+}
+section#content .tabs_sociales .gkTabsContainer
+{
+	background: #ebebeb;
+	padding: 14px 9px;
+}
+section#content .tabs_sociales .gkTabsItem
+{
+	background: none;
+	padding: 0;
 }
 .article-info
 {
