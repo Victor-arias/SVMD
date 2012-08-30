@@ -350,6 +350,10 @@ section#content .noticias .nspMain
 {
 	padding: 15px 4%;
 }
+section#content .noticias .nspMain .nspImageWrapper
+{
+	width: 150px;
+}
 section#content .noticias .nspMain h4
 {
 	margin-bottom: 5px;
@@ -372,6 +376,10 @@ section#content .noticias .nspMain .nspInfo
 	color: #000;
 	font-size: 0.9em;
 	font-weight: bold;
+}
+section#content .noticias .nspMain .nspText
+{
+	float: left;
 }
 section#content .noticias .nspMain a.readon
 {
@@ -444,6 +452,11 @@ section#content .tabs_sociales .gkTabsItem
 	background: none;
 	padding: 0;
 }
+section#content .tabs_sociales .gallery-flickr ul li a
+{
+	margin: 0 5px 10px;
+}
+
 .article-info
 {
 	list-style: none;
@@ -499,6 +512,8 @@ section#content .tabs_sociales .gkTabsItem
 #header_image_controls a
 {
 	background: #2F9492;
+	background-image: radial-gradient(50% 50%, ellipse closest-side, #006161, #3fab9d 100%);
+	-webkit-background-image: radial-gradient(50% 50%, ellipse closest-side, #006161, #3fab9d 100%);
 	border-radius: 10px;
 	display: block;
 	float: left;

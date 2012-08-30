@@ -76,10 +76,10 @@ $urls = substr(trim($urls), 0, -1);
 		<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
 		<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/libs/jquery.megamenu.js"></script>
 		<script>
-		$(document).ready(function() {
-			$('#main_menu').megamenu();
+		jQuery(document).ready(function() {
+			jQuery('#main_menu').megamenu();
 
-			$('body').append('<div id="header_image"><div id="header_image_image"></div><div id="header_image_controls"></div></div>');
+			jQuery('body').append('<div id="header_image"><div id="header_image_image"></div><div id="header_image_controls"></div></div>');
 			var imgArr = new Array( // relative paths of images
 				<?php echo $urls; ?>
 			);
@@ -90,24 +90,24 @@ $urls = substr(trim($urls), 0, -1);
 			for(i=0; i < imgArr.length; i++){
 				preloadArr[i] = new Image();
 				preloadArr[i].src = imgArr[i];
-				$('#header_image_controls').append('<a href="#">'+(i+1)+'</a>');
+				jQuery('#header_image_controls').append('<a href="#">'+(i+1)+'</a>');
 			}
 			var currImg = 1;
 			var intID = setInterval(changeImg, 6000);
-			$('#header_image_image').css('background','url(' + preloadArr[currImg%preloadArr.length].src +') top center no-repeat');
+			jQuery('#header_image_image').css('background','url(' + preloadArr[currImg%preloadArr.length].src +') top center no-repeat');
 			/* image rotator */
 			function changeImg(){
-				$('#header_image_image').animate({opacity: 0}, 1000, function(){
-				$(this).css('background','url(' + preloadArr[currImg++%preloadArr.length].src +') top center no-repeat');
+				jQuery('#header_image_image').animate({opacity: 0}, 1000, function(){
+				jQuery(this).css('background','url(' + preloadArr[currImg++%preloadArr.length].src +') top center no-repeat');
 				}).animate({opacity: 1}, 1000);
 			}
-			$('#header_image_controls a').click(function(e){
-				var img = $(this).text();
+			jQuery('#header_image_controls a').click(function(e){
+				var img = jQuery(this).text();
 				if(img != currImg){
 					currImg = img;
 					changeImg();
 				}
-				//console.log($(this).text());
+				//console.log(jQuery(this).text());
 				e.preventDefault();
 			});
 		});
