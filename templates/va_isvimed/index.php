@@ -65,6 +65,7 @@ $urls = substr(trim($urls), 0, -1);
 		<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/bootstrap-responsive.min.css">
 		<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/jquery.megamenu.css">
 		<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/template.css">
+		<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/jquery.fancybox.css" type="text/css" media="screen" />
 		<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/system.css" type="text/css" />
 		<!--[if lte IE 6]>
 			<link href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/ieonly.css" rel="stylesheet" type="text/css" />
@@ -75,11 +76,14 @@ $urls = substr(trim($urls), 0, -1);
 		<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/libs/bootstrap/bootstrap.min.js"></script>
 		<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
 		<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/libs/jquery.megamenu.js"></script>
+		<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/libs/jquery.fancybox.pack.js"></script>
 		<script>
 		jQuery(document).ready(function() {
 			jQuery('#main_menu').megamenu();
+			jQuery("a.pop_up").fancybox();
 
-			jQuery('body').append('<div id="header_image"><div id="header_image_image"></div><div id="header_image_controls"></div></div>');
+			jQuery('body').append('<div id="header_image"><div id="header_image_image"></div></div>');
+			jQuery('header').prepend('<div id="header_image_controls"></div>');
 			var imgArr = new Array( // relative paths of images
 				<?php echo $urls; ?>
 			);
@@ -90,24 +94,39 @@ $urls = substr(trim($urls), 0, -1);
 			for(i=0; i < imgArr.length; i++){
 				preloadArr[i] = new Image();
 				preloadArr[i].src = imgArr[i];
-				jQuery('#header_image_controls').append('<a href="#">'+(i+1)+'</a>');
+				jQuery('#header_image_controls').append('<a href="#" class="img_'+(i)+'">'+(i)+'</a>');
 			}
-			var currImg = 1;
-			var intID = setInterval(changeImg, 6000);
-			jQuery('#header_image_image').css('background','url(' + preloadArr[currImg%preloadArr.length].src +') top center no-repeat');
+			var currImg = 0;
+			var newImg = -1;
+			changeImg();
+			var intID = setInterval(changeImg, 10000);
+
 			/* image rotator */
 			function changeImg(){
+				console.log('currImg' + currImg%preloadArr.length);
+				jQuery('.img_'+(currImg%preloadArr.length)).attr('class', '').addClass('img_'+(currImg%preloadArr.length));
+
+				if(newImg == -1){
+					newImg = (currImg+1)%preloadArr.length;
+				}
+				currImg = newImg;
+				console.log('new newImg: ' + newImg);
+
+				route = preloadArr[newImg].src;
+
 				jQuery('#header_image_image').animate({opacity: 0}, 1000, function(){
-				jQuery(this).css('background','url(' + preloadArr[currImg++%preloadArr.length].src +') top center no-repeat');
+					jQuery(this).css('background','url('+ route +') top center no-repeat');
 				}).animate({opacity: 1}, 1000);
+				jQuery('.img_'+(newImg)).addClass('active');
+				newImg = -1;
 			}
+			
 			jQuery('#header_image_controls a').click(function(e){
 				var img = jQuery(this).text();
 				if(img != currImg){
-					currImg = img;
+					newImg = img;
 					changeImg();
 				}
-				//console.log(jQuery(this).text());
 				e.preventDefault();
 			});
 		});

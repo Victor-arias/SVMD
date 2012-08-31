@@ -33,12 +33,13 @@ footer .logos li
 header
 {
 	clear: both;
-	height: 120px;
-	margin-top: 210px;
+	height: 145px;
+	margin-top: 185px;
 }
 header #logos
 {
 	background: rgba(255, 255, 255, 0.4);
+	clear: both;
 	height: 100px;
 	padding: 10px 2%;
 	width: 96%;
@@ -205,7 +206,7 @@ nav ul#icemegamenu ul.icesubMenu li.iceMenuLiLevel_2 .icemega_modulewrap .custom
 {
 	overflow: hidden;
 }
-nav ul#icemegamenu ul.icesubMenu li.iceMenuLiLevel_2 .icemega_modulewrap a
+nav ul#icemegamenu ul.icesubMenu li.iceMenuLiLevel_2 .icemega_modulewrap a span
 {
 	font-size: 1.2em;
 }
@@ -389,6 +390,10 @@ section#content .noticias .nspMain a.readon:hover
 {
 	color: #903;
 }
+section#content .tabs_sociales
+{
+	margin-bottom: 20px;
+}
 section#content .tabs_sociales .gkTabsNav li
 {
 	background-image: linear-gradient(bottom, rgb(0,97,97) 30%, rgb(70,171,166) 70%, rgb(63,171,157) 85%);
@@ -456,7 +461,46 @@ section#content .tabs_sociales .gallery-flickr ul li a
 {
 	margin: 0 5px 10px;
 }
-
+section#content .moduletable.encuesta,
+section#content .ninos
+{
+	float: left;
+}
+section#content .moduletable.encuesta
+{
+	background: #9e1031; 
+	background-image: linear-gradient(bottom, #9e1031 30%, #75012e 80%);
+	background-image: -o-linear-gradient(bottom, #9e1031 30%, #75012e 80%);
+	background-image: -moz-linear-gradient(bottom, #9e1031 30%, #75012e 80%);
+	background-image: -webkit-linear-gradient(bottom, #9e1031 30%, #75012e 80%);
+	background-image: -ms-linear-gradient(bottom, #9e1031 30%, #75012e 80%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.3, #9e1031), color-stop(0.8, #75012e));
+	border-radius: 10px;
+	color: #FFF;
+	margin-right: 10px;
+	padding: 15px 15px;
+	width: 250px;
+}
+section#content .moduletable.encuesta h4
+{
+	
+	font-size: 1.3em;
+	margin-bottom: 10px;
+}
+section#content .moduletable.encuesta #poll_buttons_1
+{
+	float:right;
+}
+section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
+{
+	background: #309693;
+	border: none;
+	border-radius: 5px;
+	color: #FFF;
+	font-size: 1.2em;
+	padding: 7px;
+	text-transform: uppercase;
+}
 .article-info
 {
 	list-style: none;
@@ -501,20 +545,19 @@ section#content .tabs_sociales .gallery-flickr ul li a
 }
 #header_image_controls
 {
-	top: 185px;
+	float: right;
 	height: 20px;
-	left: 50%;
-	margin-left: -480px;
-	position: absolute;
-	width: 960px;
-	z-index: 500;
+	padding-bottom: 5px;
+	padding-right: 5px;
 }
 #header_image_controls a
 {
 	background: #2F9492;
-	background-image: radial-gradient(50% 50%, ellipse closest-side, #006161, #3fab9d 100%);
-	-webkit-background-image: radial-gradient(50% 50%, ellipse closest-side, #006161, #3fab9d 100%);
+	background-image: radial-gradient(70% 50%, ellipse closest-side, #FFF, #ccc 100%);
+	background-image: -webkit-radial-gradient(50% 50%, ellipse closest-side, #FFF , #ccc 100%);
+	background-image: -moz-radial-gradient(50% 50%, ellipse closest-side, #FFF, #ccc 100%);
 	border-radius: 10px;
+	box-shadow: 1px 1px 6px #333;
 	display: block;
 	float: left;
 	height: 15px;
@@ -522,6 +565,16 @@ section#content .tabs_sociales .gallery-flickr ul li a
 	text-indent: -9999px;
 	width: 15px;
 
+}
+#header_image_controls a:hover, 
+#header_image_controls a.active
+{
+	background-image: linear-gradient(bottom, #006161 0%, #3fab9d  60%);
+	background-image: -o-linear-gradient(bottom, #006161 0%, #3fab9d  60%);
+	background-image: -moz-linear-gradient(bottom, #006161 0%, #3fab9d  60%);
+	background-image: -webkit-linear-gradient(bottom, #006161 0%, #3fab9d 60%);
+	background-image: -ms-linear-gradient(bottom, #006161 0%, #3fab9d  60%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #006161), color-stop(0.6, #3fab9d));
 }
 #lateral
 {
