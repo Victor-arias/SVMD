@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="plugin"
+	version="2.5"
+	client="site"
+	group="system"
+	method="upgrade">
+    <name>System - Hit Counter</name>
+    <author>Andrew Astenos</author>
+    <creationDate>May 24, 2012</creationDate>
+    <copyright>Copyright (C) 2005 - 2012 Open Source Matters. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenseses/gpl-2.0.html GNU/GPL or later</license>
+    <authorEmail>parpaitas1987@yahoo.com</authorEmail>
+    <authorUrl>www.ajleeonline.com</authorUrl>
+    <version>2.5</version>
+	<description>Module Hit Counter is a simple module that embeds a rotating odometer style hit counter on your site showing how many visitors your site has. The plugin allows you to choose from a number of different styles</description>
+	
+    <files>
+        <filename plugin="hitcounter">hitcounter.php</filename>
+		<filename plugin="hitcounter">index.html</filename>
+        <filename plugin="hitcounter">install.sql</filename>
+		<filename plugin="hitcounter">uninstall.sql</filename>
+    </files>
+    
+	<install>
+		<sql>
+			<file charset="utf8" driver="mysql">install.sql</file>
+		</sql>
+    </install>
+	
+    <uninstall>
+		<sql>
+			<file charset="utf8" driver="mysql">uninstall.sql</file>
+		</sql>
+    </uninstall>
+    
+    <config>
+    	<fields name="params">
+    		<fieldset name="basic">
+    			
+    		</fieldset>
+    	</fields>
+    </config>
+</extension>

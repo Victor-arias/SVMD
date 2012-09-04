@@ -21,8 +21,10 @@ $home = false;
 if ($menu->getActive() == $menu->getDefault()) {
 	$home = true;
 }
-
-
+$lateral = false;
+if($this->countModules('lateral')){
+	$lateral = true;
+}
 //SLIDER
 $slidePath = 'images/encabezado';
 $slides = array();
@@ -163,10 +165,12 @@ $urls = substr(trim($urls), 0, -1);
 				</div>
 			<?php else: ?>
 				<jdoc:include type="modules" name="breadcrumbs" style="none" />
-				<div id="lateral">
-					<jdoc:include type="modules" name="lateral" style="xhtml" />
-				</div>
-				<div id="main_content">
+				<?php if($lateral): ?>
+					<div id="lateral">
+						<jdoc:include type="modules" name="lateral" style="xhtml" />
+					</div>
+				<?php endif; ?>
+				<div id="main_content" <?php if(!$lateral): ?>class="full"<?php endif; ?> >
 					<jdoc:include type="component" />
 				</div>
 			<?php endif; ?>

@@ -33,14 +33,25 @@ if (!empty($this->item->pagination) AND $this->item->pagination && !$this->item-
  ?>
 
 <?php if ($params->get('show_title')) : ?>
-	<h2>
-	<?php if ($params->get('link_titles') && !empty($this->item->readmore_link)) : ?>
-		<a href="<?php echo $this->item->readmore_link; ?>">
-		<?php echo $this->escape($this->item->title); ?></a>
-	<?php else : ?>
-		<?php echo $this->escape($this->item->title); ?>
+	<?php if (!$this->params->get('show_page_heading', 1)) : ?>
+		<h1>
+		<?php if ($params->get('link_titles') && !empty($this->item->readmore_link)) : ?>
+			<a href="<?php echo $this->item->readmore_link; ?>">
+			<?php echo $this->escape($this->item->title); ?></a>
+		<?php else : ?>
+			<?php echo $this->escape($this->item->title); ?>
+		<?php endif; ?>
+		</h1>
+	<?php else: ?>
+		<h2>
+		<?php if ($params->get('link_titles') && !empty($this->item->readmore_link)) : ?>
+			<a href="<?php echo $this->item->readmore_link; ?>">
+			<?php echo $this->escape($this->item->title); ?></a>
+		<?php else : ?>
+			<?php echo $this->escape($this->item->title); ?>
+		<?php endif; ?>
+		</h2>
 	<?php endif; ?>
-	</h2>
 <?php endif; ?>
 
 <?php if ($canEdit ||  $params->get('show_print_icon') || $params->get('show_email_icon')) : ?>

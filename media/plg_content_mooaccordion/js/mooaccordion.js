@@ -64,17 +64,25 @@ window.addEvent('domready',function(){
                 containeroptions['onActive']=function(toggler) {
                     if(typeof(contentmooaccordion[containerid]['openedclass'])!='undefined') {
                         toggler.addClass(contentmooaccordion[containerid]['openedclass']);
+                    }else{
+                       toggler.addClass('active'); 
                     }
                     if(typeof(contentmooaccordion[containerid]['closedclass'])!='undefined') {
                         toggler.removeClass(contentmooaccordion[containerid]['closedclass']);
+                    }else{
+                        toggler.removeClass('active');
                     }
                 };
                 containeroptions['onBackground']=function(toggler) {
                     if(typeof(contentmooaccordion[containerid]['openedclass'])!='undefined') {
                         toggler.removeClass(contentmooaccordion[containerid]['openedclass']);
+                    }else{
+                        toggler.removeClass('active');
                     }
                     if(typeof(contentmooaccordion[containerid]['closedclass'])!='undefined') {
                         toggler.addClass(contentmooaccordion[containerid]['closedclass']);
+                    }else{
+                       toggler.addClass('active'); 
                     }
                 };
             }

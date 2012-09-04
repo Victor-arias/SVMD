@@ -1,39 +1,42 @@
 <?php
 /**
  * @package		Joomla.Site
- * @subpackage	Templates.beez5
+ * @subpackage	Templates.va_isvimed
  * @copyright	Copyright (C) 2005 - 2009 Open Source Matters, Inc. All rights reserved.
  * @license		GNU General Public License version 2 or later; see LICENSE.txt
  */
 
 // no direct access
 defined('_JEXEC') or die;
-$app = JFactory::getApplication();
-$templateparams =$app->getTemplate(true)->params;
-
-if ($templateparams->get('html5')!=1)
-{
-	require JPATH_BASE.'/components/com_content/views/category/tmpl/blog.php';
-	//evtl. ersetzen durch JPATH_COMPONENT.'/views/...'
-} else {
 JHtml::addIncludePath(JPATH_COMPONENT . '/helpers');
 $cparams = JComponentHelper::getParams('com_media');
-
-// If the page class is defined, add to class as suffix.
-// It will be a separate class if the user starts it with a space
 ?>
 <section class="blog<?php echo $this->pageclass_sfx;?>">
-<?php if ($this->params->get('show_page_heading')!=0 or $this->params->get('show_category_title')): ?>
-<h1>
-	<?php echo $this->escape($this->params->get('page_heading')); ?>
-	<?php if ($this->params->get('show_category_title'))
-	{
 
-		echo '<span class="subheading-category">'.$this->category->title.'</span>';
-	}
-	?>
-</h1>
-<?php endif; ?>
+
+<?php if ($this->params->get('show_page_heading', 1)) : ?>
+	<h1>
+		<?php echo $this->escape($this->params->get('page_heading')); ?>
+	</h1>
+	<?php endif; ?>
+
+	<?php if ($this->params->get('show_category_title', 1) or $this->params->get('page_subheading')) : ?>
+	<?php if (!$this->params->get('show_page_heading', 1)) : ?>
+		<h1>
+			<?php echo $this->escape($this->params->get('page_subheading')); ?>
+			<?php if ($this->params->get('show_category_title')) : ?>
+				<span class="subheading-category"><?php echo $this->category->title;?></span>
+			<?php endif; ?>
+		</h1>
+	<?php else: ?>
+		<h2>
+			<?php echo $this->escape($this->params->get('page_subheading')); ?>
+			<?php if ($this->params->get('show_category_title')) : ?>
+				<span class="subheading-category"><?php echo $this->category->title;?></span>
+			<?php endif; ?>
+		</h2>
+	<?php endif; ?>
+	<?php endif ?>
 
 <?php if ($this->params->get('show_description', 1) || $this->params->def('show_description_image', 1)) : ?>
 	<div class="category-desc">
@@ -121,10 +124,10 @@ $cparams = JComponentHelper::getParams('com_media');
 						</p>
 
 				<?php endif; ?>
+				<div id="pagination">
 				<?php echo $this->pagination->getPagesLinks(); ?>
+				</div>
 		</div>
 <?php  endif; ?>
 
 </section>
-
-<?php } ?>
