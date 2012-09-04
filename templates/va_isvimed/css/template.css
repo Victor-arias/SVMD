@@ -6,8 +6,8 @@ footer
 {
 	background: #FFF;
 	clear: both;
-	height: 130px;
 	margin-top: 25px;
+	overflow: hidden;
 	padding: 20px 30px;
 }
 footer dt, footer dd
@@ -16,7 +16,11 @@ footer dt, footer dd
 }
 footer .f_left, footer .f_right
 {
-	width: 48%;
+	width: 57%;
+}
+footer .f_right
+{
+	width: 43%;
 }
 footer .logos ul
 {
@@ -26,9 +30,16 @@ footer .logos ul
 footer .logos li
 {
 	float: left;
-	height: 70px;
-	margin: 0 15px 15px 0;
-	width: 70px;
+	height: 60px;
+	margin: 0 0 15px 20px;
+}
+footer .logos li a
+{
+	opacity: 0.8;
+}
+footer .logos li a:hover
+{
+	opacity: 1;
 }
 header
 {
@@ -682,6 +693,10 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 	margin-top: 10px;
 	text-align: center;
 }
+#copyright a
+{
+	color: #FFF;
+}
 #header_image
 {
 	height: 330px;
@@ -781,7 +796,8 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 #main_content.full
 {
 	float: none;
-	width: 98%;
+	width: 94%;
+	padding: 0 2% 2%;
 }
 #main_content h1
 {
