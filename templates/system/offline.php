@@ -8,34 +8,51 @@
 defined('_JEXEC') or die;
 $app = JFactory::getApplication();
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>">
+<!doctype html>
+<html>
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
 	<jdoc:include type="head" />
 	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/offline.css" type="text/css" />
 	<?php if ($this->direction == 'rtl') : ?>
 	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/offline_rtl.css" type="text/css" />
 	<?php endif; ?>
 	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/general.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/css/style.css">
 </head>
 <body>
 <jdoc:include type="message" />
+<div id="fixed">
+	<div id="header">
+		<h1><img src="img/isvimed.png" alt="ISVIMED" width="400" height="331"/></h1>
+		<h2><img src="img/en-construccion.png" alt="Página en construcción" /></h2>
+	</div>
+	<div id="main" role="main">
+		<h3><img src="img/logo-alcaldia-armas.png" alt="Alcaldía de medellín" width="283" height="95"/></h3>
+		<div id="form">
+			<iframe allowtransparency="true" src="http://www.jotformpro.com/form/21446881380961" frameborder="0" style="width:100%; height:450px; border:none;" scrolling="no"></iframe>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="fleft">
+			<p>Acérquese a nuestra entidad:<br />
+			<address>Calle 47D # 75-240</address> (Detrás del velódromo) o a nuestro punto de atención en el sótano de la Alcaldía, taquilla 53.</p>
+			<p><strong>PBX: 4304310</strong></p>
+			<p>Todos los derechos reservados - <strong>ISVIMED 2012</strong></p>
+		</div>
+		<div class="fright">
+			<a class="contratacion" href="http://www.contratos.gov.co">Contratación</a>
+		</div>
+	</div>
+</div>
+<script>
+	var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+	s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
 	<div id="frame" class="outline">
-		<?php if ($app->getCfg('offline_image')) : ?>
-		<img src="<?php echo $app->getCfg('offline_image'); ?>" alt="<?php echo htmlspecialchars($app->getCfg('sitename')); ?>" />
-		<?php endif; ?>
-		<h1>
-			<?php echo htmlspecialchars($app->getCfg('sitename')); ?>
-		</h1>
-	<?php if ($app->getCfg('display_offline_message', 1) == 1 && str_replace(' ', '', $app->getCfg('offline_message')) != ''): ?>
-		<p>
-			<?php echo $app->getCfg('offline_message'); ?>
-		</p>
-	<?php elseif ($app->getCfg('display_offline_message', 1) == 2 && str_replace(' ', '', JText::_('JOFFLINE_MESSAGE')) != ''): ?>
-		<p>
-			<?php echo JText::_('JOFFLINE_MESSAGE'); ?>
-		</p>
-	<?php  endif; ?>
 	<form action="<?php echo JRoute::_('index.php', true); ?>" method="post" id="form-login">
 	<fieldset class="input">
 		<p id="form-login-username">
