@@ -36,6 +36,7 @@
 		<position>middle</position>
 		<position>bottom-left</position>
 		<position>bottom-right</position>
+		<position>quick-bar</position>
 		<position>footer-left</position>
 		<position>footer-right</position>
 		<position>copyright</position>

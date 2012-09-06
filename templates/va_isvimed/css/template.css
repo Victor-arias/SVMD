@@ -380,6 +380,10 @@ section#content #middle > div
 {
 	float: left;
 }
+section#content #bottom
+{
+	overflow: hidden;
+}
 section#content #bottom > div
 {
 	overflow: hidden;
@@ -393,6 +397,17 @@ section#content #bottom > div:nth-child(1)
 section#content #bottom > div:nth-child(2)
 {
 	padding-left: 1%;
+}
+section#content #quick-bar 
+{
+	clear: both;
+	margin: 20px 0;
+	overflow: hidden;
+}
+section#content #quick-bar .quick_buttons li
+{
+	float:left;
+	margin: 0 12px;
 }
 section#content .noticias
 {
@@ -633,7 +648,83 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 }
 .pagination li:last-child a
 {
+	background-image: linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
+	background-image: -o-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
+	background-image: -moz-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
+	background-image: -webkit-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
+	background-image: -ms-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.2, rgb(105,0,49)), color-stop(0.54, rgb(161,24,51)));
 	border-radius: 0;
+}
+.quick_buttons ul
+{
+	list-style: none;
+	margin: 0;
+}
+.quick_buttons li
+{
+	height: 65px;
+	width: 210px;
+}
+.quick_buttons li:before
+{
+	background: url(../images/quick-buttons.png) no-repeat;
+	content: "";
+	display: block;
+	float:left;
+	height: 62px;
+	width: 62px;
+}
+.quick_buttons li a
+{
+	display: block;
+	height: 100%;
+	padding-top: 14px;
+	text-decoration: none;
+	/*width: 170px;*/
+}
+.quick_buttons li a span
+{
+	background-image: linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
+	background-image: -o-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
+	background-image: -moz-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
+	background-image: -webkit-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
+	background-image: -ms-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.2, rgb(105,0,49)), color-stop(0.54, rgb(161,24,51)));
+	color: #FFF;
+	display: block;
+	font-size: 1.1em;
+	height: 29px;
+	line-height: 1;
+	margin-left: 30px;
+	padding: 5px 10px 0;
+	text-align: center;
+	width: 160px;
+}
+.quick_buttons li a:hover span
+{
+	background-image: linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
+	background-image: -o-linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
+	background-image: -moz-linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
+	background-image: -webkit-linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
+	background-image: -ms-linear-gradie	nt(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
+	background-image: -webkit-gradient(linear, left bottom,	left top, color-stop(0.2, rgb(4,99,99)), color-stop(0.54, rgb(80,171,173)));
+}
+.quick_buttons li.servicios_ciudadano:before
+{
+	background-position: 0 0;
+}
+.quick_buttons li.denuncie:before
+{
+	background-position: 0 -100px;
+}
+.quick_buttons li.contratacion:before
+{
+	background-position: 0 -300px;
+}
+.quick_buttons li.calendario:before
+{
+	background-position: 0 -200px;
 }
 .search-results h2,
 .search-results p
@@ -676,6 +767,41 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 {
 	background: #a5d4d2;
 }
+.siguenos ul
+{
+	overflow: hidden;
+	padding-left: 5px;
+}
+.siguenos li
+{
+	float: left;
+}
+.siguenos li a
+{
+	background: url('../images/social_icons_tabs.png') no-repeat;
+	display: block;
+	height: 30px;
+	opacity: 0.8;
+	padding: 0 5px;
+	text-indent: -9999px;
+	width: 30px;
+}
+.siguenos li a:hover
+{
+	opacity: 1;
+}
+.siguenos li a.facebook
+{
+	background-position: 0px 0px;
+}
+.siguenos li a.twitter
+{
+	background-position: 0px -51px;
+}
+.siguenos li a.flickr
+{
+	background-position: 0px -101px;
+}
 #pagination{
 	float: right;
 	left: -50%;
@@ -685,7 +811,11 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 {
 	margin: 0;
 }
-
+#aiContactSafeForm label
+{
+	color: #000;
+	font-size: 1.2em;
+}
 #copyright
 {
 	clear: both;
@@ -751,17 +881,25 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 	margin: 0 20px;
 	width: 180px;
 }
+#lateral h3
+{
+	border-bottom: 2px solid #9E2841;
+	color: #49ADA8;
+	font-size: 1.7em;
+	font-weight: normal;
+	margin-bottom: 14px;
+	padding-left: 5px;
+}
+#lateral .moduletable
+{
+	margin-bottom: 25px;
+}
 #lateral ul
 {
 	list-style: none;
 	margin: 0;
 }
-#lateral ul > li
-{
-	
-	
-}
-#lateral ul > li a
+#lateral ul.menu > li a
 {
 	background: #dff0f0;
 	border-bottom: thin solid #b8cccc;
@@ -769,18 +907,29 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 	display:block;
 	padding: 12px;
 }
-#lateral ul > li a:hover,
-#lateral ul > li.active a
+#lateral ul.menu > li a:hover,
+#lateral ul.menu > li.active a
 {
 	background: #49ada8;
 	border-bottom: thin solid #a7d4cc;
 	color: #FFF;
 	
 }
-#lateral ul > li.active a
+#lateral ul.menu > li.active a
 {
 	background: #49ada8 url(../images/arrow.png) no-repeat 10px center;
 	padding-left: 24px;
+}
+#lateral .quick_buttons li
+{
+	width: 180px;
+}
+#lateral .quick_buttons li a span
+{
+	font-size: 0.9em;
+	height: 28px;
+	padding: 6px 4px 0;
+	width: 142px;
 }
 #main
 {
@@ -893,6 +1042,37 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 	display: block;
 	text-decoration: none;
 	padding: 10px;
+}
+#main_content .extra_fields > div
+{
+	background: url(../images/arrow.png) no-repeat 15px 11px;
+	overflow: hidden;
+	padding: 8px 15px 8px 30px;
+}
+#main_content .extra_fields > div:nth-child(odd)
+{
+	background-color: #dedede;
+}
+#main_content .extra_fields > div span
+{
+	display: block;
+	float: left;
+}
+#main_content .extra_fields > div span.title
+{
+	color: #000;
+	font-size: 1.2em;
+	width: 170px;
+}
+#main_content .extra_fields > div span.value
+{
+	color: #575757;
+	font-size: 1.1em;
+	width: 495px;
+}
+#main_content .extra_fields > div p
+{
+	display: none;
 }
 #searchForm .phrases-box
 {

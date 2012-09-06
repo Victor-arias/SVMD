@@ -155,6 +155,7 @@ $urls = substr(trim($urls), 0, -1);
 				<div id="middle">
 					<jdoc:include type="modules" name="middle" style="none" />
 				</div>
+
 				<div id="bottom">
 					<div class="f_left">
 						<jdoc:include type="modules" name="bottom-left" style="xhtml" />
@@ -162,6 +163,9 @@ $urls = substr(trim($urls), 0, -1);
 					<div class="f_right">
 						<jdoc:include type="modules" name="bottom-right" style="xhtml" />
 					</div>
+				</div>
+				<div id="quick-bar">
+					<jdoc:include type="modules" name="quick-bar" style="none" />
 				</div>
 			<?php else: ?>
 				<jdoc:include type="modules" name="breadcrumbs" style="none" />

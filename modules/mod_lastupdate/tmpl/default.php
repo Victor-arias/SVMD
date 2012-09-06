@@ -10,7 +10,7 @@ defined('_JEXEC') or die('Restricted access');
 
 function modLastUpdateRenderOutput($times, &$params) {
 	$dateformat	= trim( $params->get('dateformat') );
-	$result 	= $params->get('pretext','');
+	$result = $params->get('pretext','').'<br />';
 	$offset		= (int) $params->get('timeoffset',0);
 	//var_dump($times);
 	foreach($times as $name => $time) {
