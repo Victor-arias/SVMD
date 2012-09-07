@@ -57,9 +57,9 @@ class plgContentPlg_zoomin extends JPlugin
 		$headtag    = array();	
 		$doc =& JFactory::getDocument();
 		if( !defined('PPC_JQUERY_INC') ){			
-			$doc->addScript($hs_base.'ppc.safejquery.start.js');
+			/*$doc->addScript($hs_base.'ppc.safejquery.start.js');
 			$doc->addScript($hs_base.'jquery-1.5.min.js');
-			$doc->addScript($hs_base.'ppc.safejquery.end.js');
+			$doc->addScript($hs_base.'ppc.safejquery.end.js');*/
 			define('PPC_JQUERY_INC', 1);
 		}
 		

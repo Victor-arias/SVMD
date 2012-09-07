@@ -172,15 +172,15 @@ nav ul#icemegamenu ul
 }
 nav ul#icemegamenu #iceMenu_112 ul.icesubMenu
 {
-	left: -210px;
+	left: -145px;
 }
 nav ul#icemegamenu #iceMenu_117 ul.icesubMenu
 {
-	left: -514px;
+	left: -115px;
 }
 nav ul#icemegamenu #iceMenu_118 ul.icesubMenu
 {
-	left: -209px;
+	left: -390px;
 }
 nav ul#icemegamenu ul.icesubMenu li.iceMenuLiLevel_2 
 {
@@ -206,7 +206,7 @@ nav ul#icemegamenu ul.icesubMenu li.iceMenuLiLevel_2 > a.iceMenuTitle span
 }
 nav ul#icemegamenu ul.icesubMenu li.iceMenuLiLevel_2 .icemega_cover_module
 {
-	min-height: 100px;
+	min-height: 75px;
 }
 nav ul#icemegamenu ul.icesubMenu li.iceMenuLiLevel_2 .icemega_cover_module:hover
 {
@@ -221,9 +221,16 @@ nav ul#icemegamenu ul.icesubMenu li.iceMenuLiLevel_2 .icemega_modulewrap .custom
 {
 	overflow: hidden;
 }
+nav ul#icemegamenu ul.icesubMenu li.iceMenuLiLevel_2 .icemega_modulewrap a
+{
+	display: block;
+	overflow: hidden;
+}
 nav ul#icemegamenu ul.icesubMenu li.iceMenuLiLevel_2 .icemega_modulewrap a span
 {
-	font-size: 1.2em;
+	font-size: 1.6em;
+	position: absolute;
+	top: 37%;
 }
 nav ul#icemegamenu ul.icesubMenu li.iceMenuLiLevel_2 .icemega_modulewrap img
 {
@@ -672,8 +679,8 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 	content: "";
 	display: block;
 	float:left;
-	height: 62px;
-	width: 62px;
+	height: 61px;
+	width: 59px;
 }
 .quick_buttons li a
 {
@@ -927,9 +934,15 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 #lateral .quick_buttons li a span
 {
 	font-size: 0.9em;
-	height: 28px;
-	padding: 6px 4px 0;
-	width: 142px;
+	height: 30px;
+	padding: 5px 3px 0 0;
+	width: 150px;
+}
+#lateral .quick_buttons li:nth-child(2) a span,
+#lateral .quick_buttons li:nth-child(3) a span
+{
+	height: 22px;
+	padding-top: 13px;
 }
 #main
 {
@@ -981,6 +994,10 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 {
 	color: #a11833;
 }
+#main_content h3
+{
+	margin: 10px 0;
+}
 #main_content h3.mooaccordion
 {
 	background: #dff0f0 url(../images/arrow-down.png) no-repeat right center;
@@ -992,6 +1009,10 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 {
 	background-color: #49ADA8;
 	color: #FFF;
+}
+#main_content h4
+{
+	margin: 5px 0 10px;
 }
 #main_content ol,
 #main_content ul
@@ -1070,9 +1091,37 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 	font-size: 1.1em;
 	width: 495px;
 }
-#main_content .extra_fields > div p
+#main_content .extra_fields > p
 {
 	display: none;
+}
+#main_content .fsf_main .fsj_tip,
+#main_content .fsf_main .fsf_glossary_word
+{
+	background: #FFF;
+	color: #9E2841;
+	font-style: italic;
+}
+#main_content .fsf_main .faq_category_head
+{
+	background: #DFF0F0 url(../images/arrow-down.png) no-repeat right center;
+	cursor: pointer;
+	margin-bottom: 10px;
+	padding: 9px 46px 9px 12px;
+}
+#main_content .fsf_main .faq_category_head:hover
+{
+	background-color: #49ADA8;
+}
+#main_content .fsf_main .faq_category_head a
+{
+	color: #000;
+	font-size: 18px;
+}
+#main_content .fsf_main .faq_category_head:hover a
+{
+	background: none;
+	color: #FFF;
 }
 #searchForm .phrases-box
 {

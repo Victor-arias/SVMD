@@ -56,7 +56,7 @@ $document->addStyleSheet($css);
 
 if (!JFactory::getApplication()->get('jquery')) {
 	JFactory::getApplication()->set('jquery', true);
-	$document->addScript( JURI::base().'/components/com_fsf/assets/js/jquery.1.6.2.min.js' );
+	//$document->addScript( JURI::base().'/components/com_fsf/assets/js/jquery.1.6.2.min.js' );
 }
 $document->addScript( JURI::base().'/components/com_fsf/assets/js/main.js' );
 // Perform the Request task

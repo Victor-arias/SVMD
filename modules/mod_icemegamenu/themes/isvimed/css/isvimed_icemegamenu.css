@@ -305,7 +305,7 @@ div.icemegamenu #icemegamenu ul.icesubMenu li.active a span {
 	position:relative; 
 	overflow:hidden; 
 	width:auto!important;
-	padding:10px 10px}
+	padding:10px 10px 0;}
 	div#subMenusContainer .icemega_cover_module {
 		padding-left:0;
 		padding-right:0}
