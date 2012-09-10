@@ -21,8 +21,8 @@
 		<fields name="params">
 			<fieldset name="basic">
 				<field name="dateformat" type="text" default="%d-%m-%Y %H:%M" label="DATEFORMAT" description="DATEFORMAT_DESC" />
-				<field name="pretext" type="text" default="Last Update: " label="PRETEXT" description="PRETEXT_DESC" /> 
-				<field name="posttext" type="text" default=" " label="POSTTEXT" description="POSTTEXT_DESC" /> 
+				<field name="pretext" type="text" default="" label="PRETEXT" description="PRETEXT_DESC" /> 
+				<field name="posttext" type="text" default="" label="POSTTEXT" description="POSTTEXT_DESC" /> 
 				<field name="timeoffset" type="text" default="0" label="TIMEOFFSET" description="TIMEOFFSET_DESC" /> 
 				<field name="@spacer" type="spacer" default="" label="" description="" />
 				<field name="publishedfilter" type="radio" default="1" label="Hide unpublished items" description="Allows to exclude unpublished items from processing.	*** This 100% affects only content processing, extension integrators may not support this, depending on a version. See the hints for each extension for more detailed information.">

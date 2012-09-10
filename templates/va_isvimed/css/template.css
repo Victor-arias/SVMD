@@ -20,7 +20,8 @@ footer .f_left, footer .f_right
 }
 footer .f_right
 {
-	width: 43%;
+	border-left: thin solid #999;
+	width: 42%;
 }
 footer .logos ul
 {
@@ -84,6 +85,12 @@ header #logos .logos_gobierno li a
 }
 nav
 {
+	background-image: linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
+	background-image: -o-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
+	background-image: -moz-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
+	background-image: -webkit-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
+	background-image: -ms-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.2, rgb(105,0,49)), color-stop(0.54, rgb(161,24,51)));
 	height: 54px;
 	width: 100%;
 }
@@ -1223,12 +1230,12 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 }
 #top .top_menu li
 {
-	border-right: thin solid #999; /*temp*/
+	border-right: thin solid #999;
 	float:left;
 }
 #top .top_menu li:last-child
 {
-	border-right: none
+	border-right: none;
 	float:left;
 }
 #top .top_menu li a

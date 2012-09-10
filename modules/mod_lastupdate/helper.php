@@ -25,32 +25,32 @@ class modLastUpdateHelper {
 		if ($virtuemart) {
 			$_time = self::getTimeFromVirtuemart();
 			//echo "-$virtuemart=$vmtime";
-			if ($virtuemart == 1) $time["General update"] = ($time["General update"] > $_time) ? $time["General update"] : $_time;
+			if ($virtuemart == 1) $time["Última actualización"] = ($time["Última actualización"] > $_time) ? $time["Última actualización"] : $_time;
 			else $time["Store"] = $_time;
 		}
 		if ($joomfish) {
 			$_time = self::getTimeFromJoomfish();
-			if ($joomfish == 1) $time["General update"] = ($time["General update"] > $_time) ? $time["General update"] : $_time;
+			if ($joomfish == 1) $time["Última actualización"] = ($time["Última actualización"] > $_time) ? $time["Última actualización"] : $_time;
 			else $time["Translation"] = $_time;
 		}
 		if ($joomgallery) {
 			$_time = self::getTimeFromJoomgallery();
-			if ($joomgallery == 1) $time["General update"] = ($time["General update"] > $_time) ? $time["General update"] : $_time;
+			if ($joomgallery == 1) $time["Última actualización"] = ($time["Última actualización"] > $_time) ? $time["Última actualización"] : $_time;
 			else $time["JoomGallery"] = $_time;
 		}
 		if ($docman) {
 			$_time = self::getTimeFromDocman();
-			if ($joomgallery == 1) $time["General update"] = ($time["General update"] > $_time) ? $time["General update"] : $_time;
+			if ($joomgallery == 1) $time["Última actualización"] = ($time["Última actualización"] > $_time) ? $time["Última actualización"] : $_time;
 			else $time["File repository"] = $_time;
 		}
 		if ($weblinks) {
 			$_time = self::getTimeFromWeblinks();
-			if ($joomgallery == 1) $time["General update"] = ($time["General update"] > $_time) ? $time["General update"] : $_time;
+			if ($joomgallery == 1) $time["Última actualización"] = ($time["Última actualización"] > $_time) ? $time["Última actualización"] : $_time;
 			else $time["Links"] = $_time;
 		}
 		if ($users) {
 			$_time = self::getTimeFromUsers();
-			if ($joomgallery == 1) $time["General update"] = ($time["General update"] > $_time) ? $time["General update"] : $_time;
+			if ($joomgallery == 1) $time["Última actualización"] = ($time["Última actualización"] > $_time) ? $time["Última actualización"] : $_time;
 			else $time["Last registration"] = $_time;
 		}
 		
