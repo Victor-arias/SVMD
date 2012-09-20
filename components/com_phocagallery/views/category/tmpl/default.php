@@ -201,5 +201,5 @@ if ($this->tmpl['detailwindow'] == 6) {
 }
 
 echo '<div>&nbsp;</div>';
-echo $this->tmpl['dsf'];
+//echo $this->tmpl['dsf'];
 ?>

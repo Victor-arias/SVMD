@@ -1,0 +1,23 @@
+header #logos,
+#top > .search div.search,
+#top > .search .inputbox:focus,
+#top > .search .inputbox:hover,
+#top > .search .button:hover
+{
+	background-image: url(../images/bg_white.png) repeat-x;
+}
+nav
+{
+	background-image: url(../images/bg_nav.png) repeat-x;
+	background-position: 0 -51px;
+}
+nav ul#icemegamenu > li > a
+{
+	background-image: url(../images/bg_nav.png) repeat-x;
+	background-position: 0 -51px;
+}
+nav ul#icemegamenu > li > a:hover,
+nav ul#icemegamenu > li.active > a
+{
+	background-position: left top;
+}

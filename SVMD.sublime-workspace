@@ -1,0 +1,481 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"get_the_",
+				"get_the_ID"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"borde",
+				"border-bottom"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"in",
+				"ingredientes"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"t",
+				"text"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"sock",
+				"sockets"
+			],
+			[
+				"n",
+				"nombre"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "templates/va_isvimed/css/template.css",
+			"settings":
+			{
+				"buffer_size": 31605,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 227.0,
+		"selected_items":
+		[
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"sort",
+				"Sort Lines (Case Sensitive)"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"re",
+				"Sort Lines (Case Sensitive)"
+			],
+			[
+				"in",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"syntax",
+				"Set Syntax: Perl"
+			],
+			[
+				"syntax: Pe",
+				"Set Syntax: Perl"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/custom.css",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/plugins/wp-thumbie/wp-thumbie.php",
+		"/Users/telemedellin/Desktop/VA/m.telemedellin.tv/Sitio/administrator/components/com_mobilejoomla/imagerescaler.class.php",
+		"/Users/telemedellin/Desktop/VA/m.telemedellin.tv/Sitio/templates/mobile_pda/css/custom.css",
+		"/Users/telemedellin/Desktop/VA/m.telemedellin.tv/Sitio/templates/mobile_pda/index.php",
+		"/Users/telemedellin/Desktop/VA/m.telemedellin.tv/Sitio/administrator/components/com_mobilejoomla/mobilejoomla.class.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/mod_news_pro_gk4/gk_classes/gk.source.k2.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/mod_news_pro_gk4/helper.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/style1.css",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/mod_news_pro_gk4/tmpl/layout.parts.php",
+		"/Users/telemedellin/Desktop/VA/m.telemedellin.tv/Sitio/index.php",
+		"/Users/telemedellin/Desktop/VA/m.telemedellin.tv/Sitio/configuration.php",
+		"/Users/telemedellin/Desktop/VA/F/tkmt/tekemate/controllers/administracion/fotografia.php",
+		"/Users/telemedellin/Desktop/VA/F/tkmt/tekemate/views/tekemate/fotografia.php",
+		"/Users/telemedellin/Desktop/VA/Telemedellin.tv/htmldenuestrosprogramas/programas.html",
+		"/Users/telemedellin/Desktop/VA/Telemedellin.tv/htmldenuestrosprogramas/nprogramas.css",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/mod_news_pro_gk4/tmpl/content.portal.mode.4.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/mod_news_pro_gk4/mod_news_pro_gk4.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/mod_news_pro_gk4/tmpl/default.portal.mode.1.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/mod_news_pro_gk4/tmpl/content.portal.mode.1.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/mod_news_pro_gk4/tmpl/content.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/mod_news_pro_gk4/tmpl/default.portal.mode.4.php",
+		"/Users/telemedellin/Desktop/untitled.html",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/index.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/plugins/youtube-sidebar-widget/youtube-sidebar-widget.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/plugins/hey-its-a-flickr-widget/heyitsflickr.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/css/template.css",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/css/gk.stuff.css",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/html/com_k2/templates/default/category.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/css/k2.css",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/css/style1.css",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/yamidoo_pro/js/my_script.js",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/layouts/blocks/footer.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/component.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/changes.txt",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/curl.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/mod_rokajaxsearch/themes/light/rokajaxsearch-theme.css",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/mod_rokajaxsearch/themes/blue/rokajaxsearch-theme.css",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/html/com_k2/templates/default/tag.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/html/com_k2/templates/default/category_item.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/html/com_k2/templates/default/item.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/com_k2/views/item/tmpl/item.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/com_k2/templates/profile.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/com_k2/views/itemlist/tmpl/generic_item.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/html/com_k2/templates/default/category_item_links.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/html/com_k2/templates/default/latest_item.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/html/com_k2/templates/default/latest.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/mod_rokajaxsearch/css/rokajaxsearch.css",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/layouts/default.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/layouts/blocks/social.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/layouts/blocks/head.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/layouts/blocks/top.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/layouts/blocks/logo.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/layouts/blocks/main.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/layouts/blocks/header.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/mobile_pack_base/header.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/mobile_pack_base/searchform.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/mobile_pack_base/style.css",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/mobile_pack_base/index.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/yamidoo_pro/index.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/untitled.html",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/print.css",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Recursos/social media icons/90a0a7e25c267afe2579b100a147babc/sprites.css",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/footer.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/yamidoo_pro/single.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/yamidoo_pro/custom.css",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/yamidoo_pro/style.css",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/plugins/facebook-comments-plugin/facebook-comments.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/yamidoo_pro/comments.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/mobile_pack_base/comments.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/mobile_pack_base/groups/nokia_high/index.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/plugins/addthis/addthis_social_widget.php",
+		"/Users/telemedellin/Desktop/VA/Vergara/configuration.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/mobile_pack_base/functions_persist.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/mobile_pack_base/functions.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/twentyeleven/index.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/yamidoo_pro/functions.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/yamidoo_pro/functions/wpzoom-core.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/yamidoo_pro/functions/wpzoom-functions.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/mobile_pack_base/footer.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/mobile_pack_base/wpmp_theme_theme_admin.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/mobile_pack_base/links.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/mobile_pack_base/group_detection.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/yamidoo_pro/footer.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/mobile_pack_base/style_structure.css",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/mobile_pack_base/style.css.nokia.css",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/mobile_pack_base/groups/nokia_high/styles/baseStyles.css",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/mobile_pack_base/groups/nokia_high/header.php",
+		"/Users/telemedellin/Desktop/VA/_HTML5 mejorando.la/Mejorando.la-Pizza/estilos.css",
+		"/Users/telemedellin/Desktop/VA/_HTML5 mejorando.la/Mejorando.la-Pizza/index.html",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/mobile_pack_base/groups/nokia_low/header.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/mobile_pack_base/groups/nokia_mid/header.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/archive.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/mobile_pack_base/groups/nokia_high/styles/baseStyles.css",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/mobile_pack_base/style.css",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/functions/wpzoom-core.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/wpzoom_admin/admin_functions.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/template-blog.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/404.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/template-fullwidth.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/wpzoom-blocks.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/header.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Antiguo/wp-content/themes/zbench/untitled.html",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/plugins/hey-its-a-flickr-widget/heyitsflickr.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/plugins/youtube-sidebar-widget/script.js",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/js/my_script.js",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/js/tabs.js",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/js/dropdown.js",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/js/slider.js",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Antiguo/wp-content/themes/zbench/style.css",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/footer.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/wpzoom-featured.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/search.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-config.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-settings.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sitio/wp-content/themes/yamidoo_pro/index.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sitio/wp-content/themes/yamidoo_pro/archive.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/.htaccess",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sitio/.htaccess",
+		"/Users/telemedellin/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/telemedellin/Desktop/VA/_HTML5 mejorando.la/Mejorando.la-Pizza/codiguito.js",
+		"/Users/telemedellin/Desktop/VA/_HTML5 mejorando.la/Mejorando.la-Pizza/servidor.js",
+		"/Users/telemedellin/Desktop/VA/_HTML5 mejorando.la/Mejorando.la-Pizza/.htaccess",
+		"/Users/telemedellin/Desktop/VA/_HTML5 mejorando.la/Ejercicios/index.html"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"recent",
+			"sidebar",
+			"$scaletype",
+			"forced_width",
+			"rescaleImage",
+			"RescaleImages",
+			"$scaletype",
+			"$scaledimage_width",
+			"ImageRescaler::$scaledimage_width",
+			"$scale",
+			"$dest_width",
+			"$dest_imagepath",
+			"$dest_imagedir",
+			"thumbdir",
+			"Resized",
+			"/2",
+			"echo",
+			"0",
+			"<p",
+			"$news_textt",
+			"k2",
+			"text",
+			"prin",
+			"external",
+			"/*VA",
+			"VA",
+			"playl",
+			"play",
+			"simplexml_load_string",
+			"curl_it",
+			"playlist",
+			"lof",
+			".nspArt",
+			".nsp",
+			"nsp",
+			"gkFo",
+			"-5",
+			"itemL",
+			"itemListLinks",
+			"itemContainer",
+			"itemListLinks",
+			"padding",
+			"follow",
+			"#gkSearch_logo",
+			"middle",
+			"middl",
+			"middle",
+			"http://www.insightcrime.org/pruebas/target/",
+			"middle",
+			"#gkSearch_logo",
+			"gkSearchL",
+			"h3",
+			"comments",
+			"h3",
+			"comme",
+			"powered",
+			"by",
+			"comments_template",
+			"comment",
+			"commen",
+			"comme",
+			"$post",
+			"post",
+			"have_",
+			"have_post",
+			"loop",
+			"more",
+			"thumbna",
+			"do_not_duplicate",
+			"Number of Pictures to Display:",
+			"console",
+			"<?php echo $img ?>"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<?php echo trim($img) ?>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "templates/va_isvimed/css/template.css",
+					"settings":
+					{
+						"buffer_size": 31605,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19059,
+								19059
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 9688.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 274.0,
+	"status_bar_visible": true
+}

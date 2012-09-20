@@ -16,12 +16,12 @@ footer dt, footer dd
 }
 footer .f_left, footer .f_right
 {
-	width: 57%;
+	width: 56%;
 }
 footer .f_right
 {
 	border-left: thin solid #999;
-	width: 42%;
+	width: 43%;
 }
 footer .logos ul
 {
@@ -85,6 +85,7 @@ header #logos .logos_gobierno li a
 }
 nav
 {
+	background-color: #A11833;
 	background-image: linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
 	background-image: -o-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
 	background-image: -moz-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
@@ -106,6 +107,7 @@ nav ul#icemegamenu > li:last-child
 }
 nav ul#icemegamenu > li > a
 {
+	background-color: #A11833;
 	background-image: linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
 	background-image: -o-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
 	background-image: -moz-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
@@ -124,6 +126,7 @@ nav ul#icemegamenu > li > a
 nav ul#icemegamenu > li > a:hover,
 nav ul#icemegamenu > li.active > a
 {
+	background-color: #50a9ab;
 	background-image: linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
 	background-image: -o-linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
 	background-image: -moz-linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
@@ -277,6 +280,7 @@ section#content .acceso_rapido a
 }
 section#content .acceso_rapido a div
 {
+	background-color: #3fab9c;
 	background-image: linear-gradient(bottom, rgb(0,97,97) 30%, rgb(70,171,166) 70%, rgb(63,171,157) 85%);
 	background-image: -o-linear-gradient(bottom, rgb(0,97,97) 30%, rgb(70,171,166) 70%, rgb(63,171,157) 85%);
 	background-image: -moz-linear-gradient(bottom, rgb(0,97,97) 30%, rgb(70,171,166) 70%, rgb(63,171,157) 85%);
@@ -290,6 +294,7 @@ section#content .acceso_rapido a div
 }
 section#content .acceso_rapido a span
 {
+	background-color: #d4d4d4;
 	background-image: linear-gradient(bottom, rgb(250,250,250) 30%, rgb(212,212,212) 70%);
 	background-image: -o-linear-gradient(bottom, rgb(250,250,250) 30%, rgb(212,212,212) 70%);
 	background-image: -moz-linear-gradient(bottom, rgb(250,250,250) 30%, rgb(212,212,212) 70%);
@@ -337,6 +342,15 @@ section#content #slider125 .slide-desc
 	top: 10px;
 	width: 45%;
 }
+section#content #slider125 li img
+{
+	-webkit-border-bottom-right-radius: 80px;
+	-webkit-border-bottom-left-radius: 80px;
+	-moz-border-radius-bottomright: 80px;
+	-moz-border-radius-bottomleft: 80px;
+	border-bottom-right-radius: 80px;
+	border-bottom-left-radius: 80px;
+}
 section#content .slide-desc-bg
 {
 	background: none;
@@ -360,7 +374,7 @@ section#content #cust-navigation125
 }
 section#content #cust-navigation125 span.load-button
 {
-	background: #2F9492;
+	background-color: #ccc;
 	background-image: radial-gradient(50% 50%, ellipse closest-side, #FFF, #ccc 100%);
 	background-image: -webkit-radial-gradient(50% 50%, ellipse closest-side, #FFF , #ccc 100%);
 	background-image: -moz-radial-gradient(50% 50%, ellipse closest-side, #FFF, #ccc 100%);
@@ -374,6 +388,7 @@ section#content #cust-navigation125 span.load-button
 section#content #cust-navigation125 span.load-button:hover,
 section#content #cust-navigation125 span.load-button-active
 {
+	background-color: #3fab9d; 
 	background-image: linear-gradient(bottom, #006161 0%, #3fab9d  60%);
 	background-image: -o-linear-gradient(bottom, #006161 0%, #3fab9d  60%);
 	background-image: -moz-linear-gradient(bottom, #006161 0%, #3fab9d  60%);
@@ -434,6 +449,7 @@ section#content .noticias
 }
 section#content .noticias h3
 {
+	background-color: #3fab9c;
 	background-image: linear-gradient(bottom, rgb(0,97,97) 30%, rgb(70,171,166) 70%, rgb(63,171,157) 85%);
 	background-image: -o-linear-gradient(bottom, rgb(0,97,97) 30%, rgb(70,171,166) 70%, rgb(63,171,157) 85%);
 	background-image: -moz-linear-gradient(bottom, rgb(0,97,97) 30%, rgb(70,171,166) 70%, rgb(63,171,157) 85%);
@@ -493,6 +509,7 @@ section#content .tabs_sociales
 }
 section#content .tabs_sociales .gkTabsNav li
 {
+	background-color: #3fab9c;
 	background-image: linear-gradient(bottom, rgb(0,97,97) 30%, rgb(70,171,166) 70%, rgb(63,171,157) 85%);
 	background-image: -o-linear-gradient(bottom, rgb(0,97,97) 30%, rgb(70,171,166) 70%, rgb(63,171,157) 85%);
 	background-image: -moz-linear-gradient(bottom, rgb(0,97,97) 30%, rgb(70,171,166) 70%, rgb(63,171,157) 85%);
@@ -565,7 +582,7 @@ section#content .ninos
 }
 section#content .moduletable.encuesta
 {
-	background: #9e1031; 
+	background: #A11833; 
 	background-image: linear-gradient(bottom, #9e1031 30%, #75012e 80%);
 	background-image: -o-linear-gradient(bottom, #9e1031 30%, #75012e 80%);
 	background-image: -moz-linear-gradient(bottom, #9e1031 30%, #75012e 80%);
@@ -610,6 +627,10 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 {
 
 }
+.pagination
+{
+	margin-left: -50%;
+}
 .pagination .counter
 {
 	text-align: center;
@@ -637,6 +658,7 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 .pagination ul li.pagination-next span,
 .pagination ul li.pagination-end span
 {
+	background-color: #a11831;
 	background-image: linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
 	background-image: -o-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
 	background-image: -moz-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
@@ -653,6 +675,7 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 .pagination ul li a:hover,
 .pagination ul li span
 {
+	background-color: #50a9ab;
 	background-image: linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
 	background-image: -o-linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
 	background-image: -moz-linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
@@ -662,6 +685,7 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 }
 .pagination li:last-child a
 {
+	background-color: #a11831;
 	background-image: linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
 	background-image: -o-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
 	background-image: -moz-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
@@ -670,6 +694,7 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.2, rgb(105,0,49)), color-stop(0.54, rgb(161,24,51)));
 	border-radius: 0;
 }
+.pd-ctitle{display: none;}
 .quick_buttons ul
 {
 	list-style: none;
@@ -699,6 +724,7 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 }
 .quick_buttons li a span
 {
+	background-color: #a11831;
 	background-image: linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
 	background-image: -o-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
 	background-image: -moz-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
@@ -717,6 +743,7 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 }
 .quick_buttons li a:hover span
 {
+	background-color: #50a9ab;
 	background-image: linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
 	background-image: -o-linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
 	background-image: -moz-linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
@@ -767,6 +794,7 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 }
 .search-results .result-text
 {
+	background-color: #ebf5f4;
 	background-image: linear-gradient(bottom, white 30%, #ebf5f4 10%);
 	background-image: -o-linear-gradient(bottom, white 30%, #ebf5f4 10%);
 	background-image: -moz-linear-gradient(bottom, white 30%, #ebf5f4 10%);
@@ -830,6 +858,31 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 	color: #000;
 	font-size: 1.2em;
 }
+#aiContactSafeForm #aiContactSafeSendButton
+{
+	background-color: #a11831;
+	background-image: linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
+	background-image: -o-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
+	background-image: -moz-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
+	background-image: -webkit-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
+	background-image: -ms-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.2, rgb(105,0,49)), color-stop(0.54, rgb(161,24,51)));
+	border: none;
+	color: #FFF;
+	display: block;
+	line-height: 18px;
+	padding: 3px 10px;
+}
+#aiContactSafeForm #aiContactSafeSendButton:hover
+{
+	background-color: #50a9ab;
+	background-image: linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
+	background-image: -o-linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
+	background-image: -moz-linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
+	background-image: -webkit-linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
+	background-image: -ms-linear-gradie	nt(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
+	background-image: -webkit-gradient(linear, left bottom,	left top, color-stop(0.2, rgb(4,99,99)), color-stop(0.54, rgb(80,171,173)));
+}
 #copyright
 {
 	clear: both;
@@ -863,7 +916,7 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 }
 #header_image_controls a
 {
-	background: #2F9492;
+	background: #ccc;
 	background-image: radial-gradient(50% 50%, ellipse closest-side, #FFF, #ccc 100%);
 	background-image: -webkit-radial-gradient(50% 50%, ellipse closest-side, #FFF , #ccc 100%);
 	background-image: -moz-radial-gradient(50% 50%, ellipse closest-side, #FFF, #ccc 100%);
@@ -882,6 +935,7 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 #header_image_controls a:hover, 
 #header_image_controls a.active
 {
+	background-color: #3fab9d;
 	background-image: linear-gradient(bottom, #006161 0%, #3fab9d  60%);
 	background-image: -o-linear-gradient(bottom, #006161 0%, #3fab9d  60%);
 	background-image: -moz-linear-gradient(bottom, #006161 0%, #3fab9d  60%);
@@ -945,7 +999,6 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 	padding: 5px 3px 0 0;
 	width: 150px;
 }
-#lateral .quick_buttons li:nth-child(2) a span,
 #lateral .quick_buttons li:nth-child(3) a span
 {
 	height: 22px;
@@ -981,6 +1034,7 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 }
 #main_content article.item
 {
+	background-color: #fff;
 	background-image: linear-gradient(bottom, #FFF 30%, #edf5f3 10%);
 	background-image: -o-linear-gradient(bottom, #FFF 30%, #edf5f3 10%);
 	background-image: -moz-linear-gradient(bottom, #FFF 30%, #edf5f3 10%);
@@ -1047,6 +1101,7 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 }
 #main_content .readmore
 {
+	background-color: #a11831;
 	background-image: linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
 	background-image: -o-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
 	background-image: -moz-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
@@ -1057,6 +1112,7 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 }
 #main_content .readmore:hover
 {
+	background-color: #50a9ab;
 	background-image: linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
 	background-image: -o-linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
 	background-image: -moz-linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
@@ -1130,6 +1186,88 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 	background: none;
 	color: #FFF;
 }
+#phoca-dl-category-box .pd-button-download a
+{
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-o-border-radius: 0;
+	-webkit-border-radius: 0;
+	box-shadow: 0;
+	-moz-box-shadow: 0;
+	-o-box-shadow: 0;
+	-webkit-box-shadow: 0;
+
+}
+#phoca-dl-file-box #pdlicensesubmit,
+#phoca-dl-category-box .pd-button-download a
+{
+	background-color: #a11831;
+	background-image: linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
+	background-image: -o-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
+	background-image: -moz-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
+	background-image: -webkit-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
+	background-image: -ms-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.2, rgb(105,0,49)), color-stop(0.54, rgb(161,24,51)));
+	border: none;
+	color: #FFF;
+	display: block;
+	line-height: 18px;
+	padding: 3px 10px;
+}
+#phoca-dl-file-box #pdlicensesubmit:hover,
+#phoca-dl-category-box .pd-button-download a:hover
+{
+	background-color: #50a9ab;
+	background-image: linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
+	background-image: -o-linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
+	background-image: -moz-linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
+	background-image: -webkit-linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
+	background-image: -ms-linear-gradie	nt(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
+	background-image: -webkit-gradient(linear, left bottom,	left top, color-stop(0.2, rgb(4,99,99)), color-stop(0.54, rgb(80,171,173)));
+}
+#phocagallery .pg-cats-box
+{
+	padding: 0 10px 10px;
+}
+#phocagallery .pg-cats-box-float
+{
+	min-height: 250px;
+}
+#phocagallery .pg-cats-box-img a
+{
+	display: block;
+	text-align: center;
+}
+#phocagallery .pg-cats-name
+{
+	padding-top: 10px;
+	text-align: center;
+}
+#searchForm .button
+{
+	background-color: #a11831;
+	background-image: linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
+	background-image: -o-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
+	background-image: -moz-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
+	background-image: -webkit-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
+	background-image: -ms-linear-gradient(bottom, rgb(105,0,49) 20%, rgb(161,24,51) 54%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.2, rgb(105,0,49)), color-stop(0.54, rgb(161,24,51)));
+	border: none;
+	color: #FFF;
+	line-height: 18px;
+	padding: 5px 10px;
+	vertical-align: top;
+}
+#searchForm .button:hover
+{
+	background-color: #50a9ab;
+	background-image: linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
+	background-image: -o-linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
+	background-image: -moz-linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
+	background-image: -webkit-linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
+	background-image: -ms-linear-gradie	nt(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
+	background-image: -webkit-gradient(linear, left bottom,	left top, color-stop(0.2, rgb(4,99,99)), color-stop(0.54, rgb(80,171,173)));
+}
 #searchForm .phrases-box
 {
 	margin-bottom: 20px;	
@@ -1181,7 +1319,6 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 }
 #top > .search
 {
-	background: rgba(0, 0, 0, 0.2);
 	float: right;
 	height: 29px;
 	padding: 1px 1px 0;

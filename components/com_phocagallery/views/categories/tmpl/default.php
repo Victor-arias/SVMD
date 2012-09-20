@@ -72,4 +72,4 @@ if (count($this->categories)) {
 }
 
 echo '</form></div>';
-echo PhocaGalleryUtils::footer();
+//echo PhocaGalleryUtils::footer();
