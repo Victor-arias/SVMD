@@ -493,7 +493,8 @@ section#content .noticias .nspMain .nspInfo
 }
 section#content .noticias .nspMain .nspText
 {
-	float: left;
+	/*float: left;*/
+	margin-top: 34px;
 }
 section#content .noticias .nspMain a.readon
 {
@@ -1382,7 +1383,8 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 	display: block;
 	padding: 6px 10px;
 }
-#top .top_menu li a:hover
+#top .top_menu li a:hover, 
+#top .top_menu li.active a
 {
-	background: rgba(255, 255, 255, 0.8);
+	background: rgba(255, 255, 255, 0.9);
 }
