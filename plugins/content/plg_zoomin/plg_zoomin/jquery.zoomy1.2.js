@@ -1,7 +1,5 @@
-
 /*
  *  	Zoomy 1.2 - jQuery plugin
-
  *	http://redeyeops.com/plugins/zoomy
  *
  *	Copyright (c) 2010 Jacob Lowe (http://redeyeoperations.com)
@@ -16,7 +14,6 @@
  *
  */
 (function(jQuery){
-        
 // global zoomys state, Indexed, 0 = no zoom, 1 = zoom;    
 
 var ZoomyState = [];
@@ -189,9 +186,9 @@ var ZoomyState = [];
 
 	zoomLeave = function(ele, zoom){
 	    if (zoom.attr('id') !== 'brokeZoomy' && !zoom.find('img').length ) {
-		setTimeout(function () {
-			zoom.hide();
-		},100);
+			setTimeout(function () {
+				zoom.hide();
+			},100);
 	    }
 	},
 
@@ -199,8 +196,8 @@ var ZoomyState = [];
 	//includes mouse move event
 	startZoom = function(ele, zoom) {
 	    var ratio = function(x, y){
-		var z = x/y;
-		return z;
+			var z = x/y;
+			return z;
 	    },
 	    l = ele.offset(),
 	    zoomImgX = parseInt(ele.attr('x'), 10),
@@ -213,29 +210,29 @@ var ZoomyState = [];
 	    ratioY = ratio(tnImgY,zoomImgY),
 	    stop = Math.round(halfSize - (halfSize * ratioX)),
 	    stopPos = function(x){
-		var p = (x - zoomSize) + stop;
-		return p;
+			var p = (x - zoomSize) + stop;
+			return p;
 	    },
 	    rightStop = stopPos(tnImgX),
 	    bottomStop = stopPos(tnImgY),
 	    zoomY = zoomImgY - zoomSize,
 	    zoomX = zoomImgX - zoomSize,
 	    mousePos = function(x,y){
-		var p = x-y-halfSize;	
-		return p;
+			var p = x-y-halfSize;	
+			return p;
 	    },
-	    zoomPos = function(x,y,z){
-		var p = Math.round((x - y) / z)-halfSize;
-		return p;
+		    zoomPos = function(x,y,z){
+			var p = Math.round((x - y) / z)-halfSize;
+			return p;
 	    },
 	    cdCreate = function(a,b,c,d,e,f){
-		var bgPos = a+b+'px '+c+d+'px',
-		o = {
-		    backgroundPosition: bgPos,
-		    left: e,
-		    top: f
-		};
-		return o;
+			var bgPos = a+b+'px '+c+d+'px',
+			o = {
+			    backgroundPosition: bgPos,
+			    left: e,
+			    top: f
+			};
+			return o;
 	    };
 	    
 	    // mouse move event
@@ -248,24 +245,24 @@ var ZoomyState = [];
 		    leftX = zoomPos(e.pageX,l.left,ratioX),
 		    topY = zoomPos(e.pageY,l.top,ratioY),
 		    arrPosb = [
-			['-', leftX,'-',topY,posX,posY],
-			['',0,'-',topY,-stop,posY],
-			['',0,'',0,-stop,-stop],
-			['',0,'-',zoomY,-stop,bottomStop],
-			['-',leftX,'',0,posX,-stop],
-			['-',zoomX,'',0,rightStop,-stop],
-			['-',zoomX,'-',topY,rightStop,posY],
-			['-',zoomX,'-',zoomY,rightStop,bottomStop],
-			['-',leftX,'-',zoomY,posX,bottomStop]
+				['-', leftX,'-',topY,posX,posY],
+				['',0,'-',topY,-stop,posY],
+				['',0,'',0,-stop,-stop],
+				['',0,'-',zoomY,-stop,bottomStop],
+				['-',leftX,'',0,posX,-stop],
+				['-',zoomX,'',0,rightStop,-stop],
+				['-',zoomX,'-',topY,rightStop,posY],
+				['-',zoomX,'-',zoomY,rightStop,bottomStop],
+				['-',leftX,'-',zoomY,posX,bottomStop]
 		    ],
 		    cssArrOfObj = function(){
-			var ar = [];
-			for ( i=0; i < arrPosb.length; i++) {
-			    var ap = arrPosb[i],
-			    posb = cdCreate(ap[0],ap[1],ap[2],ap[3],ap[4],ap[5]);
-			    ar.push(posb);
-			}
-			return ar;
+				var ar = [];
+				for ( i=0; i < arrPosb.length; i++) {
+				    var ap = arrPosb[i],
+				    posb = cdCreate(ap[0],ap[1],ap[2],ap[3],ap[4],ap[5]);
+				    ar.push(posb);
+				}
+				return ar;
 		    },	
 		    a = -stop <= posX,
 		    e2 = -stop > posX,
