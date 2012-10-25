@@ -71,6 +71,31 @@ div#aiContactSafe_mainbody_4 textarea#aics_message {
 	width:350px;
 	height:80px;
 }
+div#aiContactSafe_mainbody_4 input#aics_nombre_denunciante{
+	width:350px;
+}
+div#aiContactSafe_mainbody_4 input#aics_telefono{
+	width:350px;
+}
+div#aiContactSafe_mainbody_4 input#aics_celular{
+	width:350px;
+}
+div#aiContactSafe_mainbody_4 input#aics_direccion_falso_vip{
+	width:350px;
+}
+div#aiContactSafe_mainbody_4 input#aics_barrio{
+	width:350px;
+}
+div#aiContactSafe_mainbody_4 input#aics_nombre_proyecto{
+	width:350px;
+}
+div#aiContactSafe_mainbody_4 input#aics_constructora{
+	width:350px;
+}
+div#aiContactSafe_mainbody_4 textarea#aics_comentarios{
+	width:350px;
+}
+
 
 /* set the way labels and fields are displayed */
 div#aiContactSafe_mainbody_4 div.aiContactSafe_row {
@@ -115,7 +140,6 @@ div#aiContactSafe_mainbody_4 div#div_captcha_info {
 /* set the way the text counting the characters in the edit box */
 div#aiContactSafe_mainbody_4 div.countdown_div {
 	font-size:9px;
-float: right;
 }
 div#aiContactSafe_mainbody_4 input.countdown_editbox {
 	font-size:9px;
@@ -123,8 +147,6 @@ div#aiContactSafe_mainbody_4 input.countdown_editbox {
 	border:none;
 	overflow:visible;
 	background:transparent;
-width: 25px;
-margin-bottom: 0;
 }
 
 /* set the cells containig the contact form and the contact information */
@@ -151,7 +173,7 @@ div#aiContactSafe_mainbody_4 div.aiContactSafe_row_hidden {
 
 /* make the buttons higher */
 div#aiContactSafe_mainbody_4 div#aiContactSafeBtns input {
-	float: right;
+float: right;	
 padding:5px;
 	margin:0px;
 margin-right: 90px;

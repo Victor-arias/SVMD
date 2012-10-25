@@ -12,10 +12,6 @@ class JConfig {
 	public $debug = '0';
 	public $debug_lang = '0';
 	public $dbtype = 'mysqli';
-	/*public $host = 'localhost';
-	public $user = 'telemede_isvimed';
-	public $password = '1sV1M3D*';
-	public $db = 'telemede_isvimed';*/
 	public $host = 'mysql.isvimed.gov.co';
 	public $user = 'isvimed';
 	public $password = 'kenshin';
@@ -23,18 +19,18 @@ class JConfig {
 	public $dbprefix = 'isv_';
 	public $live_site = '';
 	public $secret = 'fPP0UJXQApwALGxK';
-	public $gzip = '0';
+	public $gzip = '1';
 	public $error_reporting = 'default';
 	public $helpurl = 'http://help.joomla.org/proxy/index.php?option=com_help&keyref=Help{major}{minor}:{keyref}';
-	public $ftp_host = '127.0.0.1';
+	public $ftp_host = 'sadalsuud.dreamhost.com';
 	public $ftp_port = '21';
-	public $ftp_user = '';
-	public $ftp_pass = '';
+	public $ftp_user = 'isvimed';
+	public $ftp_pass = 'kenshin';
 	public $ftp_root = '';
 	public $ftp_enable = '0';
-	public $offset = 'UTC';
+	public $offset = 'America/Bogota';
 	public $mailer = 'mail';
-	public $mailfrom = 'vicky.lozano@isvimed.gov.co';
+	public $mailfrom = 'info@isvimed.gov.co';
 	public $fromname = 'ISVIMED';
 	public $sendmail = '/usr/sbin/sendmail';
 	public $smtpauth = '0';
@@ -43,7 +39,7 @@ class JConfig {
 	public $smtphost = 'localhost';
 	public $smtpsecure = 'none';
 	public $smtpport = '25';
-	public $caching = '0';
+	public $caching = '2';
 	public $cache_handler = 'file';
 	public $cachetime = '15';
 	public $MetaDesc = '';
@@ -57,8 +53,8 @@ class JConfig {
 	public $sef_suffix = '0';
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
-	public $log_path = '/home/telemede/public_html/isvimed/logs';
-	public $tmp_path = '/home/telemede/public_html/isvimed/tmp';
+	public $log_path = '/home/isvimed/isvimed.gov.co/logs';
+	public $tmp_path = '/home/isvimed/isvimed.gov.co/tmp';
 	public $lifetime = '30';
 	public $session_handler = 'database';
 	public $MetaRights = '';

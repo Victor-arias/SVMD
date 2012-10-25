@@ -1,0 +1,23 @@
+[15-Aug-2012 17:30:44] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/telemede/public_html/pruebas/templates/va_isvimed/index.php on line 78
+[16-Aug-2012 14:41:12] PHP Fatal error:  Class 'modLastUpdateHelper' not found in /home/telemede/public_html/pruebas/modules/mod_lastupdate/mod_lastupdate.php on line 24
+[16-Aug-2012 14:41:37] PHP Fatal error:  Class 'modLastUpdateHelper' not found in /home/telemede/public_html/pruebas/modules/mod_lastupdate/mod_lastupdate.php on line 24
+[16-Aug-2012 14:41:38] PHP Fatal error:  Class 'modLastUpdateHelper' not found in /home/telemede/public_html/pruebas/modules/mod_lastupdate/mod_lastupdate.php on line 24
+[16-Aug-2012 14:41:39] PHP Fatal error:  Class 'modLastUpdateHelper' not found in /home/telemede/public_html/pruebas/modules/mod_lastupdate/mod_lastupdate.php on line 24
+[16-Aug-2012 14:41:39] PHP Fatal error:  Class 'modLastUpdateHelper' not found in /home/telemede/public_html/pruebas/modules/mod_lastupdate/mod_lastupdate.php on line 24
+[16-Aug-2012 14:41:39] PHP Fatal error:  Class 'modLastUpdateHelper' not found in /home/telemede/public_html/pruebas/modules/mod_lastupdate/mod_lastupdate.php on line 24
+[16-Aug-2012 14:41:39] PHP Fatal error:  Class 'modLastUpdateHelper' not found in /home/telemede/public_html/pruebas/modules/mod_lastupdate/mod_lastupdate.php on line 24
+[16-Aug-2012 14:42:48] PHP Fatal error:  Class 'modLastUpdateHelper' not found in /home/telemede/public_html/pruebas/modules/mod_lastupdate/mod_lastupdate.php on line 24
+[16-Aug-2012 14:42:52] PHP Fatal error:  Class 'modLastUpdateHelper' not found in /home/telemede/public_html/pruebas/modules/mod_lastupdate/mod_lastupdate.php on line 24
+[16-Aug-2012 14:43:00] PHP Fatal error:  Class 'modLastUpdateHelper' not found in /home/telemede/public_html/pruebas/modules/mod_lastupdate/mod_lastupdate.php on line 24
+[16-Aug-2012 14:43:18] PHP Fatal error:  Class 'modLastUpdateHelper' not found in /home/telemede/public_html/pruebas/modules/mod_lastupdate/mod_lastupdate.php on line 24
+[16-Aug-2012 14:43:30] PHP Fatal error:  Class 'modLastUpdateHelper' not found in /home/telemede/public_html/pruebas/modules/mod_lastupdate/mod_lastupdate.php on line 24
+[16-Aug-2012 15:05:58] PHP Parse error:  syntax error, unexpected ';' in /home/telemede/public_html/pruebas/templates/va_isvimed/html/mod_lastupdate/default.php on line 13
+[17-Aug-2012 15:34:51] PHP Fatal error:  Call to undefined method JHtml::aliIncludePath() in /home/telemede/public_html/pruebas/templates/va_isvimed/html/com_content/category/blog_item.php on line 16
+[17-Aug-2012 15:34:53] PHP Fatal error:  Call to undefined method JHtml::aliIncludePath() in /home/telemede/public_html/pruebas/templates/va_isvimed/html/com_content/category/blog_item.php on line 16
+[17-Aug-2012 15:38:43] PHP Fatal error:  Call to undefined method JHtml::aliIncludePath() in /home/telemede/public_html/pruebas/templates/va_isvimed/html/com_content/category/blog_item.php on line 16
+[22-Aug-2012 17:08:18] PHP Fatal error:  Cannot access protected property JoomlaRokMenuNode::$params in /home/telemede/public_html/pruebas/modules/mod_roknavmenu/themes/default/layout.php on line 36
+[22-Aug-2012 17:08:46] PHP Fatal error:  Cannot access protected property JoomlaRokMenuNode::$params in /home/telemede/public_html/pruebas/modules/mod_roknavmenu/themes/default/layout.php on line 36
+[23-Aug-2012 09:33:40] PHP Parse error:  syntax error, unexpected $end in /home/telemede/public_html/pruebas/modules/mod_icemegamenu/libs/menucore.php on line 478
+[31-Aug-2012 16:27:00] PHP Parse error:  syntax error, unexpected '}' in /home/telemede/public_html/pruebas/templates/va_isvimed/html/com_content/category/blog.php on line 119
+[04-Sep-2012 14:55:18] PHP Fatal error:  Class 'JParameter' not found in /home/telemede/public_html/pruebas/components/com_aicontactsafe/views/message/view.html.php on line 849
+[04-Sep-2012 14:55:23] PHP Fatal error:  Class 'JParameter' not found in /home/telemede/public_html/pruebas/components/com_aicontactsafe/views/message/view.html.php on line 849

@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"sessio",
+				"session_start"
+			],
+			[
+				"inser",
+				"insertar_mensaje"
+			],
+			[
+				"mysql_in",
+				"mysql_insert_id"
+			],
+			[
+				"mysql_fetch_",
+				"mysql_fetch_object"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"mysql_s",
+				"mysql_select_db"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
 				"paddi",
 				"padding-bottom"
 			],
@@ -32,14 +72,6 @@
 				"padding-bottom"
 			],
 			[
-				"text-",
-				"text-decoration"
-			],
-			[
-				"text",
-				"text-decoration"
-			],
-			[
 				"get_the_",
 				"get_the_ID"
 			],
@@ -62,10 +94,6 @@
 			[
 				"bor",
 				"border-radius"
-			],
-			[
-				"in",
-				"ingredientes"
 			],
 			[
 				"inl",
@@ -92,10 +120,42 @@
 	"buffers":
 	[
 		{
-			"file": "templates/va_isvimed/css/template.css",
+			"file": "/Users/telemedellin/Desktop/VA/Telemedellin.tv/15s/Lluvia de sobres/test.php",
 			"settings":
 			{
-				"buffer_size": 31605,
+				"buffer_size": 199,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/telemedellin/Desktop/VA/Telemedellin.tv/15s/Lluvia de sobres/php/db.php",
+			"settings":
+			{
+				"buffer_size": 2009,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/telemedellin/Desktop/VA/Telemedellin.tv/15s/Lluvia de sobres/js/script.js",
+			"settings":
+			{
+				"buffer_size": 7899,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/telemedellin/Desktop/VA/Telemedellin.tv/15s/Lluvia de sobres/css/style.css",
+			"settings":
+			{
+				"buffer_size": 2789,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/va_isvimed/html/com_content/category/blog_item.php",
+			"settings":
+			{
+				"buffer_size": 7018,
 				"line_ending": "Unix"
 			}
 		}
@@ -103,9 +163,17 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 227.0,
+		"height": 87.0,
 		"selected_items":
 		[
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"indn",
+				"Indentation: Convert to Spaces"
+			],
 			[
 				"rein",
 				"Indentation: Reindent Lines"
@@ -113,10 +181,6 @@
 			[
 				"sort",
 				"Sort Lines (Case Sensitive)"
-			],
-			[
-				"inden",
-				"Indentation: Reindent Lines"
 			],
 			[
 				"re",
@@ -139,7 +203,7 @@
 				"Set Syntax: Perl"
 			]
 		],
-		"width": 575.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -156,6 +220,55 @@
 	},
 	"file_history":
 	[
+		"/Users/telemedellin/Desktop/VA/Telemedellin.tv/15s/Lluvia de sobres/guardar_mensaje.php",
+		"/Users/telemedellin/Desktop/VA/Telemedellin.tv/15s/Lluvia de sobres/index.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/templates/va_isvimed/index.php",
+		"/Users/telemedellin/Desktop/index.html",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/media/plg_content_mooaccordion/js/mooaccordion.js",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/modules/mod_icemegamenu/themes/default/css/default_notjs.css",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/modules/mod_icemegamenu/themes/default/css/notjs.css",
+		"/Users/telemedellin/Downloads/jon1012-smoothgallery-205a5d5/css/jd.gallery.css",
+		"/Users/telemedellin/Downloads/jon1012-smoothgallery-205a5d5/css/layout.css",
+		"/Users/telemedellin/Desktop/VA/backup_clima.html",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/templates/va_isvimed/html/com_content/category/blog.php",
+		"/Users/telemedellin/Desktop/VA/Telemedellin.tv/15s/Lluvia de sobres/<?php",
+		"/Users/telemedellin/Desktop/VA/Telemedellin.tv/15s/contacto.php",
+		"/Users/telemedellin/Desktop/VA/Telemedellin.tv/15s/preguntas.php",
+		"/Users/telemedellin/Desktop/VA/F/Reservas_va/RegistroReservas1.php",
+		"/Users/telemedellin/Desktop/VA/F/Reservas_va/Reservas.php",
+		"/Users/telemedellin/Desktop/VA/F/Reservas_va/ReservaLogin.php",
+		"/Users/telemedellin/Desktop/VA/F/Reservas_va/RegistroReservas.php",
+		"/Users/telemedellin/Desktop/VA/Telemedellin.tv/15s/Lluvia de sobres/php/index.html",
+		"/Users/telemedellin/Desktop/VA/Telemedellin.tv/15s/Lluvia de sobres/index.html",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/configuration.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/templates/va_isvimed/css/template.css",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/modules/mod_icemegamenu/libs/menucore.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/modules/mod_icemegamenu/tmpl/js_config.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/modules/mod_icemegamenu/helper.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/templates/beez_20/index.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/modules/mod_icemegamenu/libs/elements/modules.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/modules/mod_icemegamenu/libs/elements/k2category.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/modules/mod_icemegamenu/tmpl/default.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/modules/mod_icemegamenu/mod_icemegamenu.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocadownload/views/file/tmpl/default.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/templates/va_isvimed/html/com_phocagallery/category/default.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/templates/va_isvimed/html/com_phocagallery/categories/default.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocagallery/views/category/tmpl/default.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocagallery/views/categories/tmpl/default.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocagallery/phocagallery.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocagallery/controller.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocagallery/controllers/category.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocagallery/views/category/tmpl/default_images.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocagallery/views/category/tmpl/default_categories.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocadownload/views/category/tmpl/default.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocadownload/views/categories/tmpl/default.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocadownload/views/category/tmpl/default_files.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocadownload/views/category/view.html.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocadownload/router.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocadownload/helpers/phocadownloadlayout.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocadownload/helpers/phocadownload.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocadownload/controller.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocadownload/phocadownload.php",
 		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/custom.css",
 		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/plugins/wp-thumbie/wp-thumbie.php",
 		"/Users/telemedellin/Desktop/VA/m.telemedellin.tv/Sitio/administrator/components/com_mobilejoomla/imagerescaler.class.php",
@@ -234,52 +347,7 @@
 		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/twentyeleven/index.php",
 		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/yamidoo_pro/functions.php",
 		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/yamidoo_pro/functions/wpzoom-core.php",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/yamidoo_pro/functions/wpzoom-functions.php",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/mobile_pack_base/footer.php",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/mobile_pack_base/wpmp_theme_theme_admin.php",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/mobile_pack_base/links.php",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/mobile_pack_base/group_detection.php",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/yamidoo_pro/footer.php",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/mobile_pack_base/style_structure.css",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/mobile_pack_base/style.css.nokia.css",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/mobile_pack_base/groups/nokia_high/styles/baseStyles.css",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/mobile_pack_base/groups/nokia_high/header.php",
-		"/Users/telemedellin/Desktop/VA/_HTML5 mejorando.la/Mejorando.la-Pizza/estilos.css",
-		"/Users/telemedellin/Desktop/VA/_HTML5 mejorando.la/Mejorando.la-Pizza/index.html",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/mobile_pack_base/groups/nokia_low/header.php",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/mobile_pack_base/groups/nokia_mid/header.php",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/archive.php",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/mobile_pack_base/groups/nokia_high/styles/baseStyles.css",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/mobile_pack_base/style.css",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/functions/wpzoom-core.php",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/wpzoom_admin/admin_functions.php",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/template-blog.php",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/404.php",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/template-fullwidth.php",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/wpzoom-blocks.php",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/header.php",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/Antiguo/wp-content/themes/zbench/untitled.html",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/plugins/hey-its-a-flickr-widget/heyitsflickr.php",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/plugins/youtube-sidebar-widget/script.js",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/js/my_script.js",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/js/tabs.js",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/js/dropdown.js",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/js/slider.js",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/Antiguo/wp-content/themes/zbench/style.css",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/footer.php",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/wpzoom-featured.php",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/search.php",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-config.php",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-settings.php",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sitio/wp-content/themes/yamidoo_pro/index.php",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sitio/wp-content/themes/yamidoo_pro/archive.php",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/.htaccess",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sitio/.htaccess",
-		"/Users/telemedellin/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/Users/telemedellin/Desktop/VA/_HTML5 mejorando.la/Mejorando.la-Pizza/codiguito.js",
-		"/Users/telemedellin/Desktop/VA/_HTML5 mejorando.la/Mejorando.la-Pizza/servidor.js",
-		"/Users/telemedellin/Desktop/VA/_HTML5 mejorando.la/Mejorando.la-Pizza/.htaccess",
-		"/Users/telemedellin/Desktop/VA/_HTML5 mejorando.la/Ejercicios/index.html"
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/yamidoo_pro/functions/wpzoom-functions.php"
 	],
 	"find":
 	{
@@ -287,7 +355,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
 		]
@@ -297,6 +365,23 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"000",
+			"http://www.areadigital.gov.co/ftpclima/scripts/",
+			"http://www.areadigital.gov.co/ftpclima/css/",
+			"read",
+			", ",
+			"LATERAL",
+			"slider",
+			"search",
+			"contact",
+			"gallery",
+			"phoca",
+			"phocado",
+			"pagination",
+			"#",
+			"powe",
+			"powere",
+			"powe",
 			"recent",
 			"sidebar",
 			"$scaletype",
@@ -376,6 +461,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"http://www.telemedellin.tv/clima/",
 			"<?php echo trim($img) ?>"
 		],
 		"reverse": false,
@@ -392,18 +478,99 @@
 			[
 				{
 					"buffer": 0,
-					"file": "templates/va_isvimed/css/template.css",
+					"file": "/Users/telemedellin/Desktop/VA/Telemedellin.tv/15s/Lluvia de sobres/test.php",
 					"settings":
 					{
-						"buffer_size": 31605,
+						"buffer_size": 199,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								19059,
-								19059
+								63,
+								63
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/telemedellin/Desktop/VA/Telemedellin.tv/15s/Lluvia de sobres/php/db.php",
+					"settings":
+					{
+						"buffer_size": 2009,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 175.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/telemedellin/Desktop/VA/Telemedellin.tv/15s/Lluvia de sobres/js/script.js",
+					"settings":
+					{
+						"buffer_size": 7899,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/telemedellin/Desktop/VA/Telemedellin.tv/15s/Lluvia de sobres/css/style.css",
+					"settings":
+					{
+						"buffer_size": 2789,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -412,7 +579,34 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 9688.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "templates/va_isvimed/html/com_content/category/blog_item.php",
+					"settings":
+					{
+						"buffer_size": 7018,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6505,
+								6505
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1944.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -426,7 +620,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{

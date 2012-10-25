@@ -1,10 +1,16 @@
 header #logos,
 #top > .search div.search,
+#top .top_menu li a
+{
+	background: url(../images/bg_white.png) repeat-x transparent;
+}
+#top .top_menu li a:hover, 
+#top .top_menu li.active a,
 #top > .search .inputbox:focus,
 #top > .search .inputbox:hover,
 #top > .search .button:hover
 {
-	background-image: url(../images/bg_white.png) repeat-x;
+	background: white;
 }
 nav
 {
@@ -20,4 +26,97 @@ nav ul#icemegamenu > li > a:hover,
 nav ul#icemegamenu > li.active > a
 {
 	background-position: left top;
+}
+
+/**/
+
+footer .logos li.contraloria-general
+{
+	width: 62px;
+}
+footer .logos li.procuraduria
+{
+	width: 63px;
+}
+footer .logos li.dapfp
+{
+	width: 131px;
+}
+footer .logos li.concejo
+{
+	width: 48px;
+}
+footer .logos li.personeria
+{
+	width: 62px;
+}
+footer .logos li.contraloria-medellin
+{
+	width: 100px;
+}
+footer .logos li.alcaldia
+{
+	width: 160px;
+}
+header #logos .logos_gobierno li.alcaldia
+{
+	width: 250px;
+}
+header #logos .logos_gobierno li.colombia
+{
+	width: 80px;
+}
+header #logos .logos_gobierno li.gobierno
+{
+	width: 115px;
+}
+nav ul#icemegamenu > li a.abc, nav ul#icemegamenu > li#iceMenu_102 
+{
+	width: 90px;
+}
+nav ul#icemegamenu > li a.vivienda, nav ul#icemegamenu > li#iceMenu_103 
+{
+	width: 80px;
+}
+nav ul#icemegamenu > li a.soluciones, nav ul#icemegamenu > li#iceMenu_124 
+{
+	width: 95px;
+}
+nav ul#icemegamenu > li a.mejoramiento, nav ul#icemegamenu > li#iceMenu_112 
+{
+	width: 105px;
+}
+nav ul#icemegamenu > li a.plan, nav ul#icemegamenu > li#iceMenu_222 
+{
+	width: 80px;
+}
+nav ul#icemegamenu > li a.vecinos, nav ul#icemegamenu > li#iceMenu_114 
+{
+	width: 95px;
+}
+nav ul#icemegamenu > li a.pehmed, nav ul#icemegamenu > li#iceMenu_115 
+{
+	width: 90px;
+}
+nav ul#icemegamenu > li a.evolucion, nav ul#icemegamenu > li#iceMenu_116
+{
+	width: 110px;
+}
+nav ul#icemegamenu > li a.prensa, nav ul#icemegamenu > li#iceMenu_117
+{
+	width: 85px;
+}
+nav ul#icemegamenu > li a.institucional, nav ul#icemegamenu > li#iceMenu_118
+{
+	border-right: none;
+	width: 110px;
+}
+section#content #bottom > div
+{
+	padding: 1%;
+	width: 46%;
+}
+.gallery-flickr ul li
+{
+	width: 85px;
 }

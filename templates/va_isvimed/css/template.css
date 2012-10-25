@@ -23,10 +23,15 @@ footer .f_right
 	border-left: thin solid #999;
 	width: 43%;
 }
+footer .logos
+{
+	overflow: hidden;
+}
 footer .logos ul
 {
 	list-style: none;
 	margin: 0;
+	overflow: hidden;
 }
 footer .logos li
 {
@@ -59,10 +64,12 @@ header #logos
 header #logos .logo_isvimed
 {
 	float: left;
+	width: 136px;
 }
 header #logos .logos_gobierno
 {
 	float: right;
+	width: 508px;
 }
 header #logos .logos_gobierno ul
 {
@@ -134,6 +141,10 @@ nav ul#icemegamenu > li.active > a
 	background-image: -ms-linear-gradie	nt(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
 	background-image: -webkit-gradient(linear, left bottom,	left top, color-stop(0.2, rgb(4,99,99)), color-stop(0.54, rgb(80,171,173)));
 	text-decoration: none;
+}
+nav ul#icemegamenu > li > a .iceMenuTitle
+{
+	width: auto;
 }
 nav ul#icemegamenu > li a.abc, nav ul#icemegamenu > li:nth-child(1) 
 {
@@ -212,7 +223,8 @@ nav ul#icemegamenu ul.icesubMenu li.iceMenuLiLevel_2 > a.iceMenuTitle:hover
 }
 nav ul#icemegamenu ul.icesubMenu li.iceMenuLiLevel_2 > a.iceMenuTitle span
 {
-	color: #FFF; font-size: 1.2em;
+	color: #FFF;
+	font-size: 1.2em;
 }
 nav ul#icemegamenu ul.icesubMenu li.iceMenuLiLevel_2 .icemega_cover_module
 {
@@ -408,6 +420,15 @@ section#content #middle
 section#content #middle > div
 {
 	float: left;
+	
+}
+section#content #middle .acceso_rapido
+{
+	width: 34%;
+}
+section#content #middle .contador_viviendas
+{
+	width: 66%;
 }
 section#content #bottom
 {
@@ -577,7 +598,7 @@ section#content .tabs_sociales .gallery-flickr ul li a
 	margin: 0 5px 10px;
 }
 section#content .moduletable.encuesta,
-section#content .ninos
+section#content .moduletable.ninos
 {
 	float: left;
 }
@@ -615,6 +636,10 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 	font-size: 1.2em;
 	padding: 7px;
 	text-transform: uppercase;
+}
+section#content .moduletable.ninos
+{
+	width: 150px;
 }
 .f_left
 {
@@ -1387,4 +1412,20 @@ section#content .moduletable.encuesta #poll_buttons_1 #submit_vote_1
 #top .top_menu li.active a
 {
 	background: rgba(255, 255, 255, 0.9);
+}
+#xmap ul.level_0 > li a
+{
+	font-size: 1.4em
+}
+#xmap ul.level_1 > li a
+{
+	font-size: 1.2em
+}
+#xmap ul.level_2 > li a
+{
+	font-size: 1em
+}
+#xmap ul.level_3 > li a
+{
+	font-size: 0.9em
 }

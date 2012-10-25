@@ -1,0 +1,9 @@
+header
+{
+	height: auto;
+}
+nav ul#icemegamenu > li > a
+{
+	display: block !important;
+	width: auto !important;
+}

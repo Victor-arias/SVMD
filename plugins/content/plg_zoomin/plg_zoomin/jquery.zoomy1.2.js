@@ -15,7 +15,7 @@
  *	# code has been refactored and the logic has been corrected.
  *
  */
-(function($){
+(function(jQuery){
         
 // global zoomys state, Indexed, 0 = no zoom, 1 = zoom;    
 
@@ -41,7 +41,7 @@ var ZoomyState = [];
 	    event = defaultEvent;
 	}
 	
-	options = $.extend(defaults, options);
+	options = jQuery.extend(defaults, options);
     
 	// add Zoomy
 	
@@ -51,83 +51,83 @@ var ZoomyState = [];
 	    // adds functionality with ability to zoom in and also link to another page
 	    
 	    var attribute = function(){
-		if(typeof(ele.attr(options.attr)) === 'string' && options.attr !== 'href'){
-		    return ele.attr(options.attr);
-		}else{
-		    return ele.attr('href');
-		}
+			if(typeof(ele.attr(options.attr)) === 'string' && options.attr !== 'href'){
+			    return ele.attr(options.attr);
+			}else{
+			    return ele.attr('href');
+			}
 	    },
 	    image = attribute(),
 	    cursor = function(){
-		if($.browser.mozilla){
-		    return '-moz-zoom-in';
-		}else if($.browser.webkit){
-		    return '-webkit-zoom-in';
-		}else{
-		    return 'cell';
-		}
+			if(jQuery.browser.mozilla){
+			    return '-moz-zoom-in';
+			}else if(jQuery.browser.webkit){
+			    return '-webkit-zoom-in';
+			}else{
+			    return 'cell';
+			}
 	    };
 	        
 	    ele.css({'position': 'relative', 'cursor': cursor}).append('<div class="zoomy zoom-obj-'+i+'" rel="'+i+'"><img id="tmp"/></div>');
-	    var zoom = $('.zoom-obj-'+i);
+	    var zoom = jQuery('.zoom-obj-'+i);
 	    zoomParams(ele, zoom);
 	    // load zoom image after params are set
 	    loadImage(ele, image, zoom);
 	    
 	    var eventHandler = function(){
-		var zoomDefaultText = function(x){
-		    if(options.zoomText === 'default' || options.zoomText === ''){
-			    options.zoomText = x;
-		    };
-		    return true;
-		},
-		clickablity = function(){
-		    if(!options.clickable){
-			    ele.bind('click',function(){return false;});
-		    }
-		};
-		switch(event){
-		    case 'dblclick' :
-			clickablity();
-			zoomDefaultText('Doble Click para agrandar la imagen');
-			break;
-		    case 'mouseover' || 'mouseenter' :
-			clickablity();
-			zoomDefaultText('Mouse over to Zoom in');
-			zoomBarEnter(ele);
-			break;
-		    default:
-			clickablity();
-			zoomDefaultText('Click para agrandar la imagen');
-			break;
-		}
-		//case with event to initiate the zoom
-		//support for mouseover, mouseenter click, doubleclick,
-		ele.bind(event, function(){
-		    if(ZoomyState[i] === 0){
-			zoom.css({opacity: 1}).addClass('cursorHide').show();
-			ZoomyState[i] = 1;
-			zoomBarLeave(ele, zoom);
-                        
-			    setTimeout(function () {
-				if (!zoom.find('img').length) {
-				    zoomEnter(ele, zoom, image);
-				}
-			    }, 100);
-		    }else{
-			zoom.css({opacity: 0}).removeClass('cursorHide');
-			ZoomyState[i] = 0;
-		    }
-                    
-                    //Unbind event mouse over to fix hover conflict issues 
-                    
-                    if(event === 'mouseover' || event === 'mouseenter'){
-			ele.unbind(event);
-		    }
-                    
-		    toggleClasses(ele);
-		    return false;
-		});
+			var zoomDefaultText = function(x){
+			    if(options.zoomText === 'default' || options.zoomText === ''){
+				    options.zoomText = x;
+			    };
+			    return true;
+			},
+			clickablity = function(){
+			    if(!options.clickable){
+				    ele.bind('click',function(){return false;});
+			    }
+			};
+			switch(event){
+			    case 'dblclick' :
+				clickablity();
+				zoomDefaultText('Doble Click para agrandar la imagen');
+				break;
+			    case 'mouseover' || 'mouseenter' :
+				clickablity();
+				zoomDefaultText('Mouse over to Zoom in');
+				zoomBarEnter(ele);
+				break;
+			    default:
+				clickablity();
+				zoomDefaultText('Click para agrandar la imagen');
+				break;
+			}
+			//case with event to initiate the zoom
+			//support for mouseover, mouseenter click, doubleclick,
+			ele.bind(event, function(){
+			    if(ZoomyState[i] === 0){
+					zoom.css({opacity: 1}).addClass('cursorHide').show();
+					ZoomyState[i] = 1;
+					zoomBarLeave(ele, zoom);
+	                        
+				    setTimeout(function () {
+						if (!zoom.find('img').length) {
+						    zoomEnter(ele, zoom, image);
+						}
+				    }, 100);
+			    }else{
+					zoom.css({opacity: 0}).removeClass('cursorHide');
+					ZoomyState[i] = 0;
+			    }
+	                    
+	            //Unbind event mouse over to fix hover conflict issues 
+	            
+	            if(event === 'mouseover' || event === 'mouseenter'){
+					ele.unbind(event);
+			    }
+	                    
+			    toggleClasses(ele);
+			    return false;
+			});
 		
 		
 	    }
@@ -138,19 +138,19 @@ var ZoomyState = [];
 	    
 	    ele.hover(function () {
 
-		if(ZoomyState[i] === 0){
-		    zoomBarEnter(ele);
-		}else{
-		    zoomEnter(ele, zoom, image);
-		}
+			if(ZoomyState[i] === 0){
+			    zoomBarEnter(ele);
+			}else{
+			    zoomEnter(ele, zoom, image);
+			}
 
 	    }, function (){
 
-		if(ZoomyState[i] === 0){
-		    zoomBarLeave(ele);
-		}else{
-		    zoomLeave(ele, zoom);
-		}
+			if(ZoomyState[i] === 0){
+			    zoomBarLeave(ele);
+			}else{
+			    zoomLeave(ele, zoom);
+			}
 
 	    });
 	},
@@ -292,27 +292,27 @@ var ZoomyState = [];
 		zoom.show('').css({top:'-999999px',left:'-999999px'});
     
 	    if (zoom.find('img').attr('src') !== image) {
-		zoom.find('img').attr('src', image).load(function(){
+			zoom.find('img').attr('src', image).load(function(){
 		    
 		    ele.attr({
-			'x': zoom.find('img').width(),
-			'y': zoom.find('img').height()
+				'x': zoom.find('img').width(),
+				'y': zoom.find('img').height()
 		    });
 		    if (options.glare) {
-			zoom.html('<span/>').css({
-			    'background-image': 'url(' + image + ')'
-			});
-			setTimeout(function () {
-			    setGlare(zoom);
-			}, 100);
+				zoom.html('<span/>').css({
+				    'background-image': 'url(' + image + ')'
+				});
+				setTimeout(function () {
+				    setGlare(zoom);
+				}, 100);
 		    } else {
-			zoom.html('').css({
-			    'background-image': 'url(' + image + ')'
-			});
+				zoom.html('').css({
+				    'background-image': 'url(' + image + ')'
+				});
 		    }
 		}).each(function(){
 		if(this.complete || (jQuery.browser.msie && parseInt(jQuery.browser.version, 10) === 6)){
-		    $(this).trigger("load");
+		    jQuery(this).trigger("load");
 		}
 	    });
 
@@ -325,11 +325,11 @@ var ZoomyState = [];
 	    if(!x){x=0;}
 	    if(!y){y=0;}
 	    zoom.css({
-		left: x-mid+'px',
-		top: y-mid+'px'
+			left: x-mid+'px',
+			top: y-mid+'px'
 	    }).parent('a').css({
-		height: img.height(),
-		width: img.width()
+			height: img.height(),
+			width: img.width()
 	    });
 	},
 
@@ -337,47 +337,49 @@ var ZoomyState = [];
 	    var img = ele.children('img'),
 	    margin = img.css('margin-left'),
 	    namePick = function(img){
-		var f = img.css('float');
+			var f = img.css('float');
 		    if(f){
-			if(f === 'none'){
-			    var inline = img.attr('style');
-			    if(inline){
-				var inCSS = inline.split(';');
-				for(i = 0; i<= inCSS.length; i++){
-				    if(inCSS[i]) var style = inCSS[i].split(':');
-				    else var style = [0,0];
-				    if(style[0]==='float'){
-					return(style[1]);
+				if(f === 'none'){
+				    var inline = img.attr('style');
+				    if(inline){
+					var inCSS = inline.split(';');
+						for(i = 0; i<= inCSS.length; i++){
+						    if(inCSS[i]) var style = inCSS[i].split(':');
+						    else var style = [0,0];
+						    if(style[0]==='float'){
+								return(style[1]);
+					    	}else{
+					    		return 'unknown';
+					    	}
+						}
+				    }else{
+						return f;
 				    }
+
+				}else{
+
+				    return f;
+
 				}
-			    }else{
-				return f;
-			    }
-
-			}else{
-
-			    return f;
-
-			}
 		    }else{
-			if(img.parent('*').css('text-align') === 'center'){
-			    return 'center';
-			}else{
-			    return 'unknown';
-			}
+				if(img.parent('*').css('text-align') === 'center'){
+				    return 'center';
+				}else{
+				    return 'unknown';
+				}
 		    }
 	    }
 	    
 	    zoom.css({
-		height: options.zoomSize,
-		width: options.zoomSize
+			height: options.zoomSize,
+			width: options.zoomSize
 	    }).css( getBorderRadiusCSSObj() );
 
 	    if( !options.glare ){
-		zoom.children('span').css({
-		    height: options.zoomSize - 10,
-		    width: options.zoomSize - 10
-		});
+			zoom.children('span').css({
+			    height: options.zoomSize - 10,
+			    width: options.zoomSize - 10
+			});
 	    }
 
 
@@ -385,75 +387,74 @@ var ZoomyState = [];
     
     
 	    var cssObj = { 
-		'left':[{
-			'margin': margin,
-			'float': 'left'
-		}],
-		'right':[{
-			'margin': margin,
-			'float': 'right'
-		}],
-		'center':[{
-			'margin': margin+' auto',
-			'display': 'block'
-		}],
-		'unknown' : [{
-			'margin' : margin,
-			'display': 'block'
-		}],
-		'none' : [{
-			'margin': margin,
-			'display': 'block'
-		}]
-	    },
+			'left':[{
+				'margin': margin,
+				'float': 'left'
+			}],
+			'right':[{
+				'margin': margin,
+				'float': 'right'
+			}],
+			'center':[{
+				'margin': margin+' auto',
+				'display': 'block'
+			}],
+			'unknown' : [{
+				'margin' : margin,
+				'display': 'block'
+			}],
+			'none' : [{
+				'margin': margin,
+				'display': 'block'
+			}]
+	    }
 
 	    cssNamePick = namePick(img);
-
 		    img.css('margin', '0px');
 		    ele.css( cssObj[ cssNamePick ][0]);
 
 
 	    img.one("load",function(){
-		ele.css({
-			'display': 'block',
-			height: img.height(),
-			width: img.width(),
-			'cursor': 'normal'
+			ele.css({
+				'display': 'block',
+				height: img.height(),
+				width: img.width(),
+				'cursor': 'normal'
 		    });
 	    }).each(function(){
-		if(this.complete || (jQuery.browser.msie && parseInt(jQuery.browser.version, 10) === 6)){
-		    $(this).trigger("load");
-		}
+			if(this.complete || (jQuery.browser.msie && parseInt(jQuery.browser.version, 10) === 6)){
+			    jQuery(this).trigger("load");
+			}
 	    });
 
 	},
 
 	getBorderRadiusCSSObj = function(x){
 		    if( !options.round ){
-			return "";
+				return "";
 		    }else{
-			var cssObj = {};
-			if(x === undefined){
-			    cssObj['-webkit-border-radius'] = cssObj['-moz-border-radius'] = cssObj[ 'border-radius' ] = options.zoomSize / 2 + 'px';
-			}else{
-			    cssObj['-webkit-border-radius'] = cssObj['-moz-border-radius'] = cssObj[ 'border-radius' ] = options.zoomSize / 2 + 'px '+options.zoomSize / 2 + 'px 0px 0px';
-			}
+				var cssObj = {};
+				if(x === undefined){
+				    cssObj['-webkit-border-radius'] = cssObj['-moz-border-radius'] = cssObj[ 'border-radius' ] = options.zoomSize / 2 + 'px';
+				}else{
+				    cssObj['-webkit-border-radius'] = cssObj['-moz-border-radius'] = cssObj[ 'border-radius' ] = options.zoomSize / 2 + 'px '+options.zoomSize / 2 + 'px 0px 0px';
+				}
+				
+				if(jQuery.browser.msie && parseInt(jQuery.browser.version, 10) === 9){jQuery('.zoomy').find('span').css('margin', '0');}
 			
-			if(jQuery.browser.msie && parseInt(jQuery.browser.version, 10) === 9){$('.zoomy').find('span').css('margin', '0');}
-			
-			return cssObj;
+				return cssObj;
 
 		    }
 	},
 	setGlare = function(zoom) {
-		    zoom.children('span').css({
-			    height: options.zoomSize/2,
-			    width: options.zoomSize - 10
-		    }).css( getBorderRadiusCSSObj(0) );
+	    zoom.children('span').css({
+		    height: options.zoomSize/2,
+		    width: options.zoomSize - 10
+	    }).css( getBorderRadiusCSSObj(0) );
 	};
 
-	$(this).each(function() {
-	    addZoomy($(this), ZoomyState.length);
+	jQuery(this).each(function() {
+	    addZoomy(jQuery(this), ZoomyState.length);
 	});
     };
     
