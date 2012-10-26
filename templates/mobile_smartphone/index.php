@@ -127,7 +127,7 @@ $MobileJoomla->showDocType();
 			?><div id="<?php echo $modulepos; ?>"><?php $MobileJoomla->loadModules($modulepos); ?></div><?php
 		endif;
 
-		$MobileJoomla->showFooter();
+		//$MobileJoomla->showFooter();
 
 		$modulepos = $MobileJoomla->getPosition('footer3');
 		if($modulepos && $this->countModules($modulepos) > 0):
@@ -135,28 +135,6 @@ $MobileJoomla->showDocType();
 		endif;
 ?>
 	</div>
-<?php
-	$dispatcher = JDispatcher::getInstance(); 
-	$results = $dispatcher->trigger( 'onMobileJoomlaAdCheck', array() );
-	if(in_array('f3da4a6dd8f15c9170572d18838c841e', array_map('md5', $results)))
-	{
-		// The user has installed plug-in to remove ads
-	}
-	else
-	{
-?>
-<div class="mj-sponsor-placement">
-<script type="text/javascript">
-//<!--
-/* <![CDATA[ */
-document.write('<script src'+'="http'+('https:'==document.location.protocol?'s':'')+'://ads.mobilejoomla.com/ad.js?domain='+encodeURIComponent(window.location.hostname)+'" type="text/javascript"><'+'/script>');
-/* ]]> */
-//-->
-</script>
-</div>
-<?php
-	}
-?>
 </div>
 </body>
 </html>

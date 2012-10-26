@@ -9,15 +9,7 @@ JHtml::core();
 <?php if ($this->item->state == 0) : ?>
 <div class="system-unpublished">
 <?php endif; ?>
-<?php if ($params->get('show_title')) : ?>
-<h2>
-<?php if ($params->get('link_titles') && $params->get('access-view')) : ?>
-<a href="<?php echo JRoute::_(ContentHelperRoute::getArticleRoute($this->item->slug, $this->item->catid)); ?>"><?php echo $this->escape($this->item->title); ?></a>
-<?php else : ?>
-<?php 	echo $this->escape($this->item->title); ?>
-<?php endif; ?>
-</h2>
-<?php endif; ?>
+<?php //title ?>
 <?php if (!$params->get('show_intro')) : ?>
 <?php echo $this->item->event->afterDisplayTitle; ?>
 <?php endif; ?>
@@ -55,7 +47,7 @@ JHtml::core();
 <div class="modified"><?php echo JText::sprintf('COM_CONTENT_LAST_UPDATED', JHtml::_('date',$this->item->modified, JText::_('DATE_FORMAT_LC2'))); ?></div>
 <?php endif; ?>
 <?php if ($params->get('show_publish_date')) : ?>
-<div class="published"><?php echo JText::sprintf('COM_CONTENT_PUBLISHED_DATE', JHtml::_('date',$this->item->publish_up, JText::_('DATE_FORMAT_LC2'))); ?></div>
+<div class="published"><?php echo JHtml::_('date', $this->item->publish_up, JText::_('DATE_FORMAT_LC1')); ?></div>
 <?php endif; ?>
 <?php if ($params->get('show_author') && !empty($this->item->author )) : ?>
 <div class="createdby"> 
@@ -74,6 +66,15 @@ JHtml::core();
 <?php endif; ?>
 <?php if (($params->get('show_author')) or ($params->get('show_category')) or ($params->get('show_create_date')) or ($params->get('show_modify_date')) or ($params->get('show_publish_date')) or ($params->get('show_parent_category')) or ($params->get('show_hits'))) :?>
 </div>
+<?php endif; ?>
+<?php if ($params->get('show_title')) : ?>
+<h2>
+<?php if ($params->get('link_titles') && $params->get('access-view')) : ?>
+<a href="<?php echo JRoute::_(ContentHelperRoute::getArticleRoute($this->item->slug, $this->item->catid)); ?>"><?php echo $this->escape($this->item->title); ?></a>
+<?php else : ?>
+<?php 	echo $this->escape($this->item->title); ?>
+<?php endif; ?>
+</h2>
 <?php endif; ?>
 <?php echo $this->item->introtext; ?>
 <?php if ($params->get('show_readmore') && $this->item->readmore) :
