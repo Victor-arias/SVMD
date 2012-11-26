@@ -59,6 +59,19 @@ $MobileJoomla->showDocType();
 ?>
 	<script type="text/javascript" src="<?php echo $base;?>/resources/scripts/templates.js"></script>
 	<script src="<?php echo $base;?>/mj_xhtml.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+	<script type="text/javascript">
+	jQuery(document).ready(function($){
+		/* prepend menu icon */
+		$('.menu').prepend('<div id="menu-icon">Menu</div>');
+		$(".vmenu").hide();
+		/* toggle nav */
+		$("#menu-icon").on("click", function(){
+			$(".vmenu").slideToggle();
+			$(this).toggleClass("active");
+		});
+	});
+	</script>
 </head>
 <body>
 <div id="wrap">
@@ -136,5 +149,16 @@ $MobileJoomla->showDocType();
 ?>
 	</div>
 </div>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34649352-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
 </body>
 </html>

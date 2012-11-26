@@ -87,13 +87,22 @@ ul.vsubmenu li a:hover
 	text-align: center;
 	text-decoration: none;
 }
-.blog > h2
+.breadcrumbs a,
+.breadcrumbs span
 {
-	border-bottom: 2px solid #9E2841;
-	color: #49ADA8;
-	font-size: 30px;
-	line-height: 1.2;
-	margin: 15px 0 20px;
+	color: #FFF;
+	display: inline-block;
+	font-size: 1.3em;
+	padding: 10px 5px;
+	text-decoration: none;
+}
+.breadcrumbs a:hover
+{
+	text-decoration: underline;
+}
+.breadcrumbs img
+{
+	vertical-align: middle;	
 }
 .item
 {
@@ -101,17 +110,6 @@ ul.vsubmenu li a:hover
 	font-size: 14px;
 	margin-bottom: 20px;
 	overflow: hidden;
-}
-.item h2
-{
-	margin-bottom: 15px;
-}
-.item h2 a
-{
-	color: #a11831;
-	font-size: 20px;
-	padding: 0;
-	text-decoration: none;
 }
 .item .article-info
 {
@@ -137,6 +135,16 @@ ul.vsubmenu li a:hover
 .mjwideimg
 {
 	width: auto;
+}
+.moduletable.breadcrumbs
+{
+	background: #008F8F;
+	padding: 0 15px;
+}
+.moduletable.header
+{
+	overflow: hidden;
+	padding: 0 15px 10px;
 }
 .pagination .counter
 {
@@ -185,11 +193,13 @@ ul.vsubmenu li a:hover
 }
 .moduletable.siguenos ul
 {
+	list-style: none !important;
 	overflow: hidden;
 	padding-left: 5px;
 }
 .moduletable.siguenos li
 {
+	list-style: none !important;
 	float: left;
 }
 .moduletable.siguenos li a
@@ -218,6 +228,25 @@ ul.vsubmenu li a:hover
 {
 	background-position: 0px -101px;
 }
+.pg-cats-box
+{
+	min-height: 170px;
+	padding: 0 10px 10px;
+}
+#phocagallery .pg-cats-name
+{
+	padding-top: 10px;
+	text-align: center;
+}
+#phocagallery .pg-cats-box-img
+{
+	text-align: center;
+}
+#phocagallery .phocagallery-box-file
+{
+	margin: 0;
+	padding: 0;
+}
 .readmore
 {
 	background-color: #A11831;
@@ -240,6 +269,33 @@ ul.vsubmenu li a:hover
 #content
 {
 	padding: 0 10px;
+}
+#content h1
+{
+	border-bottom: 2px solid #9E2841;
+	color: #49ADA8;
+	font-size: 30px;
+	line-height: 1.2;
+	margin: 15px 0 20px;
+}
+#content h2
+{
+	border-bottom: 2px solid #9E2841;
+	color: #49ADA8;
+	font-size: 30px;
+	line-height: 1;
+	margin: 15px 0 20px;
+}
+#content h2 a
+{
+	color: #a11831;
+	font-size: 25px;
+	padding: 0;
+	text-decoration: none;
+}
+#content .item h2
+{
+	border-bottom: none;
 }
 #content h3.mooaccordion {
 	background: #DFF0F0 url(../resources/images/arrow-down.png) no-repeat right center;
@@ -276,8 +332,8 @@ ul.vsubmenu li a:hover
 #header
 {
 	background: none #c3e3e3;
-	padding: 10px 15px 0;
-	height: 105px;
+	padding: 10px 0 0;
+	height: auto;
 }
 #header div.isvimed,
 #header div.alcaldia
@@ -291,7 +347,7 @@ ul.vsubmenu li a:hover
 #header div.alcaldia
 {
 	margin-left: 4%;
-	width: 66%;
+	width: 64%;
 }
 #header div.isvimed img,
 #header div.alcaldia img
@@ -306,6 +362,36 @@ ul.vsubmenu li a:hover
 #header div.alcaldia img
 {
 	max-width: 245px;
+}
+#menu-icon,
+#menu-icon.active:hover
+{
+	background-image: linear-gradient(bottom, #690031 20%, #A11833 54%);
+	background-image: -o-linear-gradient(bottom, #690031 20%, #A11833 54%);
+	background-image: -moz-linear-gradient(bottom, #690031 20%, #A11833 54%);
+	background-image: -webkit-linear-gradient(bottom, #690031 20%, #A11833 54%);
+	background-image: -ms-linear-gradient(bottom, #690031 20%, #A11833 54%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.2, #690031), color-stop(0.54, #A11833));
+	color: #FFF;
+	cursor: pointer;
+	display: block;
+	font-size: 20px;
+	line-height: 1.2;
+	padding: 20px 2%;
+	text-align: center;
+	text-decoration: none;
+	width: 96%;
+}
+#menu-icon.active,
+#menu-icon:hover
+{
+	background-color: #50a9ab;
+	background-image: linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
+	background-image: -o-linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
+	background-image: -moz-linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
+	background-image: -webkit-linear-gradient(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
+	background-image: -ms-linear-gradie	nt(bottom, rgb(4,99,99) 20%, rgb(80,171,173) 54%);
+	background-image: -webkit-gradient(linear, left bottom,	left top, color-stop(0.2, rgb(4,99,99)), color-stop(0.54, rgb(80,171,173)));
 }
 #mj_all_header
 {

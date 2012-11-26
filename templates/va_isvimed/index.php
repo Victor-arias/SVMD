@@ -11,14 +11,14 @@ defined('_JEXEC') or die;
 
 JHtml::_('behavior.framework', true);
 
-$app      = JFactory::getApplication();
+$app = JFactory::getApplication();
 $doc      = JFactory::getDocument();
 $templateparams  = $app->getTemplate(true)->params;
-//$doc->addScript($this->baseurl.'/templates/'.$this->template.'/javascript/md_stylechanger.js', 'text/javascript', true);
-$app = JFactory::getApplication();
-$menu = $app->getMenu();
+//$menu = $app->getMenu();
+$menu =& JSite::getMenu();
+$active = $menu->getActive()
 $home = false;
-if ($menu->getActive() == $menu->getDefault()) {
+if ($active->home == 1) {
   $home = true;
 }
 $lateral = false;
