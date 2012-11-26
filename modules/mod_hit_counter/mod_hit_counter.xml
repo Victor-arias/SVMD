@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="2.5"
+	client="site"
+	method="upgrade">
+	<name>Module Hit Counter</name>
+    <author>Andrew Astenos</author>
+    <creationDate>May 24, 2012</creationDate>
+    <copyright>Copyright (C) 2005 - 2012 Open Source Matters. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenseses/gpl-2.0.html GNU/GPL or later</license>
+    <authorEmail>parpaitas1987@yahoo.com</authorEmail>
+    <authorUrl>www.ajleeonline.com</authorUrl>
+    <version>2.5</version>
+	<description>Module Hit Counter is a simple module that embeds a rotating odometer style hit counter on your site showing how many visitors your site has. The plugin allows you to choose from a number of different styles</description>
+	<scriptfile>script.php</scriptfile>
+	<files>
+		<filename module="mod_hit_counter">mod_hit_counter.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+        <folder>tmpl</folder>
+        <folder>assets</folder>
+		<folder>fields</folder>
+	</files>
+   	
+	<config>
+		<fields name="params" addfieldpath="modules/mod_hit_counter/fields">
+			<fieldset name="basic">
+				<field name="moduleclass_sfx" type="text" label="Module class suffix" description="" />
+				<field name="styles" default="" type="digittype" hide_none="true" label="Style" description="" directory="modules/mod_hit_counter/assets/" filter="" exclude="" stripext="" />
+				
+				<field name="number_basic" default="" type="folderlist" hide_none="true" label="Basic Style" description="" directory="modules/mod_hit_counter/assets/Basic/" filter="" exclude="" stripext="" />
+				<field name="number_classic" default="" type="folderlist" hide_none="true" label="Classic Style" description="" directory="modules/mod_hit_counter/assets/Classic/" filter="" exclude="" stripext="" />
+				<field name="number_digital" default="" type="folderlist" hide_none="true" label="Digital Style" description="" directory="modules/mod_hit_counter/assets/Digital/" filter="" exclude="" stripext="" />
+				<field name="number_exsmall" default="" type="folderlist" hide_none="true" label="Extra Small Style" description="" directory="modules/mod_hit_counter/assets/Extra Small/" filter="" exclude="" stripext="" />
+				<field name="number_small" default="" type="folderlist" hide_none="true" label="Small Style" description="" directory="modules/mod_hit_counter/assets/Small/" filter="" exclude="" stripext="" />
+        		
+				<field name="headertext" default="" type="text" label="Header text" description="" />
+        		<field name="timeoffset" default="0" type="text" label="Time Offset" description="" />
+        		<field name="startofcounter" default="0" type="text" label="Start of counter" description="" />
+        		<field name="numberofdigits" default="5" type="text" label="Number of digits" description="" />        		
+                <field name="textonline" default="Online" type="text" label="Text Online" description="" />
+                <field name="texttoday" default="Today" type="text" label="Text Today" description="" />
+                <field name="textyesterday" default="Yesterday" type="text" label="Text Yesterday" description="" />
+                <field name="textthisweek" default="This week" type="text" label="Text This week" description="" />
+                <field name="textlastweek" default="Last week" type="text" label="Text Last week" description="" />
+                <field name="textthismonth" default="This month" type="text" label="Text This month" description="" />
+                <field name="textlastmonth" default="Last month" type="text" label="Text Last month" description="" />
+                <field name="textalldays" default="All days" type="text" label="Text All days" description="" />
+			</fieldset>
+			
+            <fieldset name="advanced">
+				<field name="startdaycounter" type="calendar" default="" label="Starting day to counter" description="" format="%Y-%m-%d 00:00:00" />
+                <field name="showonline" type="radio" default="1" label="Show Online" description="">
+                  <option value="0">No</option>
+                  <option value="1">Yes</option>
+                </field>
+                <field name="showtoday" type="radio" default="1" label="Show Today" description="">
+                  <option value="0">No</option>
+                  <option value="1">Yes</option>
+                </field>
+                <field name="showyesterday" type="radio" default="1" label="Show Yesterday" description="">
+                  <option value="0">No</option>
+                  <option value="1">Yes</option>
+                </field>
+                <field name="showthisweek" type="radio" default="1" label="Show This week" description="">
+                  <option value="0">No</option>
+                  <option value="1">Yes</option>
+                </field>
+                <field name="showlastweek" type="radio" default="1" label="Show Last week" description="">
+                  <option value="0">No</option>
+                  <option value="1">Yes</option>
+                </field>
+                <field name="showthismonth" type="radio" default="1" label="Show This month" description="">
+                  <option value="0">No</option>
+                  <option value="1">Yes</option>
+                </field>
+                <field name="showlastmonth" type="radio" default="1" label="Show Last month" description="">
+                  <option value="0">No</option>
+                  <option value="1">Yes</option>
+                </field>
+                <field name="showalldays" type="radio" default="1" label="Show All days" description="">
+                  <option value="0">No</option>
+                  <option value="1">Yes</option>
+                </field>
+                <field name="showip" type="radio" default="1" label="Show IP" description="">
+                  <option value="0">No</option>
+                  <option value="1">Yes</option>
+                </field>
+                <field name="showdatetoday" type="radio" default="1" label="Show Date/Time Today" description="">
+                  <option value="0">No</option>
+                  <option value="1">Yes</option>
+                </field>
+                <field name="datetodayformat" default="%Y-%m-%d %H:%M:%S" type="text" label="Date/Time Today format" description="" />
+            </fieldset>
+		</fields>
+	</config>
+</extension>

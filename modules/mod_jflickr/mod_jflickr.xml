@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0" method="upgrade">
+  <name>JFlickr</name>
+  <author>Joomla Bamboo</author>
+  <creationDate>August 2008</creationDate>
+  <copyright>(C) 2008 Joomla Bamboo. All rights reserved.</copyright>
+  <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+  <authorEmail>design@joomlabamboo.com</authorEmail>
+  <authorUrl>www.joomlabamboo.com</authorUrl>
+  <version>1.4.1</version>
+  <description>This is a Joomla module of the original JQuery Flickr script by Project Atomic (http://www.projectatomic.com/2008/04/jquery-flickr/).
+    This is a free module released to the Joomla community by Joomla Bamboo.</description>
+  <files>
+    <filename module="mod_jflickr">mod_jflickr.php</filename>
+    <folder>js</folder>
+    <folder>tmpl</folder>
+    <folder>elements</folder>
+	<folder>fields</folder>
+    <filename>index.html</filename>
+  </files>
+ <languages>
+        <language tag="en-GB">language/en-GB.mod_jflickr.ini</language>
+    </languages>
+    <params addpath="/modules/mod_jflickr/elements">
+ <param name="number" type="text" default="16" label="Number of images" description="Number of images you want to display." />
+    <param name="type" type="list" default="s" label="Type of Gallery" description="Type of Gallery">
+      <option value="photoset">Photoset</option>
+      <option value="search">Keyword Search</option>
+      <option value="user">User</option>
+      <option value="group">Group</option>
+    </param>
+    <param name="photoset_id" type="text" default="981332" label="Photoset Id" description="Photoset Id. Use this field if you have selected photoset as the type of gallery." />
+    <param name="text" type="text" default="" label="Free Search Text" description="Enter the term you want to search images for." />
+    <param name="sort" type="list" default="relevance" label="Sort Photos by" description="Method to sort photos">
+      <option value="date-posted-asc">Date Posted Ascending</option>
+      <option value="date-posted-desc">Date Posted Descending</option>
+      <option value="date-taken-asc">Date Taken Ascending</option>
+      <option value="date-taken-desc">Date Taken Descending</option>
+      <option value="interestingness-desc">Interestingness Descending</option>
+      <option value="interestingness-asc">Interestingness Ascending</option>
+      <option value="relevance">Relevance</option>
+    </param>
+    <param name="tags" type="text" default="" label="Tags" description="Tags separated by commas" />
+ <param type="spacer" default="Get you own unique &lt;a href=&quot;http://www.flickr.com/services/api/keys/apply/&quot;&gt;Flickr API Key&lt;/a&gt; &lt;br /&gt;" />
+    <param name="apiKey" type="text" default="f28804be7a09c5845676349c7e47d636" label="Flickr API Key" description="Your unique Flickr API key" />
+  <param type="panel" panel="panel" title="Flickr ID Settings" />
+    <param type="spacer" default="Find your flickr user or group NSID at &lt;a href=&quot;http://idgettr.com/&quot;&gt;idgettr.com&lt;/a&gt; &lt;br /&gt;" />
+    <param name="user_id" type="text" default="" label="User ID" description="Select your user id. Flickr requires your NSID eg; 44047888@N04" />
+    <param name="group_id" type="text" default="" label="Group ID" description="Select your group id. Flickr requires an NSID eg; 80044370@N00" />
+    <param type="panel" panel="panel" title="Scripts and CSS Files" />
+   	<param name="scripts" type="radio" default="article" label="CSS and Javascript" description="This option can be used to remove all javascript and css from being loaded by the microblog module. If in doubt leave this option enabled. If you are using the Zen Grid framework version2 then the scripts and css files will be loaded via the framework. If your site uses caching then the relevant files will be loaded into the body of your site.">
+            <option value="1">Enable CSS and Javascript</option>
+            <option value="0">Disable CSS and Javascript</option>
+        </param>
+    <param type="panel" panel="panel" title="Flickr Image Settings" />
+    <param name="tsize" type="list" default="sq" label="Thumbnail Size" description="Size of the thumbnail image">
+      <option value="sq">Square Thumbnail</option>
+      <option value="t">Uncropped Thumbnail</option>
+      <option value="s">Larger Thumbnail</option>
+    </param>
+    <param name="size" type="list" default="" label="Image Size" description="Size of the Image">
+      <option value="s">Small</option>
+      <option value="m">Medium</option>
+      <option value="b">Large</option>
+      <option value="o">Original Size</option>
+    </param>
+    
+    <param type="panel" panel="panel" title="Fancy Box Settings" />
+    <param name="fancybox" type="list" default="yes" label="Open Image in FancyBox" description="Display image in fancy box popup?">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </param>
+    <param name="fancyboxScript" type="list" default="yes" label="Load FancyBox Script?" description="Do you wish to load the fancybox plugin? Set to no if it is already used by another module on the page.">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </param>
+    <param name="fancyEasing" type="list" default="yes" label="Easing Effect" description="Set to yes for a smooth and subtle animated popup.">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </param>
+    <param name="fancyOverlayShow" type="list" default="true" label="Use the overlay?" description="If set to yes a transparent overlay will appear above the page and under the popup box.">
+      <option value="true">Yes</option>
+      <option value="false">No</option>
+    </param>
+    <param name="fancyOverlay" type="text" default="0.6" label="Overlay Opacity" description="If the previous option is set to yes this value controls the transparency of the overlay. 1 is entirely opaque while 0 is no overlay colour." />
+    <param name="fancyPadding" type="text" default="30" label="Popup Padding" description="This value determines the amount of space that surrounds the image in the popup and the edge of the popup itself. Just a numerical value is required without the px" />
+ 
+    <param type="panel" panel="panel" title="General Module Settings" />
+    <param name="cache" type="list" default="0" label="Caching" description="Select whether to cache the content of this module">
+      <option value="1">Use global</option>
+      <option value="0">No caching</option>
+    </param>
+    <param name="cache_time" type="text" default="900" label="Cache Time" description="The time before the module is recached" />
+    <param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />   
+  </params>
+<config>
+	<fields name="params" addpath="/modules/mod_jflickr/fields">
+        <fieldset name="settings" label="MOD_JFLICKR_SETTINGS" addfieldpath="/modules/mod_jflickr/fields">
+            <field name="number" type="text" default="16" label="Number of images" description="Number of images you want to display." />
+            <field name="type" type="list" default="s" label="Type of Gallery" description="Type of Gallery">
+                <option value="photoset">Photoset</option>
+                <option value="search">Keyword Search</option>
+                <option value="user">User</option>
+                <option value="group">Group</option>
+            </field>
+            <field name="photoset_id" type="text" default="981332" label="Photoset Id" description="Photoset Id. Use this field if you have selected photoset as the type of gallery." />
+            <field name="text" type="text" default="" label="Free Search Text" description="Enter the term you want to search images for." />
+            <field name="sort" type="list" default="relevance" label="Sort Photos by" description="Method to sort photos">
+                <option value="date-posted-asc">Date Posted Ascending</option>
+                <option value="date-posted-desc">Date Posted Descending</option>
+                <option value="date-taken-asc">Date Taken Ascending</option>
+                <option value="date-taken-desc">Date Taken Descending</option>
+                <option value="interestingness-desc">Interestingness Descending</option>
+                <option value="interestingness-asc">Interestingness Ascending</option>
+                <option value="relevance">Relevance</option>
+            </field>
+            <field name="tags" type="text" default="" label="Tags" description="Tags separated by commas" />
+            <field type="spacer" default="Get you own unique &lt;a href=&quot;http://www.flickr.com/services/api/keys/apply/&quot;&gt;Flickr API Key&lt;/a&gt; &lt;br /&gt;" />
+            <field name="apiKey" type="text" default="f28804be7a09c5845676349c7e47d636" label="Flickr API Key" description="Your unique Flickr API key" />
+        </fieldset>
+        <fieldset name="flickrID" label="Flickr ID Settings">
+            <field type="spacer" default="Find your flickr user or group NSID at &lt;a href=&quot;http://idgettr.com/&quot;&gt;idgettr.com&lt;/a&gt; &lt;br /&gt;" />
+            <field name="user_id" type="text" default="" label="User ID" description="Select your user id. Flickr requires your NSID eg; 44047888@N04" />
+            <field name="group_id" type="text" default="" label="Group ID" description="Select your group id. Flickr requires an NSID eg; 80044370@N00" />
+        </fieldset>
+        <fieldset name="scripts" label="MOD_JFLICKR_SCRIPTS_AND_CSS_FILES">
+            <field name="" type="info" label="MOD_JFLICKR_LOAD_INFO" />
+            <field name="scripts" type="radio" default="article" label="CSS and Javascript" description="This option can be used to remove all javascript and css from being loaded by the microblog module. If in doubt leave this option enabled. If you are using the Zen Grid framework version2 then the scripts and css files will be loaded via the framework. If your site uses caching then the relevant files will be loaded into the body of your site.">
+		            <option value="1">Enable CSS and Javascript</option>
+		            <option value="0">Disable CSS and Javascript</option>
+		        </field>
+        </fieldset>
+        <fieldset name="flickrSettings" label="Flickr Image Settings">
+            <field name="tsize" type="list" default="sq" label="Thumbnail Size" description="Size of the thumbnail image">
+                  <option value="sq">Square Thumbnail</option>
+			      <option value="t">Uncropped Thumbnail</option>
+			      <option value="s">Larger Thumbnail</option>
+            </field>
+            <field name="size" type="list" default="m" label="Image Size" description="Size of the Image">
+                  <option value="s">Small</option>
+			      <option value="m">Medium</option>
+			      <option value="b">Large</option>
+			      <option value="o">Original Size</option>
+            </field>
+        </fieldset>
+        <fieldset name="fancyBoxSettings" label="Fancy Box Settings">
+            <field name="fancybox" type="list" default="yes" label="Open Image in FancyBox" description="Display image in fancy box popup?">
+                <option value="yes">MOD_JFLICKR_YES</option>
+                <option value="no">MOD_JFLICKR_NO</option>
+            </field>
+            <field name="fancyboxScript" type="list" default="yes" label="Load FancyBox Script?" description="Do you wish to load the fancybox plugin? Set to no if it is already used by another module on the page.">
+                <option value="yes">MOD_JFLICKR_YES</option>
+                <option value="no">MOD_JFLICKR_NO</option>
+            </field>
+            <field name="fancyEasing" type="list" default="yes" label="Easing Effect" description="Set to yes for a smooth and subtle animated popup.">
+                <option value="yes">MOD_JFLICKR_YES</option>
+                <option value="no">MOD_JFLICKR_NO</option>
+            </field>
+            <field name="fancyOverlayShow" type="list" default="true" label="Use the overlay?" description="If set to yes a transparent overlay will appear above the page and under the popup box.">
+                <option value="true">MOD_JFLICKR_YES</option>
+                <option value="false">MOD_JFLICKR_NO</option>
+            </field>
+            <field name="fancyOverlay" type="text" default="0.6" label="Overlay Opacity" description="If the previous option is set to yes this value controls the transparency of the overlay. 1 is entirely opaque while 0 is no overlay colour." />
+            <field name="fancyPadding" type="text" default="30" label="Popup Padding" description="This value determines the amount of space that surrounds the image in the popup and the edge of the popup itself. Just a numerical value is required without the px" />
+        </fieldset>
+        <fieldset name="general" label="MOD_JFLICKR_GENERAL_SETTINGS">
+            <field name="cache" type="list" default="0" label="MOD_JFLICKR_CACHING" description="MOD_JFLICKR_CACHING_DESC">
+                <option value="1">MOD_JFLICKR_USE_GLOBAL</option>
+                <option value="0">MOD_JFLICKR_NO_CACHING</option>
+            </field>
+            <field name="cache_time" type="text" default="900" label="MOD_JFLICKR_CASHE_TIME" description="MOD_JFLICKR_CASHE_TIME_DESC" />
+            <field name="moduleclass_sfx" type="text" default="" label="MOD_JFLICKR_CLASS_SUFFIX" description="PARAMMODULECLASSSUFFIX" />
+        </fieldset>
+    </fields>
+</config>
+</install>

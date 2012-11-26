@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.6.0" client="site" method="upgrade">
+	<name>Last Update</name>
+	<author>S. Tushev</author>
+	<creationDate>March 2010</creationDate>
+	<copyright>Copyright (C) 2009, 2011 S.Tushev. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<authorEmail>support@tushev.org</authorEmail>
+	<authorUrl>http://tushev.org</authorUrl>
+	<version>3.1</version>
+	<description>MODULE_DESCRIPTION</description>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.mod_lastupdate.ini</language>
+	</languages>
+	<files>
+		<filename module="mod_lastupdate">mod_lastupdate.php</filename>
+		<filename>helper.php</filename>
+		<folder>tmpl/</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="dateformat" type="text" default="%d-%m-%Y %H:%M" label="DATEFORMAT" description="DATEFORMAT_DESC" />
+				<field name="pretext" type="text" default="" label="PRETEXT" description="PRETEXT_DESC" /> 
+				<field name="posttext" type="text" default="" label="POSTTEXT" description="POSTTEXT_DESC" /> 
+				<field name="timeoffset" type="text" default="0" label="TIMEOFFSET" description="TIMEOFFSET_DESC" /> 
+				<field name="@spacer" type="spacer" default="" label="" description="" />
+				<field name="publishedfilter" type="radio" default="1" label="Hide unpublished items" description="Allows to exclude unpublished items from processing.	*** This 100% affects only content processing, extension integrators may not support this, depending on a version. See the hints for each extension for more detailed information.">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="accessfilter" type="list" default="0" label="Access filter" description="Defines whether it's necessary to filter items by access level while looking for the most recent one. There are three modes available: 1 = Process all items(without taking access level into account at all), 2 = Show modification date for only public items, 3 = Process using current user access level. This mode is NOT recommended, as it will work only if caching is turned off(otherwise it will process only public records, as mode 2), and that'll increase system loads. Use the third mode only in case you really need it.	***	This 100% affects only content processing, extension integrators may not support this, depending on a version. See the hints for each extension for more detailed information.">
+					<option value="0">Process all items</option>
+					<option value="1">Process only public items</option>
+					<option value="2">Dynamic processing (!!see the hint)</option>
+				</field>
+				<field name="@spacer" type="spacer" default="" label="" description="Parameters below are used for integration with other Joomla extensions. Do not turn those options on if you don't have theese extensions." />
+				<field name="username" type="list" default="0" label="Show last active editor" description="Defines whether it's necessary to display the name of the user who made last changes in the content your site. Such settings as access filter and similar affect this option as well.">
+					<option value="0">No</option>
+					<option value="1">Display full name</option>
+					<option value="2">Display login</option>
+				</field>
+				<field name="virtuemart" type="list" default="0" label="Virtuemart integration" description="Defines whether it's necessary to look for last update as well in Virtuemart tables,and defines how these results are produced (separately or together)">
+					<option value="0">No</option>
+					<option value="1">Yes, combined date</option>
+					<option value="2">Yes, separate dates</option>
+				</field>
+				<field name="joomfish" type="list" default="0" label="Joomfish integration" description="Defines whether it's necessary to look for last update as well in JoomFish translation, and defines how these results are produced (separately or together)">
+					<option value="0">No</option>
+					<option value="1">Yes, combined date</option>
+					<option value="2">Yes, separate dates</option>
+				</field>
+				<field name="joomgallery" type="list" default="0" label="Joomgallery integration" description="Defines whether it's necessary to look for last update as well in JoomGallery, and defines how these results are produced (separately or together)">
+					<option value="0">No</option>
+					<option value="1">Yes, combined date</option>
+					<option value="2">Yes, separate dates</option>
+				</field>
+				<field name="docman" type="list" default="0" label="DOCman integration" description="Defines whether it's necessary to look for last update as well in DOCman, and defines how these results are produced (separately or together)">
+					<option value="0">No</option>
+					<option value="1">Yes, combined date</option>
+					<option value="2">Yes, separate dates</option>
+				</field>
+				<field name="@spacer" type="spacer" default="" label="" description="" />
+				<field name="weblinks" type="list" default="0" label="Weblinks integration" description="Defines whether it's necessary to look for last update as well in Weblinks (Joomla default component), and defines how these results are produced (separately or together)">
+					<option value="0">No</option>
+					<option value="1">Yes, combined date</option>
+					<option value="2">Yes, separate dates</option>
+				</field>
+				<field name="users" type="list" default="0" label="Last registration" description="Defines whether it's necessary to display last user's registration date, and defines how these results are produced (separately or together)">
+					<option value="0">No</option>
+					<option value="1">Yes, combined date</option>
+					<option value="2">Yes, separate dates</option>
+				</field>
+				</fieldset>
+			<fieldset name="advanced">
+				<field name="cacheresults" type="list" default="1" label="Data Caching" description="Select whether to cache calculated last modification time. Calculation requires 1-2 additional queries to DB for each type (content, virtuemart etc), so it's strongly recommended to turn this on. Make sure that module's folder is writable.">
+					<option value="1">Cache results</option>
+					<option value="0">No caching</option>
+				</field>
+				<field name="cachetime" type="text" default="3600" label="Caching time (s)" description="Set the cache living time in seconds (>1). The smaller the value is, the sooner your new modification time will be shown after updating the site (if you have many visitors. If they are few, they'll probably get the right time at once), but this may lightly increase system load. It is recommended to set this value no less than to 600-900 sec for rapid updates, and to about 15000-21600 for sites that don't update more frequently than twice a day." /> 
+			
+				<field name="cachemark" type="radio" default="1" label="Display CACHED note" description="Display a small note when using a cache. (This note is embedded directly into the cache.) You can specify its appearance in the CSS - by 'cachemark' class">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="cachemarktext" type="text" default=" [cached @%H:%M]" label="CACHED note" description="Set the text that will be displayed when using a cache. (Supports strftime syntax as well.)" /> 
+				<field name="cachetimeoffset" type="text" default="0" label="CACHED note offset (min)" description="Allows to specify an offset for the time in the CACHED mark. This may be useful in case you are running the core and database engine on different machines, in the other case set it same as Time offset.(May be negative)." /> 
+				<field name="@spacer" type="spacer" default="" label="" description="" />
+				<field name="moduleclass" type="text" default="" label="Module class" description="Allows to specify certain class for module div" /> 
+			</fieldset>
+		</fields>
+	</config>
+</extension>

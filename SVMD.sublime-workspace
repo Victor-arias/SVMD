@@ -1,0 +1,616 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"arti",
+				"article-info-term"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"sessio",
+				"session_start"
+			],
+			[
+				"inser",
+				"insertar_mensaje"
+			],
+			[
+				"mysql_in",
+				"mysql_insert_id"
+			],
+			[
+				"mysql_fetch_",
+				"mysql_fetch_object"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"mysql_s",
+				"mysql_select_db"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"get_the_",
+				"get_the_ID"
+			],
+			[
+				"borde",
+				"border-bottom"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"t",
+				"text"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"sock",
+				"sockets"
+			],
+			[
+				"n",
+				"nombre"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "templates/va_isvimed/index.php",
+			"settings":
+			{
+				"buffer_size": 7892,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/TestDrupal/themes/seven/template.php",
+			"settings":
+			{
+				"buffer_size": 4538,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"selected_items":
+		[
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"indn",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"sort",
+				"Sort Lines (Case Sensitive)"
+			],
+			[
+				"re",
+				"Sort Lines (Case Sensitive)"
+			],
+			[
+				"in",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"syntax",
+				"Set Syntax: Perl"
+			],
+			[
+				"syntax: Pe",
+				"Set Syntax: Perl"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/templates/mobile_smartphone/index.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/templates/mobile_smartphone/css/custom.css",
+		"/Users/telemedellin/Desktop/VA/Telemedellin.tv/15s/Lluvia de sobres/css/style.css",
+		"/Users/telemedellin/Desktop/VA/Telemedellin.tv/15s/Lluvia de sobres/index.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/templates/va_isvimed/css/template.css",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/templates/mobile_smartphone/css/mj_xhtml.css",
+		"/Users/telemedellin/Desktop/VA/Telemedellin.tv/15s/Lluvia de sobres/js/script.js",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/templates/mobile_smartphone/html/com_content/category/blog_item.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/templates/va_isvimed/html/com_content/category/blog_item.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/templates/va_isvimed/index.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/templates/mobile_smartphone/html/com_content/article/default.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/templates/va_isvimed/html/com_content/featured/default.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/templates/va_isvimed/html/com_content/featured/default_item.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_content/views/featured/tmpl/default_item.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_content/views/featured/tmpl/default.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_content/views/category/tmpl/blog.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_content/views/category/tmpl/default_articles.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_content/views/category/tmpl/default.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_content/views/category/tmpl/blog_item.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_content/views/article/tmpl/default.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/templates/va_isvimed/html/com_content/article/default.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_content/views/category/tmpl/default_children.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/language/es-ES/es-ES.com_content.ini",
+		"/Users/telemedellin/Desktop/index.html",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/language/es-ES/es-ES.tpl_mobile_smartphone.ini",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/templates/mobile_smartphone/html/com_content/category/blog.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/modules/mod_icemegamenu/themes/isvimed/css/isvimed_icemegamenu.css",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/plugins/content/plg_zoomin/plg_zoomin/jquery.zoomy1.2.js",
+		"/Users/telemedellin/Desktop/VA/isvimed/SVMD/modules/mod_icemegamenu/themes/isvimed/css/isvimed_notjs.css",
+		"/Users/telemedellin/Desktop/VA/Telemedellin.tv/15s/Lluvia de sobres/php/db.php",
+		"/Users/telemedellin/Desktop/VA/Telemedellin.tv/15s/Lluvia de sobres/test.php",
+		"/Users/telemedellin/Desktop/VA/isvimed/SVMD/templates/72dbfb4bff315838d6425facf64cd714-cache-mod_icemegamenu-f0ab8bae21573d4ee6b8a7d844d2fd6c.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/language/es-ES/en-GB.tpl_mobile_smartphone.ini",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/language/es-ES/es-ES.mod_mj_menu.ini",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/language/es-ES/en-GB.tpl_mobile_iphone.ini",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/language/es-ES/en-GB.mod_mj_menu.ini",
+		"/Users/telemedellin/Desktop/VA/Telemedellin.tv/15s/Lluvia de sobres/guardar_mensaje.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/media/plg_content_mooaccordion/js/mooaccordion.js",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/modules/mod_icemegamenu/themes/default/css/default_notjs.css",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/modules/mod_icemegamenu/themes/default/css/notjs.css",
+		"/Users/telemedellin/Downloads/jon1012-smoothgallery-205a5d5/css/jd.gallery.css",
+		"/Users/telemedellin/Downloads/jon1012-smoothgallery-205a5d5/css/layout.css",
+		"/Users/telemedellin/Desktop/VA/backup_clima.html",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/templates/va_isvimed/html/com_content/category/blog.php",
+		"/Users/telemedellin/Desktop/VA/Telemedellin.tv/15s/Lluvia de sobres/<?php",
+		"/Users/telemedellin/Desktop/VA/Telemedellin.tv/15s/contacto.php",
+		"/Users/telemedellin/Desktop/VA/Telemedellin.tv/15s/preguntas.php",
+		"/Users/telemedellin/Desktop/VA/F/Reservas_va/RegistroReservas1.php",
+		"/Users/telemedellin/Desktop/VA/F/Reservas_va/Reservas.php",
+		"/Users/telemedellin/Desktop/VA/F/Reservas_va/ReservaLogin.php",
+		"/Users/telemedellin/Desktop/VA/F/Reservas_va/RegistroReservas.php",
+		"/Users/telemedellin/Desktop/VA/Telemedellin.tv/15s/Lluvia de sobres/php/index.html",
+		"/Users/telemedellin/Desktop/VA/Telemedellin.tv/15s/Lluvia de sobres/index.html",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/configuration.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/modules/mod_icemegamenu/libs/menucore.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/modules/mod_icemegamenu/tmpl/js_config.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/modules/mod_icemegamenu/helper.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/templates/beez_20/index.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/modules/mod_icemegamenu/libs/elements/modules.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/modules/mod_icemegamenu/libs/elements/k2category.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/modules/mod_icemegamenu/tmpl/default.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/modules/mod_icemegamenu/mod_icemegamenu.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocadownload/views/file/tmpl/default.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/templates/va_isvimed/html/com_phocagallery/category/default.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/templates/va_isvimed/html/com_phocagallery/categories/default.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocagallery/views/category/tmpl/default.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocagallery/views/categories/tmpl/default.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocagallery/phocagallery.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocagallery/controller.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocagallery/controllers/category.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocagallery/views/category/tmpl/default_images.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocagallery/views/category/tmpl/default_categories.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocadownload/views/category/tmpl/default.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocadownload/views/categories/tmpl/default.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocadownload/views/category/tmpl/default_files.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocadownload/views/category/view.html.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocadownload/router.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocadownload/helpers/phocadownloadlayout.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocadownload/helpers/phocadownload.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocadownload/controller.php",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocadownload/phocadownload.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/custom.css",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/plugins/wp-thumbie/wp-thumbie.php",
+		"/Users/telemedellin/Desktop/VA/m.telemedellin.tv/Sitio/administrator/components/com_mobilejoomla/imagerescaler.class.php",
+		"/Users/telemedellin/Desktop/VA/m.telemedellin.tv/Sitio/templates/mobile_pda/css/custom.css",
+		"/Users/telemedellin/Desktop/VA/m.telemedellin.tv/Sitio/templates/mobile_pda/index.php",
+		"/Users/telemedellin/Desktop/VA/m.telemedellin.tv/Sitio/administrator/components/com_mobilejoomla/mobilejoomla.class.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/mod_news_pro_gk4/gk_classes/gk.source.k2.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/mod_news_pro_gk4/helper.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/style1.css",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/mod_news_pro_gk4/tmpl/layout.parts.php",
+		"/Users/telemedellin/Desktop/VA/m.telemedellin.tv/Sitio/index.php",
+		"/Users/telemedellin/Desktop/VA/m.telemedellin.tv/Sitio/configuration.php",
+		"/Users/telemedellin/Desktop/VA/F/tkmt/tekemate/controllers/administracion/fotografia.php",
+		"/Users/telemedellin/Desktop/VA/F/tkmt/tekemate/views/tekemate/fotografia.php",
+		"/Users/telemedellin/Desktop/VA/Telemedellin.tv/htmldenuestrosprogramas/programas.html",
+		"/Users/telemedellin/Desktop/VA/Telemedellin.tv/htmldenuestrosprogramas/nprogramas.css",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/mod_news_pro_gk4/tmpl/content.portal.mode.4.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/mod_news_pro_gk4/mod_news_pro_gk4.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/mod_news_pro_gk4/tmpl/default.portal.mode.1.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/mod_news_pro_gk4/tmpl/content.portal.mode.1.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/mod_news_pro_gk4/tmpl/content.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/mod_news_pro_gk4/tmpl/default.portal.mode.4.php",
+		"/Users/telemedellin/Desktop/untitled.html",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/index.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/plugins/youtube-sidebar-widget/youtube-sidebar-widget.php",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/plugins/hey-its-a-flickr-widget/heyitsflickr.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/css/template.css",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/css/gk.stuff.css",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/html/com_k2/templates/default/category.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/css/k2.css",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/css/style1.css",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/themes/yamidoo_pro/js/my_script.js",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/layouts/blocks/footer.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/component.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/changes.txt",
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/curl.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/mod_rokajaxsearch/themes/light/rokajaxsearch-theme.css",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/mod_rokajaxsearch/themes/blue/rokajaxsearch-theme.css",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/html/com_k2/templates/default/tag.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/html/com_k2/templates/default/category_item.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/html/com_k2/templates/default/item.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/com_k2/views/item/tmpl/item.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/com_k2/templates/profile.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/com_k2/views/itemlist/tmpl/generic_item.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/html/com_k2/templates/default/category_item_links.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/html/com_k2/templates/default/latest_item.php",
+		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/html/com_k2/templates/default/latest.php"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"menu-icon",
+			"h2",
+			"blog",
+			"siguenos",
+			"img",
+			"meta",
+			"publish",
+			"min-he",
+			"content",
+			"item",
+			"h2",
+			"title",
+			"publish",
+			"article-info-term",
+			"publish",
+			"published",
+			"show_publish",
+			"publish",
+			"h2",
+			"pagi",
+			"sigue",
+			"000",
+			"http://www.areadigital.gov.co/ftpclima/scripts/",
+			"http://www.areadigital.gov.co/ftpclima/css/",
+			"read",
+			", ",
+			"LATERAL",
+			"slider",
+			"search",
+			"contact",
+			"gallery",
+			"phoca",
+			"phocado",
+			"pagination",
+			"#",
+			"powe",
+			"powere",
+			"powe",
+			"recent",
+			"sidebar",
+			"$scaletype",
+			"forced_width",
+			"rescaleImage",
+			"RescaleImages",
+			"$scaletype",
+			"$scaledimage_width",
+			"ImageRescaler::$scaledimage_width",
+			"$scale",
+			"$dest_width",
+			"$dest_imagepath",
+			"$dest_imagedir",
+			"thumbdir",
+			"Resized",
+			"/2",
+			"echo",
+			"0",
+			"<p",
+			"$news_textt",
+			"k2",
+			"text",
+			"prin",
+			"external",
+			"/*VA",
+			"VA",
+			"playl",
+			"play",
+			"simplexml_load_string",
+			"curl_it",
+			"playlist",
+			"lof",
+			".nspArt",
+			".nsp",
+			"nsp",
+			"gkFo",
+			"-5",
+			"itemL",
+			"itemListLinks",
+			"itemContainer",
+			"itemListLinks",
+			"padding",
+			"follow",
+			"#gkSearch_logo",
+			"middle",
+			"middl",
+			"middle",
+			"http://www.insightcrime.org/pruebas/target/",
+			"middle",
+			"#gkSearch_logo",
+			"gkSearchL",
+			"h3",
+			"comments",
+			"h3",
+			"comme",
+			"powered",
+			"by",
+			"comments_template",
+			"comment",
+			"commen",
+			"comme",
+			"$post",
+			"post",
+			"have_",
+			"have_post",
+			"loop",
+			"more",
+			"thumbna",
+			"do_not_duplicate",
+			"Number of Pictures to Display:",
+			"console",
+			"<?php echo $img ?>"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"http://www.telemedellin.tv/clima/",
+			"<?php echo trim($img) ?>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "templates/va_isvimed/index.php",
+					"settings":
+					{
+						"buffer_size": 7892,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7166,
+								7166
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2008.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Applications/MAMP/htdocs/TestDrupal/themes/seven/template.php",
+					"settings":
+					{
+						"buffer_size": 4538,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 274.0,
+	"status_bar_visible": true
+}

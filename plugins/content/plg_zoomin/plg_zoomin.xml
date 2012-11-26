@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.7" type="plugin" group="content" method="upgrade">
+	<name>Zoom In</name>
+	<author>Pixel Point Creative</author>
+    	<creationDate>October 2011</creationDate>
+	<copyright>(C) 2011 Pixel Point Creative LLC</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@pixelpointcreative.com</authorEmail>
+   	<authorUrl>www.pixelpointcreative.com</authorUrl>
+	<version>1.0</version>
+	<description>Don't forget to publish this plugin. Usage format: {zoomin src="Big Image"}Thumbnail Image{/zoomin} </description>
+	<files>
+		<folder plugin="plg_zoomin">plg_zoomin</folder>		
+		<filename plugin="plg_zoomin">plg_zoomin.php</filename>
+	</files>		
+</extension>
+
+
+
+
+
+	
